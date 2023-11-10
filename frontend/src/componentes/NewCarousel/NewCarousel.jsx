@@ -1,8 +1,11 @@
-import React, {useState, useEffect} from 'react';
-import './NewCarousel.css';
+import React, { useState, useEffect } from "react";
+import "./NewCarousel.css";
 const CarouselSlider = () => {
-  const images = ["https://res.cloudinary.com/doczyujqf/image/upload/v1699444913/slide1_kwopte.jpg",
-   "https://res.cloudinary.com/doczyujqf/image/upload/v1699444938/slide2_r91igj.jpg", "https://res.cloudinary.com/doczyujqf/image/upload/v1699444942/slide3_bz7to1.jpg",];
+  const images = [
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1699640063/slides/slide1_kwopte_pior4j.webp",
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1699640026/slides/slide2_r91igj_zllutk.webp",
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1699639874/slides/slide3_bz7to1_xeg5wx.webp",
+  ];
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [selectedImage, setSelectedImage] = useState(images[0]);
 
@@ -44,9 +47,7 @@ const CarouselSlider = () => {
           WE HELP YOU MAKE YOUR DREAMS <br />
           COME TRUE
         </h1>
-        <button>
-          Ver todas las propiedades
-        </button>
+        <button>Ver todas las propiedades</button>
       </div>
     </div>
   );
