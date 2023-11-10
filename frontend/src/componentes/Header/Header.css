@@ -1,0 +1,42 @@
+/* header {
+    background-color: rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s; 
+  } */
+
+  .header {
+    height: 90px;
+    width: 100%;
+    z-index: 4;
+    transition: .3s ease-in;
+    background-color: #1f1f1f;
+}
+.header-bg{
+    background-color: #1f1f1f;
+}
+.logo{
+    transition: .3s ease-in;
+}
+.active {
+    border-bottom: 2px solid #1daaba ;
+    transition: all 0.5s; 
+  }
+
+  .a-h {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s; 
+  }
+  
+  .a-h:hover {
+    border-bottom: 2px solid #1daaba;
+  }
+
+  .whatsapp {
+    border-color: #ffffff;
+    background-color: transparent;
+    transition: border-color 0.3s, background-color 0.3s; /* Añade la propiedad transition */
+  }
+  
+  .whatsapp:hover {
+    border-color: #1daaba;
+    background-color: #1daaba;
+  }

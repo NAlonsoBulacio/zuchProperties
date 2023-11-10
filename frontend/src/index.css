@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.font-poppins-200 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+  }
+.font-poppins-400 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  
+  .font-poppins-500 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+  }
+  
+  .font-roboto-300 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+  .font-roboto-500 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+  .font-outfit-800 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+  }
+  .font-raleway-700 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+  }
+  .font-raleway-600 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+  }
+  .font-open-sans-400 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }

@@ -1,0 +1,28 @@
+.shadow {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5)); /* Define el gradiente */
+    transform: translateY(-50%);
+  }
+  
+  .button-place {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgba(0, 0, 0, 0.4); /* Borde negro */
+    background: rgba(0, 0, 0, 0.4);
+    color: #e3e1e1; /* Color del texto */
+    transition: 0.3s; /* Transición para el efecto hover */
+    z-index: 2;
+  
+  }
+  
+  .button-place:hover {
+
+    background: #1f1f1f; /* Fondo negro en hover */
+    color: white; /* Texto blanco en hover */
+  }
