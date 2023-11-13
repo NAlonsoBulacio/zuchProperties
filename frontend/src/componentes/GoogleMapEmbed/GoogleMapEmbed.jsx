@@ -1,11 +1,10 @@
 import React from "react";
-
+import config from "../../config";
 const GoogleMapEmbed = ({lat, lng}) => {
-  const apiKey = "AIzaSyBu-e2OBM1eyAudbRyVSa8spxztumlhlkc"; 
-
+  const apiKey = config.GOOGLE_MAP_API;
   const latitude = lat;
   const longitude = lng;
-
+console.log(apiKey);
   const embedUrl = `https://www.google.com/maps/embed/v1/place?q=${latitude},${longitude}&key=${apiKey}`;
 
   return (
