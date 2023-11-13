@@ -1,7 +1,7 @@
 import React from "react";
-import config from "../../config";
+// import config from "../../config";
 const GoogleMapEmbed = ({lat, lng}) => {
-  const apiKey = config.GOOGLE_MAP_API;
+  const apiKey = "AIzaSyBu-e2OBM1eyAudbRyVSa8spxztumlhlkc";
   const latitude = lat;
   const longitude = lng;
 console.log(apiKey);
