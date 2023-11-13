@@ -1,21 +1,4 @@
-/* Carousel container */
-.carousel-container {
-    position: relative;
-    height: 100vh; /* Alto igual al alto del viewport */
-    overflow: hidden;
-  }
-  
-  /* Estilo personalizado para el carousel */
-  .custom-carousel {
-  }
-  
-  /* Estilo personalizado para las flechas en el hover */
-  .carousel-container:hover .carousel .control-arrow {
-    opacity: 1; /* Hace que las flechas aparezcan en el hover */
-    transition: opacity 0.3s; /* Agrega una transición para una apariencia suave */
-  }
-  
-  /* Estilo personalizado para las flechas */
+
   .custom-carousel .control-arrow {
     opacity: 0; /* Inicialmente, las flechas están ocultas */
     background-color: transparent; /* Fondo transparente */
@@ -51,15 +34,4 @@
       height: 100vh; 
       width: auto; 
     }
-  }
-
-  .image-text {
-    position: absolute;
-    top: 31%; /* Coloca el texto en el centro vertical */
-    left: 50%; /* Coloca el texto en el centro horizontal */
-    transform: translate(-50%, -50%); /* Centra el texto */
-    color: white; /* Color del texto */
-    text-align: center; /* Alineación del texto */
-    padding: 10px; /* Espacio alrededor del texto */
-    z-index: 2;
   }

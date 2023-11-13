@@ -1,5 +1,4 @@
 import React from "react";
-// import config from "../../config";
 const GoogleMapEmbed = ({lat, lng}) => {
   const apiKey = "AIzaSyBu-e2OBM1eyAudbRyVSa8spxztumlhlkc";
   const latitude = lat;
