@@ -6,7 +6,7 @@ const propiedades = [
     price: "$ 109,000 USD",
     date: "Entrega inmediata",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916312/Zuch%20Properties/Miniatura/balam_min_cjujwx.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
     photos: [
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
@@ -101,7 +101,7 @@ const propiedades = [
     price: "$ 170,000 USD",
     date: "Abril 2024",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916312/Zuch%20Properties/Miniatura/balam_min_cjujwx.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
     photos:[
       "https://maxproperties.com.mx/wp-content/uploads/2022/03/102_-1667x903.webp",
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
@@ -184,7 +184,7 @@ const propiedades = [
       "Proyecto compuesto 18 unidades residenciales Eco chic de alta plusvalía.",
     price: "$ 7,000,000 MXN",
     date: "Octubre 2023",
-    photo: "https://res.cloudinary.com/doczyujqf/image/upload/v1699916312/Zuch%20Properties/Miniatura/balam_min_cjujwx.jpg",
+    photo: "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
     photos:
       "https://maxproperties.com.mx/wp-content/uploads/20…7/becan_01_maxproperties-1667x903-1-1667x903.webp",
     full_description: [
@@ -250,7 +250,7 @@ const propiedades = [
     price: "$ 7,500,000 MXN",
     date: "Febrero 2023",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916312/Zuch%20Properties/Miniatura/balam_min_cjujwx.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
     full_description: [
       "Balam es un desarrollo residencial ubicado en el corazón de Tulum, sus 13 departamentos exclusivos, van desde los 105.26 m2 hasta los 121.1 m2. El desarrollo te envuelve en un entorno natural, otorgando vistas increíbles de Tulum.",
     ],
@@ -336,7 +336,7 @@ const propiedades = [
     price: "$ 340,000 USD",
     date: "Agosto 2023",
     photo:
-      "https://maxproperties.com.mx/wp-content/uploads/2022/06/Calakmul_01-2000x1084.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699917338/Zuch%20Properties/Miniatura/mar_abella_p8p34m.png",
     full_description: [
       "Calakmul es el nuevo desarrollo residencial ubicado en Tulum. Este desarrollo refleja nuestra conexión con la naturaleza y el eco chic de Tulum",
       "Calkmul cuenta con 15 unidades residenciales de alta plusvalia y amenidades como Lobby, gimnasio, sala de juegos, estacionamiento, alberca, bar y área de fogateros, creando un entorno tranquilo y relajante.",
@@ -402,7 +402,7 @@ const propiedades = [
     price: "$ 310,000 USD",
     date: "Entrega inmediata",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916312/Zuch%20Properties/Miniatura/balam_min_cjujwx.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699917338/Zuch%20Properties/Miniatura/mar_abella_p8p34m.png",
     photos: [
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
@@ -491,7 +491,7 @@ const propiedades = [
     price: "$ 2,280,448 MXN",
     date: "Septiembre 2024",
     photo:
-      "https://maxproperties.com.mx/wp-content/uploads/2023/07/edzna-02.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699917338/Zuch%20Properties/Miniatura/mar_abella_p8p34m.png",
     full_description: [
       "Es un desarrollo residencial que consta de 36 apartamentos desde 56.54 m2 hasta 180 m2 y 6 espacios comerciales desde 82 m2 hasta 139 m2, con un estilo contemporáneo único con increíbles comodidades y un diseño que combina la elegancia y confort.",
     ],
@@ -557,6 +557,7 @@ const propiedades = [
       lat: "20.203340729377743",
       lng: "-87.46126953837292",
     },
+    place_id: "3",
   },
   {
     name: "Lik Organic",
@@ -565,7 +566,7 @@ const propiedades = [
     price: "$ 2,235,477 MXN",
     date: "Diciembre 2023",
     photo:
-      "https://maxproperties.com.mx/wp-content/uploads/2022/02/paam-1000x672.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699917338/Zuch%20Properties/Miniatura/mar_abella_p8p34m.png",
     full_description: [
       "Lik Organic se desarrolla en armonía con su entorno, fusionado con el medio ambiente natural que lo rodea.",
       "El proyecto es un condominio vertical, que consta de 20 departamentos, clasificados en cuatro tipologías: Estudios, 1 recámara, 2 recámaras con sistema Lock-Off, y PentHouses.",
@@ -622,6 +623,7 @@ const propiedades = [
       lat: "20.18760404842734",
       lng: "-87.46492157923684",
     },
+    place_id: "4",
   },
   {
     name: "Lik Zamá II",
@@ -630,7 +632,7 @@ const propiedades = [
     price: "$ 1,980,000 MXN",
     date: "Noviembre 2023",
     photo:
-      "	https://maxproperties.com.mx/wp-content/uploads/2022/04/zama_102-1667x903.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
     full_description: [
       "Lik Zama es el nuevo desarrollo residencial ubicado en la zona más exclusiva de Tulum, Aldea Zama. Este desarrollo tiene una combinación entre la naturaleza y el confort que brinda Tulum combinado con el innovador entorno urbano de la zona.",
       "El desarrollo contara con 30 apartamentos tipo estudio, penthouses y 4 locales comerciales en la planta baja. Algunas de las amenidades de lujo que tendrá Lik Zama son: Lobby, Elevador, Gimnasio, Estacionamientos y Alberca en el hermoso Roof Top creando el espacio perfecto con paz y armonía.",
@@ -676,6 +678,7 @@ const propiedades = [
       lat: "20.201103605114167",
       lng: "-87.46297259155084",
     },
+    place_id: "2",
   },
   {
     name: "Lik Xelba",
@@ -843,6 +846,7 @@ const propiedades = [
       lat: "21.22175666346186",
       lng: "-86.8022692635783",
     },
+    place_id: "3",
   },
   {
     name: "Paam Cheel",
@@ -851,7 +855,7 @@ const propiedades = [
     price: "$ 3,605,000 MXN",
     date: "Septiembre 2023",
     photo:
-      "https://maxproperties.com.mx/wp-content/uploads/2021/09/paam_cheel_01-1200x700.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699917338/Zuch%20Properties/Miniatura/mar_abella_p8p34m.png",
     full_description: [
       "Eco Chic Apartments",
       "Paam Cheel es un desarrollo residencial integrado por 40 unidades, 20 estudios y 20 departamentos de 1 recámara con un estilo Eco Chic Chic, donde se combina lo estético, lo regional, la modernidad, los materiales de la región  y la naturaleza. Adentrado a su entorno tiene e invita a quedarte.",
@@ -910,6 +914,7 @@ const propiedades = [
       lat: "20.21579929980339",
       lng: "-87.45032572526472",
     },
+    place_id: "4",
   },
   {
     name: "Parques Zama",
