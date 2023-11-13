@@ -3,10 +3,10 @@ import './Place.css'
 const Place = ({ imgUrl, name }) => {
 
   return (
-    <div className="mx-auto text-center overflow-hidden">
+    <div className="mx-auto px-6 text-center overflow-hidden">
         <h1
           className="font-poppins-500 text-center text-4xl p-4"
-          style={{ color: "#001659", fontSize: "42px" }}
+          style={{ color: "#1f1f1f", fontSize: "42px" }}
         >
           {name}
         </h1>
