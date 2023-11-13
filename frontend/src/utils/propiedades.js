@@ -1,12 +1,102 @@
 const propiedades = [
   {
+    name: "Akua",
+    description:
+      "Estudios y departamentos de 1 y 2 recámaras totalmente equipados en Áldea Zamá.",
+      price: "$ 109,000 USD",
+    date: "Entrega inmediata",
+    photo:
+      "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
+    photos:
+      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+    full_description: [
+      "Akua se nutre de los elementos sagrados que el agua nos brinda, para jugar con ellos de una manera sutil y encantadora, logrando así una perfecta fusión entre arquitectura moderna y amor por los majestuosos cenotes.",
+      "El imponente y misterioso estilo de AKUA se percibe desde el inicio, presentando una hipnótica fachada en donde el diseño y la innovación coquetean entre líneas rectas, formas orgánicas, dando origen a un verdadero sello personal que lo distingue de los demás.",
+      "Cada una de las habitaciones fue pensado para la comodidad y disfrute de cada persona que desee vivir la experiencia de Akua con sus deliciosos acabados de manera tzalam y pisos de cerámica grises.",
+    ],
+    youtube_link:
+      "https://youtu.be/A0nNSOCll9Q",
+    brochure_link:
+      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+    amenidades: [
+      {
+        type: "Estacionamiento",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+      },
+      {
+        type: "Gym en dos niveles",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+      },
+      {
+        type: "Recepción",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+      },
+      {
+        type: "Elevador",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+      },
+
+      {
+        type: "Piscina en Roofgarden",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+      },
+      {
+        type: "Jardin",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+      },
+      {
+        type: "Lavanderia",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/secadora_nuv6xb.png",
+      },
+      {
+        type: "Coworking",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+      },
+      {
+        type: "Cine",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/cine_davbil.png",
+      },
+      {
+        type: "Centro de negocios",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622950/amenidades/maletin_xqyxvg.png",
+      },
+      {
+        type: "Temazcal",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622953/amenidades/spa_iqp31s.png",
+      },
+      {
+        type: "Salon de Yoga",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/yoga_thiwct.png",
+      },
+    ],
+    location_descriprion: "Municipio de Tulum Aldea Zamá Premium, 77765 Tulum, Quintana Roo",
+    path: "akua",
+    location: {
+      lat: "20.197387072558417",
+      lng: "-87.46484682842174",
+    },
+    place_id: "1",
+  },
+  {
     name: "Athimar",
     description:
       "Desarrollo de24 departamentos de 1, 2 y 3 habitaciones, 1 Penthouse y 8 Locales Comerciales",
     price: "$ 170,000 USD",
     date: "Abril 2024",
     photo:
-      "https://maxproperties.com.mx/wp-content/uploads/2022/03/102_-1667x903.webp",
+      "https://maxproperties.com.mx/wp-content/uploads/2022/03/athimar_web.webp",
       photos: "https://maxproperties.com.mx/wp-content/uploads/2022/03/102_-1667x903.webp",
     full_description: [
       "Athimar es un desarrollo de lujo con el diseño y la arquitectura pensados minuciosamente para brindar ambientes con estilo, lujo y confort. La premisa del diseño fue generar vistas inigualables desde cada una de sus unidades, regalando una obra de arte en tonos turquesa sólo con mirar por tu ventana.",
@@ -75,7 +165,7 @@ const propiedades = [
       lat: "20.505026584870738",
       lng: "-86.95708744018279",
     },
-    place_id: "1",
+    place_id: "2",
   },
   {
     name: "Becán",
@@ -291,6 +381,90 @@ const propiedades = [
       lat: "20.19396111151585", 
       lng: "-87.45997921946264",
     },
+  },
+  {
+    name: "Casa libre",
+    description:
+      "ulum Casa Libre Airena es un conjunto de 24 residencias de lujo situadas en Tulum en áreas que van de los 98 a los 262 metros cuadrados.",
+      price: "$ 310,000 USD",
+    date: "Entrega inmediata",
+    photo:
+      "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
+    photos:
+      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+    full_description: [
+      "Tulum Casa Libre Airena es un conjunto de 24 residencias de lujo situadas en Tulum en áreas que van de los 98 a los 262 metros cuadrados. Cada una está diseñada para cubrir diferentes estilos de vida: estudio, Garden house, departamento y pent-house todos con alberca propia. Se encuentran en el exclusiva zona de Aldea Zama a 2 km de la playa de Tulum. Cuentan con alberca propia y un estilo inolvidable de la mano de unos de los mejores despachos arquitectónicos de México.",
+      "La mayoría de nuestras unidades están diseñadas con Lock Off para independizartu unidad en dos. Así, podrás optimizar tu inversión retornos a través de rentas vacacionales en dólares americanos cuando no hagas uso de tu residencia.",
+    ],
+    youtube_link:
+      "https://www.youtube.com/watch?v=39n09qMqlfk",
+    brochure_link:
+      "https://drive.google.com/drive/folders/1qkOdkofpJ6fqY9Xo4Dofg2OJpM4UaeVi",
+    amenidades: [
+      {
+        type: "Estacionamiento",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+      },
+      {
+        type: "Gym",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+      },
+      {
+        type: "Recepción",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+      },
+      {
+        type: "Elevador",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+      },
+
+      {
+        type: "Piscina",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+      },
+      {
+        type: "Jardin",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+      },
+      {
+        type: "Pool bar",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+      },
+      {
+        type: "Seguridad",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699642475/amenidades/ejercito_pgsn7z.png",
+      },
+      {
+        type: "Spa",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622953/amenidades/spa_iqp31s.png",
+      },
+      {
+        type: "Salon de Yoga",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/yoga_thiwct.png",
+      },
+      {
+        type: "Lobby nomada",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+      },
+    ],
+    location_descriprion: "Kinich Ahaw, Aldea Zama 1, 77760 Tulum, Q.R., México",
+    path: "casa-libre",
+    location: {
+      lat: "20.203792351466646",
+      lng: "-87.45748163567733",
+    },
+    place_id: "1",
   },
   {
     name: "Edzna",
@@ -914,6 +1088,138 @@ const propiedades = [
       lat: "21.22404492253756",
       lng: "-86.8027594042177",
     },
+  },
+  {
+    name: "Vidaraa",
+    description:
+      "Desarrollo exclusivo de 12 niveles con tan sólo 36 departamentos.",
+      price: "$ 4,328,658 MXN",
+    date: "Abril 2024",
+    photo:
+      "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
+    photos:
+      "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
+    full_description: [
+      "Es un desarrollo exclusivo de 12 niveles con tan sólo 36 departamentos, donde destaca el majestuoso paisaje de las playas color turquesa de la Riviera Maya. Idóneo para quien busca privacidad, confort y placidez.",
+      "Creamos espacios únicos ideales para vivir momentos memorables. Las amenidades de Vidaraa Tower se convierten en una extensión de punto de reunión para generar un ambiente de confianza y confort entre los huespedes y residentes.",
+    ],
+    youtube_link:
+      "https://youtu.be/A0nNSOCll9Q",
+    brochure_link:
+      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+    amenidades: [
+      {
+        type: "Estacionamiento",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+      },
+      {
+        type: "Gimnasio",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+      },
+      {
+        type: "Recepción",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+      },
+      {
+        type: "Elevador",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+      },
+
+      {
+        type: "Albercas",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+      },
+      {
+        type: "Pileta infantil",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/child_svsosb.png",
+      },
+      {
+        type: "Jardin zen",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+      },
+      {
+        type: "Camastro",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+      },
+      {
+        type: "Asadores",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/parrilla_gldpkq.png",
+      },
+      {
+        type: "Estacionamiento de motos",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699879327/amenidades/scooter_zyzawm.png",
+      },
+      {
+        type: "Vestidores",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699879326/amenidades/vestidor_htxtzi.png",
+      },
+    ],
+    location_descriprion: "Vidaraa Tower, se encuentra a 2 minutos de la nueva zona hotelera en Costa Mujeres, a 15 minutos de la primera zona hotelera de Cancún y a 25 minutos del Aeropuerto Internacional de Cancún. Esta nueva área se distingue por contar con desarrollos y hoteles exclusivos con nuevos conceptos como SHA, uno de los complejos médicos de Europa con su concepto residences.",
+    path: "vidaraa",
+    location: {
+      lat: "21.22494407185645",
+      lng: "-86.80318255700497",
+    },
+  },
+  {
+    name: "Villas TOH",
+    description:
+      "El proyecto está compuesto por 5 villas ubicadas en el corazón de la Región 15 en Tulum.",
+      price: "$ 693,240 USD",
+    date: "Entrega inmediata",
+    photo:
+      "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
+    photos:
+      "https://maxproperties.com.mx/wp-content/uploads/2022/08/14_villas_toh-1667x903.webp",
+    full_description: [
+      "Un proyecto que forma parte de su entorno, que fusiona la naturaleza y la arquitectura, que incluye materiales de la región, que genera comunidad y que crea una propuesta de valor única.",
+      "Tulum como lugar de retiro. Además de ser un hot spot turístico, Tulum se ha convertido en el nuevo destino de los jubilados extranjeros, cuenta con accesibilidad a una cobertura de salud con precios razonables.",
+      "Ofrece una calidad de vida inigualable en un entorno seguro y con clima acogedor, los costos de vivienda son significativamente más bajos que en otros países. Comunidad socialmente responsable",
+    ],
+    youtube_link:
+      "https://youtu.be/A0nNSOCll9Q",
+    brochure_link:
+      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+    amenidades: [
+      {
+        type: "Estacionamiento",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+      },
+      {
+        type: "Piscina en Roofgarden",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+      },
+      {
+        type: "Jardin",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+      },
+      {
+        type: "Camastro",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+      },
+    ],
+    location_descriprion: "Ave 10, Calle 6 bus Norte, 77762 Tulum, Quintana Roo",
+    path: "villas-toh",
+    location: {
+      lat: "20.193016111108783",
+      lng: "-87.46820359118591",
+    },
+    place_id: "1",
   },
 ];
 

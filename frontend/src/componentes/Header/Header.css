@@ -23,7 +23,7 @@
 
   .a-h {
     border-bottom: 2px solid transparent;
-    transition: border-bottom 0.5s; 
+    transition: border-bottom 0.3s; 
   }
   
   .a-h:hover {
@@ -40,3 +40,18 @@
     border-color: #1daaba;
     background-color: #1daaba;
   }
+
+
+  .div-dropdown {
+    display: none;
+    opacity: 0; 
+    transition: 0.3s; 
+    border-top: 4px solid #1daaba ;
+  }
+  
+  /* Estilos para el enlace de "Propiedades" cuando está en estado de hover */
+  a[href="/places"]:hover .div-dropdown {
+    display: block;
+    opacity: 1; /* Mostrar el div al hacer hover */
+  }
+  

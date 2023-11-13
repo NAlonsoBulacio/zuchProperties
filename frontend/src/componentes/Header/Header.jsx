@@ -6,7 +6,8 @@ import logoEdificio from "../../multimedia/logo-edificio.png";
 import menu from "../../multimedia/menu.svg";
 import "./Header.css";
 import MenuPhone from "../MenuPhone/MenuPhone";
-import { useLocation } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
+import propiedades from "../../utils/propiedades";
 const Header = () => {
   const [currentPage, setCurrentPage] = useState("/");
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,15 +17,13 @@ const Header = () => {
     setCurrentPage(currentPath);
   }, [currentPath]);
 
+  const propiedadesOrdenadas = propiedades;
   const handleMenuToggle = () => {
     setMenuOpen(!menuOpen);
   };
   return (
     <div className="w-full">
-      <header
-        className="header text-white p-4"
-        style={{ height:"133px" }}
-      >
+      <header className="header text-white p-4" style={{ height: "133px" }}>
         <div
           className="mx-auto flex items-center justify-between lg:hidden"
           style={{ maxWidth: "1150px", height: "70px" }}
@@ -47,28 +46,25 @@ const Header = () => {
         >
           <div className="logo flex items-center space-x-4">
             <a href="/">
-            <img
-              src={logoEdificio}
-              alt="Logo"
-              style={{ height: "99px", weight:"99px" }}
-            />
+              <img
+                src={logoEdificio}
+                alt="Logo"
+                style={{ height: "99px", weight: "99px" }}
+              />
             </a>
             <a href="/">
-            <img
-              src={logoLetras}
-              alt="Logo"
-              style={{ height: "74px", weight: "74px" }}
-            />
+              <img
+                src={logoLetras}
+                alt="Logo"
+                style={{ height: "74px", weight: "74px" }}
+              />
             </a>
             <nav className="font-poppins-200 space-x-4"></nav>
           </div>
 
-          <div className="flex justify-center items-center space-x-10">
-            <nav className="font-poppins-400 m-auto space-x-10">
-              <a
-                href="/"
-                className={currentPage === "/" ? "active" : "a-h"}
-              >
+          <div className="flex justify-center items-center space-x-10 relative">
+            <nav className="font-poppins-400 m-auto space-x-10 relative">
+              <a href="/" className={currentPage === "/" ? "active" : "a-h"}>
                 Inicio
               </a>
               <a
@@ -76,6 +72,18 @@ const Header = () => {
                 className={currentPage === "/places" ? "active" : "a-h"}
               >
                 Propiedades
+                <div
+                  className="w-auto h-auto flex justify-center items-center absolute inset-0"
+                  style={{top:"345px", right: "160px", zIndex: "5" }}
+                >
+                  <div className="div-dropdown bg-white space-y-4 py-2">
+                    {propiedades?.map((prop) => (
+                      <div className="bg-white text-gray-800 text-left px-4">
+                        <a className="a-h" href={`/property/${prop.path}`}>{prop.name}</a>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </a>
               <a
                 href="/aboutus"
@@ -93,7 +101,7 @@ const Header = () => {
             </nav>
             <div className="flex items-center mr-6">
               <button className="whatsapp flex items-center justify-center px-4 py-1 rounded-full border space-x-2">
-                <BsWhatsapp className="h-5 w-5"/>
+                <BsWhatsapp className="h-5 w-5" />
                 <span>Whatsapp</span>
               </button>
             </div>
