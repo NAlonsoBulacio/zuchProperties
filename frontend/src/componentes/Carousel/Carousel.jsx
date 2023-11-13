@@ -1,27 +1,57 @@
-import React from "react";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "./Carousel.css";
-const MyCarousel = ({ photos }) => {
+import React, { useState, useEffect } from "react";
+import './Carousel.css'
+import { GrNext, GrPrevious } from "react-icons/gr";
+const MyCarousel = ({ images }) => {
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [selectedImage, setSelectedImage] = useState(images[0]);
+
+  useEffect(() => {
+    const autoplayInterval = setInterval(() => {
+      next();
+    }, 8000);
+
+    return () => {
+      clearInterval(autoplayInterval);
+    };
+  }, [selectedIndex]);
+
+  const previous = () => {
+    const condition = selectedIndex > 0;
+    const nextIndex = condition ? selectedIndex - 1 : images.length - 1;
+    setSelectedImage(images[nextIndex]);
+    setSelectedIndex(nextIndex);
+  };
+
+  const next = () => {
+    const condition = selectedIndex < images.length - 1;
+    const nextIndex = condition ? selectedIndex + 1 : 0;
+    setSelectedImage(images[nextIndex]);
+    setSelectedIndex(nextIndex);
+  };
   return (
-    <div className="carousel-container">
-      <Carousel
-        autoPlay={true}
-        showArrows={true}
-        showStatus={false}
-        showIndicators={false}
-        interval={5000}
-        infiniteLoop={true}
-        useKeyboardArrows={true}
-      >
-        {photos?.map((photo) => (
-          <div className="carousel-slide">
-            <div className="image-container">
-              <img src={photo} alt="Imagen 1" className="carousel-image" />
-            </div>
-          </div>
-        ))}
-      </Carousel>
+    <div className="flex w-full h-auto justify-center items-center relative">
+      <div className="carousel w-full h-auto relative flex overflow-scroll">
+        <img
+          key={selectedIndex}
+          src={selectedImage}
+          alt="Imagen carrusel"
+          className="carousel-properties image-opacity"
+        />
+        <button
+          className="absolute left-4 top-1/2 transform -translate-y-1/2 flex justify-center items-center text-gray-700 text-xl bg-gray-300 bg-opacity-50 hover:bg-opacity-75 rounded-full h-10 w-10"
+          style={{ zIndex: "4" }}
+          onClick={previous}
+        >
+          <GrPrevious />
+        </button>
+        <button
+          className="absolute right-4 top-1/2 transform -translate-y-1/2 flex justify-center items-center text-gray-700 text-xl bg-gray-300 bg-opacity-50 hover:bg-opacity-75 rounded-full h-10 w-10"
+          style={{ zIndex: "4" }}
+          onClick={next}
+        >
+          <GrNext />
+        </button>
+      </div>
     </div>
   );
 };

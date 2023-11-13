@@ -1,5 +1,5 @@
 import React from 'react'
-
+import MyCarousel from '../Carousel/Carousel'
 const PresentProperty = ({name, price, description, date, photos}) => {
   return (
     <div className="w-full flex justify-center items-center py-12 mt-6">
@@ -32,7 +32,7 @@ const PresentProperty = ({name, price, description, date, photos}) => {
           </div>
         </div>
         <div>
-          <img src={photos} alt={name} />
+          <MyCarousel images={photos}/>
         </div>
       </div>
     </div>

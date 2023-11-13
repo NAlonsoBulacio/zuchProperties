@@ -3,19 +3,23 @@ const propiedades = [
     name: "Akua",
     description:
       "Estudios y departamentos de 1 y 2 recámaras totalmente equipados en Áldea Zamá.",
-      price: "$ 109,000 USD",
+    price: "$ 109,000 USD",
     date: "Entrega inmediata",
     photo:
       "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
-    photos:
+    photos: [
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+    ],
     full_description: [
       "Akua se nutre de los elementos sagrados que el agua nos brinda, para jugar con ellos de una manera sutil y encantadora, logrando así una perfecta fusión entre arquitectura moderna y amor por los majestuosos cenotes.",
       "El imponente y misterioso estilo de AKUA se percibe desde el inicio, presentando una hipnótica fachada en donde el diseño y la innovación coquetean entre líneas rectas, formas orgánicas, dando origen a un verdadero sello personal que lo distingue de los demás.",
       "Cada una de las habitaciones fue pensado para la comodidad y disfrute de cada persona que desee vivir la experiencia de Akua con sus deliciosos acabados de manera tzalam y pisos de cerámica grises.",
     ],
-    youtube_link:
-      "https://youtu.be/A0nNSOCll9Q",
+    youtube_link: "https://youtu.be/A0nNSOCll9Q",
     brochure_link:
       "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
     amenidades: [
@@ -81,7 +85,8 @@ const propiedades = [
           "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/yoga_thiwct.png",
       },
     ],
-    location_descriprion: "Municipio de Tulum Aldea Zamá Premium, 77765 Tulum, Quintana Roo",
+    location_descriprion:
+      "Municipio de Tulum Aldea Zamá Premium, 77765 Tulum, Quintana Roo",
     path: "akua",
     location: {
       lat: "20.197387072558417",
@@ -97,7 +102,12 @@ const propiedades = [
     date: "Abril 2024",
     photo:
       "https://maxproperties.com.mx/wp-content/uploads/2022/03/athimar_web.webp",
-      photos: "https://maxproperties.com.mx/wp-content/uploads/2022/03/102_-1667x903.webp",
+    photos:[
+      "https://maxproperties.com.mx/wp-content/uploads/2022/03/102_-1667x903.webp",
+      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+      "https://maxproperties.com.mx/wp-content/uploads/2022/03/102_-1667x903.webp",
+      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+      "https://maxproperties.com.mx/wp-content/uploads/2022/03/102_-1667x903.webp",],
     full_description: [
       "Athimar es un desarrollo de lujo con el diseño y la arquitectura pensados minuciosamente para brindar ambientes con estilo, lujo y confort. La premisa del diseño fue generar vistas inigualables desde cada una de sus unidades, regalando una obra de arte en tonos turquesa sólo con mirar por tu ventana.",
       "¡Vivir en Athimar, será hacer un sueño realidad! Tendrás a tu alcance todas las comodidades y el confort de la vida ideal que siempre imaginaste.",
@@ -160,7 +170,8 @@ const propiedades = [
       },
     ],
     path: "athimar",
-    location_descriprion: "Cozumel es la isla más grande del Caribe Mexicano. Rico en historia, vestigios mayas y maravillas naturales; un auténtico paraíso en medio del mar con playas blancas, bellos atardeceres y famosa a nivel mundial por sus arrecifes de coral. Es un destino de aventura y relajación en donde se realizan todo tipo de actividades en impresionantes escenarios naturales.",
+    location_descriprion:
+      "Cozumel es la isla más grande del Caribe Mexicano. Rico en historia, vestigios mayas y maravillas naturales; un auténtico paraíso en medio del mar con playas blancas, bellos atardeceres y famosa a nivel mundial por sus arrecifes de coral. Es un destino de aventura y relajación en donde se realizan todo tipo de actividades en impresionantes escenarios naturales.",
     location: {
       lat: "20.505026584870738",
       lng: "-86.95708744018279",
@@ -310,7 +321,8 @@ const propiedades = [
       },
     ],
     path: "balam",
-    location_descriprion: "Balam es un desarrollo residencial localizado en Aldea Premium a 10 minutos de la Playa y 15 minutos de las pirámides en el hermoso Tulum.",
+    location_descriprion:
+      "Balam es un desarrollo residencial localizado en Aldea Premium a 10 minutos de la Playa y 15 minutos de las pirámides en el hermoso Tulum.",
     location: {
       lat: "20.194239967206673",
       lng: "-87.45935876063427",
@@ -376,9 +388,10 @@ const propiedades = [
       },
     ],
     path: "calakmul",
-    location_descriprion: "Av. Central, Aldea Zamá Premium, Tulum. 77765 Quintana Roo.",
+    location_descriprion:
+      "Av. Central, Aldea Zamá Premium, Tulum. 77765 Quintana Roo.",
     location: {
-      lat: "20.19396111151585", 
+      lat: "20.19396111151585",
       lng: "-87.45997921946264",
     },
   },
@@ -386,18 +399,22 @@ const propiedades = [
     name: "Casa libre",
     description:
       "ulum Casa Libre Airena es un conjunto de 24 residencias de lujo situadas en Tulum en áreas que van de los 98 a los 262 metros cuadrados.",
-      price: "$ 310,000 USD",
+    price: "$ 310,000 USD",
     date: "Entrega inmediata",
     photo:
       "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
-    photos:
+    photos: [
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+    ],
     full_description: [
       "Tulum Casa Libre Airena es un conjunto de 24 residencias de lujo situadas en Tulum en áreas que van de los 98 a los 262 metros cuadrados. Cada una está diseñada para cubrir diferentes estilos de vida: estudio, Garden house, departamento y pent-house todos con alberca propia. Se encuentran en el exclusiva zona de Aldea Zama a 2 km de la playa de Tulum. Cuentan con alberca propia y un estilo inolvidable de la mano de unos de los mejores despachos arquitectónicos de México.",
       "La mayoría de nuestras unidades están diseñadas con Lock Off para independizartu unidad en dos. Así, podrás optimizar tu inversión retornos a través de rentas vacacionales en dólares americanos cuando no hagas uso de tu residencia.",
     ],
-    youtube_link:
-      "https://www.youtube.com/watch?v=39n09qMqlfk",
+    youtube_link: "https://www.youtube.com/watch?v=39n09qMqlfk",
     brochure_link:
       "https://drive.google.com/drive/folders/1qkOdkofpJ6fqY9Xo4Dofg2OJpM4UaeVi",
     amenidades: [
@@ -458,7 +475,8 @@ const propiedades = [
           "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
       },
     ],
-    location_descriprion: "Kinich Ahaw, Aldea Zama 1, 77760 Tulum, Q.R., México",
+    location_descriprion:
+      "Kinich Ahaw, Aldea Zama 1, 77760 Tulum, Q.R., México",
     path: "casa-libre",
     location: {
       lat: "20.203792351466646",
@@ -473,12 +491,11 @@ const propiedades = [
     price: "$ 2,280,448 MXN",
     date: "Septiembre 2024",
     photo:
-    "https://maxproperties.com.mx/wp-content/uploads/2023/07/edzna-02.png",
+      "https://maxproperties.com.mx/wp-content/uploads/2023/07/edzna-02.png",
     full_description: [
       "Es un desarrollo residencial que consta de 36 apartamentos desde 56.54 m2 hasta 180 m2 y 6 espacios comerciales desde 82 m2 hasta 139 m2, con un estilo contemporáneo único con increíbles comodidades y un diseño que combina la elegancia y confort.",
     ],
-    youtube_link:
-      "https://www.youtube.com/watch?v=LMsOs8rGq4E&t=42s",
+    youtube_link: "https://www.youtube.com/watch?v=LMsOs8rGq4E&t=42s",
     brochure_link:
       "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
     amenidades: [
@@ -534,7 +551,8 @@ const propiedades = [
       },
     ],
     path: "edzna",
-    location_descriprion: "Edzna se encuentra en Aldea Premium 1 de Aldea Zamá, considerado la zona más exclusiva de Tulum en el corazón de la Riviera maya.",
+    location_descriprion:
+      "Edzna se encuentra en Aldea Premium 1 de Aldea Zamá, considerado la zona más exclusiva de Tulum en el corazón de la Riviera maya.",
     location: {
       lat: "20.203340729377743",
       lng: "-87.46126953837292",
@@ -547,7 +565,7 @@ const propiedades = [
     price: "$ 2,235,477 MXN",
     date: "Diciembre 2023",
     photo:
-    "https://maxproperties.com.mx/wp-content/uploads/2022/02/paam-1000x672.webp",
+      "https://maxproperties.com.mx/wp-content/uploads/2022/02/paam-1000x672.webp",
     full_description: [
       "Lik Organic se desarrolla en armonía con su entorno, fusionado con el medio ambiente natural que lo rodea.",
       "El proyecto es un condominio vertical, que consta de 20 departamentos, clasificados en cuatro tipologías: Estudios, 1 recámara, 2 recámaras con sistema Lock-Off, y PentHouses.",
@@ -596,10 +614,10 @@ const propiedades = [
         imgUrl:
           "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/telescopio_pedgsr.png",
       },
-
     ],
     path: "lik-organic",
-    location_descriprion: "Municipio de Tulum Aldea Zamá Premium, 77765 Tulum, Quintana Roo",
+    location_descriprion:
+      "Municipio de Tulum Aldea Zamá Premium, 77765 Tulum, Quintana Roo",
     location: {
       lat: "20.18760404842734",
       lng: "-87.46492157923684",
@@ -612,7 +630,7 @@ const propiedades = [
     price: "$ 1,980,000 MXN",
     date: "Noviembre 2023",
     photo:
-    "	https://maxproperties.com.mx/wp-content/uploads/2022/04/zama_102-1667x903.webp",
+      "	https://maxproperties.com.mx/wp-content/uploads/2022/04/zama_102-1667x903.webp",
     full_description: [
       "Lik Zama es el nuevo desarrollo residencial ubicado en la zona más exclusiva de Tulum, Aldea Zama. Este desarrollo tiene una combinación entre la naturaleza y el confort que brinda Tulum combinado con el innovador entorno urbano de la zona.",
       "El desarrollo contara con 30 apartamentos tipo estudio, penthouses y 4 locales comerciales en la planta baja. Algunas de las amenidades de lujo que tendrá Lik Zama son: Lobby, Elevador, Gimnasio, Estacionamientos y Alberca en el hermoso Roof Top creando el espacio perfecto con paz y armonía.",
@@ -652,7 +670,8 @@ const propiedades = [
       },
     ],
     path: "lik-zama",
-    location_descriprion: "Municipio de Tulum Aldea Zamá Premium, 77765 Tulum, Quintana Roo",
+    location_descriprion:
+      "Municipio de Tulum Aldea Zamá Premium, 77765 Tulum, Quintana Roo",
     location: {
       lat: "20.201103605114167",
       lng: "-87.46297259155084",
@@ -665,7 +684,7 @@ const propiedades = [
     price: "$ 1,740,737 MXN",
     date: "Enero 2023",
     photo:
-    "	https://maxproperties.com.mx/wp-content/uploads/2022/04/zama_102-1667x903.webp",
+      "	https://maxproperties.com.mx/wp-content/uploads/2022/04/zama_102-1667x903.webp",
     full_description: [
       "Lik Zama es el nuevo desarrollo residencial ubicado en la zona más exclusiva de Tulum, Aldea Zama. Este desarrollo tiene una combinación entre la naturaleza y el confort que brinda Tulum combinado con el innovador entorno urbano de la zona.",
       "El desarrollo contara con 30 apartamentos tipo estudio, penthouses y 4 locales comerciales en la planta baja. Algunas de las amenidades de lujo que tendrá Lik Zama son: Lobby, Elevador, Gimnasio, Estacionamientos y Alberca en el hermoso Roof Top creando el espacio perfecto con paz y armonía.",
@@ -705,7 +724,8 @@ const propiedades = [
       },
     ],
     path: "lik-xelba",
-    location_descriprion: "Municipio de Tulum Aldea Zamá Premium, 77765 Tulum, Quintana Roo",
+    location_descriprion:
+      "Municipio de Tulum Aldea Zamá Premium, 77765 Tulum, Quintana Roo",
     location: {
       lat: "20.201103605114167",
       lng: "-87.46297259155084",
@@ -746,10 +766,10 @@ const propiedades = [
           "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
       },
       {
-      type: "Asadores",
-      imgUrl:
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/parrilla_gldpkq.png",
-    },
+        type: "Asadores",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/parrilla_gldpkq.png",
+      },
       {
         type: "Jardin Zen",
         imgUrl:
@@ -817,7 +837,8 @@ const propiedades = [
       },
     ],
     path: "mar-abella",
-    location_descriprion: "Mar A’Bella Cancun esta ubicado en Punta Sam, Costa Mujeres, Cancún, Quintana Roo, Mexico.",
+    location_descriprion:
+      "Mar A’Bella Cancun esta ubicado en Punta Sam, Costa Mujeres, Cancún, Quintana Roo, Mexico.",
     location: {
       lat: "21.22175666346186",
       lng: "-86.8022692635783",
@@ -883,7 +904,8 @@ const propiedades = [
       },
     ],
     path: "paam-cheel",
-    location_descriprion: "Mza 18 2 Bis A Oriente entre 5 y 7 sur casa #9, Villas Tulum, 77764 Tulum, Q.R.",
+    location_descriprion:
+      "Mza 18 2 Bis A Oriente entre 5 y 7 sur casa #9, Villas Tulum, 77764 Tulum, Q.R.",
     location: {
       lat: "20.21579929980339",
       lng: "-87.45032572526472",
@@ -893,7 +915,7 @@ const propiedades = [
     name: "Parques Zama",
     description:
       "Proyecto compuesto por 5 torres de departamentos de 1, 2 y 3 recámaras con sistema lock off.",
-      price: "$ 4,128,600 MXN",
+    price: "$ 4,128,600 MXN",
     date: "Agosto 2023",
     photo:
       "https://maxproperties.com.mx/wp-content/uploads/2022/05/100-1667x903.webp",
@@ -902,8 +924,7 @@ const propiedades = [
       "Parques Zama también contará con una extensa área comercial de más de 2,500 m! con estacionamiento propio.",
       "24 LOCALES COMERCIALES DE 105 M! EN VENTA.",
     ],
-    youtube_link:
-      "https://www.youtube.com/watch?v=co9bCrtSLKg&t=43s",
+    youtube_link: "https://www.youtube.com/watch?v=co9bCrtSLKg&t=43s",
     brochure_link:
       "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
     amenidades: [
@@ -978,7 +999,7 @@ const propiedades = [
     name: "Thalassa",
     description:
       "Un complejo residencial de 12 niveles y 140 departamentos con impresionantes vistas al mar.",
-      price: "$ 3,497,027 MXN",
+    price: "$ 3,497,027 MXN",
     date: "Julio 2025",
     photo:
       "https://maxproperties.com.mx/wp-content/uploads/2023/08/thalassa-01.png",
@@ -986,8 +1007,7 @@ const propiedades = [
       "Bienvenido al proyecto de departamentos más exclusivo de Cancún, donde la modernidad y la elegancia se fusionan con la influencia clásica de la antigua Grecia. Aquí, la arquitectura moderna y el toque jónico se combinan para crear un estilo único.",
       "Situado en la segunda línea de mar de Cancún, este proyecto de departamentos ofrece un estilo de vida de lujo y comodidad incomparables.",
     ],
-    youtube_link:
-      "https://youtu.be/A0nNSOCll9Q",
+    youtube_link: "https://youtu.be/A0nNSOCll9Q",
     brochure_link:
       "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
     amenidades: [
@@ -1082,7 +1102,8 @@ const propiedades = [
           "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/parrilla_gldpkq.png",
       },
     ],
-    location_descriprion: "Punta Sam se distingue por ofrecer un ambiente más tranquilo y pacífico que la zona hotelera de Cancún. Aquí, podrás disfrutar de un entorno más natural, rodeado de playas de arena blanca y agua cristalina, sin las multitudes de turistas que encontrarás en otros lugares.",
+    location_descriprion:
+      "Punta Sam se distingue por ofrecer un ambiente más tranquilo y pacífico que la zona hotelera de Cancún. Aquí, podrás disfrutar de un entorno más natural, rodeado de playas de arena blanca y agua cristalina, sin las multitudes de turistas que encontrarás en otros lugares.",
     path: "thalassa",
     location: {
       lat: "21.22404492253756",
@@ -1093,7 +1114,7 @@ const propiedades = [
     name: "Vidaraa",
     description:
       "Desarrollo exclusivo de 12 niveles con tan sólo 36 departamentos.",
-      price: "$ 4,328,658 MXN",
+    price: "$ 4,328,658 MXN",
     date: "Abril 2024",
     photo:
       "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
@@ -1103,8 +1124,7 @@ const propiedades = [
       "Es un desarrollo exclusivo de 12 niveles con tan sólo 36 departamentos, donde destaca el majestuoso paisaje de las playas color turquesa de la Riviera Maya. Idóneo para quien busca privacidad, confort y placidez.",
       "Creamos espacios únicos ideales para vivir momentos memorables. Las amenidades de Vidaraa Tower se convierten en una extensión de punto de reunión para generar un ambiente de confianza y confort entre los huespedes y residentes.",
     ],
-    youtube_link:
-      "https://youtu.be/A0nNSOCll9Q",
+    youtube_link: "https://youtu.be/A0nNSOCll9Q",
     brochure_link:
       "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
     amenidades: [
@@ -1165,7 +1185,8 @@ const propiedades = [
           "https://res.cloudinary.com/doczyujqf/image/upload/v1699879326/amenidades/vestidor_htxtzi.png",
       },
     ],
-    location_descriprion: "Vidaraa Tower, se encuentra a 2 minutos de la nueva zona hotelera en Costa Mujeres, a 15 minutos de la primera zona hotelera de Cancún y a 25 minutos del Aeropuerto Internacional de Cancún. Esta nueva área se distingue por contar con desarrollos y hoteles exclusivos con nuevos conceptos como SHA, uno de los complejos médicos de Europa con su concepto residences.",
+    location_descriprion:
+      "Vidaraa Tower, se encuentra a 2 minutos de la nueva zona hotelera en Costa Mujeres, a 15 minutos de la primera zona hotelera de Cancún y a 25 minutos del Aeropuerto Internacional de Cancún. Esta nueva área se distingue por contar con desarrollos y hoteles exclusivos con nuevos conceptos como SHA, uno de los complejos médicos de Europa con su concepto residences.",
     path: "vidaraa",
     location: {
       lat: "21.22494407185645",
@@ -1176,7 +1197,7 @@ const propiedades = [
     name: "Villas TOH",
     description:
       "El proyecto está compuesto por 5 villas ubicadas en el corazón de la Región 15 en Tulum.",
-      price: "$ 693,240 USD",
+    price: "$ 693,240 USD",
     date: "Entrega inmediata",
     photo:
       "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
@@ -1187,8 +1208,7 @@ const propiedades = [
       "Tulum como lugar de retiro. Además de ser un hot spot turístico, Tulum se ha convertido en el nuevo destino de los jubilados extranjeros, cuenta con accesibilidad a una cobertura de salud con precios razonables.",
       "Ofrece una calidad de vida inigualable en un entorno seguro y con clima acogedor, los costos de vivienda son significativamente más bajos que en otros países. Comunidad socialmente responsable",
     ],
-    youtube_link:
-      "https://youtu.be/A0nNSOCll9Q",
+    youtube_link: "https://youtu.be/A0nNSOCll9Q",
     brochure_link:
       "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
     amenidades: [
@@ -1213,7 +1233,8 @@ const propiedades = [
           "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
       },
     ],
-    location_descriprion: "Ave 10, Calle 6 bus Norte, 77762 Tulum, Quintana Roo",
+    location_descriprion:
+      "Ave 10, Calle 6 bus Norte, 77762 Tulum, Quintana Roo",
     path: "villas-toh",
     location: {
       lat: "20.193016111108783",
