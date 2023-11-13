@@ -86,7 +86,7 @@ const Header = () => {
                 </div>
               </a>
               <a
-                href="/aboutus"
+                href="/about-us"
                 className={currentPage === "/aboutus" ? "active" : "a-h"}
               >
                 Quiénes Somos

@@ -1,4 +1,5 @@
 import React from "react";
+import './Place.css'
 const Place = ({ imgUrl, name }) => {
 
   return (
@@ -10,7 +11,7 @@ const Place = ({ imgUrl, name }) => {
           {name}
         </h1>
       <div className="relative overflow-hidden">
-        <div className="shadow absolute"></div>
+        <div className="shadow-place absolute h-full overflow-hidden"></div>
         <img src={imgUrl} alt="img of property" className="w-full" />
       </div>
     </div>

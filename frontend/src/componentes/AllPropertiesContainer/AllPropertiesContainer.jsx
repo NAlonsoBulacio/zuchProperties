@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import AllProperties from "../AllProperties/AllProperties";
-const AllPropertiesContainer = ({id, propiedades}) => {
+const AllPropertiesContainer = ({ id, propiedades, place_name }) => {
   // const properties = [
   //   {
   //     name: "Paam Cheel",
@@ -60,7 +60,17 @@ const AllPropertiesContainer = ({id, propiedades}) => {
   console.log(properties);
   return (
     <div>
-      <div className="w-full flex items-start justify-center" style={{height: "100vw"}}>
+      <h1
+        className="font-raleway-700 text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-14"
+        style={{ color: "#1f1f1f" }}
+      >
+        {" "}
+        Propiedades en {place_name}
+      </h1>
+      <div
+        className="w-full flex items-start justify-center py-10"
+        style={{ height: "60vw" }}
+      >
         <div className="flex flex-wrap md:max-w-[1300px] items-center justify-center">
           {properties?.map((datos, index) => (
             <div key={index} className="w-full sm:w-1/2 md:w-1/3 p-4 mb-8">
