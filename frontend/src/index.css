@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@500;600&display=swap');
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
@@ -32,6 +33,14 @@
   .font-outfit-800 {
     font-family: 'Outfit', sans-serif;
     font-weight: 900;
+  }
+  .font-outfit-600 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+  }
+  .font-outfit-500 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
   }
   .font-raleway-700 {
     font-family: 'Raleway', sans-serif;

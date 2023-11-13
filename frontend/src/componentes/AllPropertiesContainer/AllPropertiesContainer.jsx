@@ -57,9 +57,8 @@ const AllPropertiesContainer = ({ id, propiedades, place_name }) => {
       console.log("Objeto no encontrado");
     }
   }, [id, propiedades]);
-  console.log(properties);
   return (
-    <div>
+    <div className="bg-gray-100 w-full py-4">
       <h1
         className="font-raleway-700 text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-14"
         style={{ color: "#1f1f1f" }}
