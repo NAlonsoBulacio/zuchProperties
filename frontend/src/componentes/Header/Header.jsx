@@ -72,8 +72,8 @@ const Header = () => {
                 Inicio
               </a>
               <a
-                href="/properties"
-                className={currentPage === "/properties" ? "active" : "a-h"}
+                href="/places"
+                className={currentPage === "/places" ? "active" : "a-h"}
               >
                 Propiedades
               </a>

@@ -6,7 +6,7 @@ const Amenidades = ({amenidades}) => {
     <div className="w-full flex justify-center items-center bg-gray-200 h-auto">
     <div className="py-32">
       <h1
-        className="font-outfit-800 text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl"
+        className="font-raleway-700 text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl"
         style={{ color: "#1f1f1f" }}
       >
         Amenidades

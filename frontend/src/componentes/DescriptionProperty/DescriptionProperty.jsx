@@ -5,7 +5,7 @@ const DescriptionProperty = ({full_description, name, youtube_link, brochure_lin
     <div className="w-full flex justify-center items-center">
     <div className="max-w-[1180px] flex flex-wrap justify-center items-center py-20">
       <div className="w-1/2 flex justify-center items-center">
-        <div>
+        <div className='w-4/5'>
           <div className="flex justify-start items-center py-4">
             <h1 className="font-outfit-800 text-center md:text-left text-3xl sm:text-5xl">
               {name}

@@ -7,6 +7,7 @@ const propiedades = [
     date: "Abril 2024",
     photo:
       "https://maxproperties.com.mx/wp-content/uploads/2022/03/102_-1667x903.webp",
+      photos: "https://maxproperties.com.mx/wp-content/uploads/2022/03/102_-1667x903.webp",
     full_description: [
       "Athimar es un desarrollo de lujo con el diseño y la arquitectura pensados minuciosamente para brindar ambientes con estilo, lujo y confort. La premisa del diseño fue generar vistas inigualables desde cada una de sus unidades, regalando una obra de arte en tonos turquesa sólo con mirar por tu ventana.",
       "¡Vivir en Athimar, será hacer un sueño realidad! Tendrás a tu alcance todas las comodidades y el confort de la vida ideal que siempre imaginaste.",
@@ -63,7 +64,7 @@ const propiedades = [
           "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
       },
       {
-        type: "Área de asesores",
+        type: "Área de asadores",
         imgUrl:
           "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/parrilla_gldpkq.png",
       },
@@ -74,6 +75,7 @@ const propiedades = [
       lat: "20.505026584870738",
       lng: "-86.95708744018279",
     },
+    place_id: "1",
   },
   {
     name: "Becán",
@@ -81,7 +83,8 @@ const propiedades = [
       "Proyecto compuesto 18 unidades residenciales Eco chic de alta plusvalía.",
     price: "$ 7,000,000 MXN",
     date: "Octubre 2023",
-    photo:
+    photo: "https://maxproperties.com.mx/wp-content/uploads/2021/09/paam.webp",
+    photos:
       "https://maxproperties.com.mx/wp-content/uploads/20…7/becan_01_maxproperties-1667x903-1-1667x903.webp",
     full_description: [
       "Becán es el nuevo proyecto residencial ubicado en Tulum. Este desarrollo refleja nuestra conexión con la naturaleza y el Eco Chic característico de Tulum. Becán cuenta con 18 unidades residenciales de alta plusvalía que van desde los 98.35 m2 a los 127.52 m2 ",
@@ -137,6 +140,7 @@ const propiedades = [
       lat: "20.192599131893136",
       lng: "-87.46095113745656",
     },
+    place_id: "1",
   },
   {
     name: "Balam",
@@ -221,6 +225,7 @@ const propiedades = [
       lat: "20.194239967206673",
       lng: "-87.45935876063427",
     },
+    place_id: "1",
   },
   {
     name: "Calakmul",
@@ -708,6 +713,206 @@ const propiedades = [
     location: {
       lat: "20.21579929980339",
       lng: "-87.45032572526472",
+    },
+  },
+  {
+    name: "Parques Zama",
+    description:
+      "Proyecto compuesto por 5 torres de departamentos de 1, 2 y 3 recámaras con sistema lock off.",
+      price: "$ 4,128,600 MXN",
+    date: "Agosto 2023",
+    photo:
+      "https://maxproperties.com.mx/wp-content/uploads/2022/05/100-1667x903.webp",
+    full_description: [
+      "Un proyecto compuesto por 5 torres de departamentos de 1, 2 y 3 recámaras con sistema lock off, ubicado en la nueva zona comercial de Aldea Zama. ",
+      "Parques Zama también contará con una extensa área comercial de más de 2,500 m! con estacionamiento propio.",
+      "24 LOCALES COMERCIALES DE 105 M! EN VENTA.",
+    ],
+    youtube_link:
+      "https://www.youtube.com/watch?v=co9bCrtSLKg&t=43s",
+    brochure_link:
+      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+    amenidades: [
+      {
+        type: "Estacionamiento",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+      },
+      {
+        type: "Beach club",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+      },
+      {
+        type: "Vestibulo",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+      },
+      {
+        type: "Elevador",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+      },
+      {
+        type: "Gimnasio",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+      },
+      {
+        type: "Albercas",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+      },
+      {
+        type: "Area infantil",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/child_svsosb.png",
+      },
+      {
+        type: "Cine",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/cine_davbil.png",
+      },
+      {
+        type: "Bar",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+      },
+      {
+        type: "Zona comercial",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/restaurante_glorg4.png",
+      },
+      {
+        type: "Jardines",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+      },
+      {
+        type: "Coworking",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+      },
+    ],
+    path: "parques-zama",
+    location: {
+      lat: "20.197012250412914",
+      lng: "-87.46252253450763",
+    },
+  },
+  {
+    name: "Thalassa",
+    description:
+      "Un complejo residencial de 12 niveles y 140 departamentos con impresionantes vistas al mar.",
+      price: "$ 3,497,027 MXN",
+    date: "Julio 2025",
+    photo:
+      "https://maxproperties.com.mx/wp-content/uploads/2023/08/thalassa-01.png",
+    full_description: [
+      "Bienvenido al proyecto de departamentos más exclusivo de Cancún, donde la modernidad y la elegancia se fusionan con la influencia clásica de la antigua Grecia. Aquí, la arquitectura moderna y el toque jónico se combinan para crear un estilo único.",
+      "Situado en la segunda línea de mar de Cancún, este proyecto de departamentos ofrece un estilo de vida de lujo y comodidad incomparables.",
+    ],
+    youtube_link:
+      "https://youtu.be/A0nNSOCll9Q",
+    brochure_link:
+      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+    amenidades: [
+      {
+        type: "Estacionamiento",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+      },
+      {
+        type: "Terraza",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/terraza_pqwcym.png",
+      },
+      {
+        type: "Recepción",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+      },
+      {
+        type: "Elevador",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+      },
+      {
+        type: "Gimnasio",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+      },
+      {
+        type: "Albercas",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+      },
+      {
+        type: "Area infantil",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/child_svsosb.png",
+      },
+      {
+        type: "Zona de Yoga",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/yoga_thiwct.png",
+      },
+      {
+        type: "Bar",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+      },
+      {
+        type: "Zona comercial",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/restaurante_glorg4.png",
+      },
+      {
+        type: "Jardin zen",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+      },
+      {
+        type: "Salas Lounge",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+      },
+      {
+        type: "Spa",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/meditacion_wjqbzp.png",
+      },
+      {
+        type: "Zona de meditacion",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622953/amenidades/spa_iqp31s.png",
+      },
+      {
+        type: "Jacuzzi",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622949/amenidades/jacuzzi_ammwx7.png",
+      },
+      {
+        type: "Firepit",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/fuego_mekoo1.png",
+      },
+      {
+        type: "Hamacas",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622949/amenidades/hamaca_v9sak7.png",
+      },
+      {
+        type: "Asadores",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/parrilla_gldpkq.png",
+      },
+    ],
+    location_descriprion: "Punta Sam se distingue por ofrecer un ambiente más tranquilo y pacífico que la zona hotelera de Cancún. Aquí, podrás disfrutar de un entorno más natural, rodeado de playas de arena blanca y agua cristalina, sin las multitudes de turistas que encontrarás en otros lugares.",
+    path: "thalassa",
+    location: {
+      lat: "21.22404492253756",
+      lng: "-86.8027594042177",
     },
   },
 ];

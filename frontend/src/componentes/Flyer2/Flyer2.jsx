@@ -1,9 +1,9 @@
 import React from 'react';
-import img from '../../multimedia/flyer1.jpg';
+import img from '../../multimedia/flyer2.jpg';
 
-const Flyer1 = () => {
+const Flyer2 = () => {
   return (
-    <div className="w-full relative" style={{ height: "250px"}}>
+    <div className="w-full h-96 relative" style={{ height: "330px"}}>
       <img
         src={img}
         alt="agua-tulum"
@@ -16,4 +16,4 @@ const Flyer1 = () => {
   );
 }
 
-export default Flyer1;
+export default Flyer2;

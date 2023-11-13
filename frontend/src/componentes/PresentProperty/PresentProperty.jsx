@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PresentProperty = ({name, price, description, date, photo}) => {
+const PresentProperty = ({name, price, description, date, photos}) => {
   return (
     <div className="w-full flex justify-center items-center py-12 mt-6">
     <div className="max-w-[1200px] flex justify-center items-center">
@@ -32,7 +32,7 @@ const PresentProperty = ({name, price, description, date, photo}) => {
           </div>
         </div>
         <div>
-          <img src={photo} alt={name} />
+          <img src={photos} alt={name} />
         </div>
       </div>
     </div>
