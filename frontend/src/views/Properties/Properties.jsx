@@ -5,6 +5,7 @@ import Header from "../../componentes/Header/Header";
 import Flyer1 from "../../componentes/Flyer1/Flyer1";
 import AllPropertiesContainer from "../../componentes/AllPropertiesContainer/AllPropertiesContainer";
 import propiedades from "../../utils/propiedades";
+import Footer from '../../componentes/Footer/Footer'
 const Properties = () => {
   const [properties, setProperties] = useState(null);
   const { place } = useParams();
@@ -33,6 +34,7 @@ const Properties = () => {
           <Header />
           <Flyer1 />
           <AllPropertiesContainer properties={properties} />
+          <Footer />
         </div>
       ) : (
         <h1>cargando...</h1>

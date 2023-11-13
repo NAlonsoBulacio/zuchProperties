@@ -5,7 +5,8 @@ import ContactUs from "../../componentes/ContactUs/ContactUs";
 import FollowUs from "../../componentes/SocialMedia/FollowUs";
 import BestPropertiesContainer from "../../componentes/BestPropertiesContainer/BestPropertiesContainer"
 import NewCarousel from "../../componentes/NewCarousel/NewCarousel"
-import Flyer1 from '../../componentes/Flyer1/Flyer1'
+import Flyer1 from '../../componentes/Flyer1/Flyer1';
+import Footer from "../../componentes/Footer/Footer";
 const Home = () => {
   return (
     <div className="flex flex-col items-center">
@@ -22,6 +23,7 @@ const Home = () => {
       <div className="text-center py-4 max-w-[1223px] mx-auto ">
         <ContactUs />
       </div>
+      <Footer />
     </div>
   );
 };
