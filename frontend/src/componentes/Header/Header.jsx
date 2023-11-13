@@ -87,7 +87,7 @@ const Header = () => {
               </a>
               <a
                 href="/about-us"
-                className={currentPage === "/aboutus" ? "active" : "a-h"}
+                className={currentPage === "/about-us" ? "active" : "a-h"}
               >
                 Quiénes Somos
               </a>

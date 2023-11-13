@@ -6,7 +6,7 @@ const propiedades = [
     price: "$ 109,000 USD",
     date: "Entrega inmediata",
     photo:
-      "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916312/Zuch%20Properties/Miniatura/balam_min_cjujwx.jpg",
     photos: [
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
@@ -101,7 +101,7 @@ const propiedades = [
     price: "$ 170,000 USD",
     date: "Abril 2024",
     photo:
-      "https://maxproperties.com.mx/wp-content/uploads/2022/03/athimar_web.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916312/Zuch%20Properties/Miniatura/balam_min_cjujwx.jpg",
     photos:[
       "https://maxproperties.com.mx/wp-content/uploads/2022/03/102_-1667x903.webp",
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
@@ -184,7 +184,7 @@ const propiedades = [
       "Proyecto compuesto 18 unidades residenciales Eco chic de alta plusvalía.",
     price: "$ 7,000,000 MXN",
     date: "Octubre 2023",
-    photo: "https://maxproperties.com.mx/wp-content/uploads/2021/09/paam.webp",
+    photo: "https://res.cloudinary.com/doczyujqf/image/upload/v1699916312/Zuch%20Properties/Miniatura/balam_min_cjujwx.jpg",
     photos:
       "https://maxproperties.com.mx/wp-content/uploads/20…7/becan_01_maxproperties-1667x903-1-1667x903.webp",
     full_description: [
@@ -250,7 +250,7 @@ const propiedades = [
     price: "$ 7,500,000 MXN",
     date: "Febrero 2023",
     photo:
-      "https://maxproperties.com.mx/wp-content/uploads/2022/03/02-1667x903.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916312/Zuch%20Properties/Miniatura/balam_min_cjujwx.jpg",
     full_description: [
       "Balam es un desarrollo residencial ubicado en el corazón de Tulum, sus 13 departamentos exclusivos, van desde los 105.26 m2 hasta los 121.1 m2. El desarrollo te envuelve en un entorno natural, otorgando vistas increíbles de Tulum.",
     ],
@@ -402,7 +402,7 @@ const propiedades = [
     price: "$ 310,000 USD",
     date: "Entrega inmediata",
     photo:
-      "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916312/Zuch%20Properties/Miniatura/balam_min_cjujwx.jpg",
     photos: [
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
@@ -1200,7 +1200,7 @@ const propiedades = [
     price: "$ 693,240 USD",
     date: "Entrega inmediata",
     photo:
-      "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916312/Zuch%20Properties/Miniatura/balam_min_cjujwx.jpg",
     photos:
       "https://maxproperties.com.mx/wp-content/uploads/2022/08/14_villas_toh-1667x903.webp",
     full_description: [

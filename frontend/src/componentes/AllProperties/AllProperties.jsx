@@ -13,9 +13,8 @@ const AllProperties = ({ imgUrl, name, price, path }) => {
         </h1>
       </a>
       <div className="relative overflow-hidden">
-        <div className="shadow absolute"></div>
         <a href={`/property/${path}`}>
-        <img src={imgUrl} alt="img of property" className="w-full" /></a>
+        <img src={imgUrl} alt="img of property" className="w-full img-scale" /></a>
         <button
         className="button-place w-3/6 absolute font-poppins-400 text-lg h-10 mt-4"
       >

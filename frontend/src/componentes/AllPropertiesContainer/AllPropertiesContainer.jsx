@@ -58,14 +58,16 @@ const AllPropertiesContainer = ({ id, propiedades, place_name }) => {
     }
   }, [id, propiedades]);
   return (
-    <div className="bg-gray-100 w-full py-4">
-      <h1
-        className="font-raleway-700 text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-14"
-        style={{ color: "#1f1f1f" }}
-      >
-        {" "}
-        Propiedades en {place_name}
-      </h1>
+    <div className="bg-gray-100 w-full py-14">
+      <div className="max">
+        <h1
+          className="font-outfit-600 text-center text-3xl sm:text-3xl md:text-7xl "
+          style={{ color: "#1f1f1f" }}
+        >
+          {" "}
+          Propiedades en {place_name}
+        </h1>
+      </div>
       <div
         className="w-full flex items-start justify-center py-10"
         style={{ height: "60vw" }}

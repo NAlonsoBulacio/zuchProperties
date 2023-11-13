@@ -1,14 +1,4 @@
-.shadow {
-    position: absolute;
-    top: 75%;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5)); /* Define el gradiente */
-    transform: translateY(-50%);
-  }
-  
-  .button-place {
+.button-place {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -22,7 +12,15 @@
   }
   
   .button-place:hover {
-
     background: #1f1f1f; /* Fondo negro en hover */
     color: white; /* Texto blanco en hover */
+  }
+
+  .img-scale {
+    overflow: hidden; /* Para recortar el contenido que se desborde */
+    transition: transform 1s; /* Agrega una transición suave para el efecto */
+  }
+  
+  .img-scale:hover {
+    transform: scale(1.2); /* Aplica un aumento de escala del 120% en el hover */
   }
