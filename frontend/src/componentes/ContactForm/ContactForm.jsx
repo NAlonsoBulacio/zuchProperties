@@ -45,7 +45,7 @@ const ContactForm = () => {
       <div className="ml-8">
         <h1
           className="font-outfit-800 text-center md:text-left text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl"
-          style={{color: "#001659" }}
+          style={{color: "#1f1f1f" }}
         >
           CONTACTANOS
         </h1>
@@ -62,7 +62,8 @@ const ContactForm = () => {
           <div className="w-full sm:w-1/2 mb-6">
             <label
               htmlFor="name"
-              className="block mb-2 text-left font-bold text-blue-500"
+              className="block mb-2 text-left font-bold text-lg"
+              style={{color: "#1daaba"}}
             >
               ¿Cuál es tu nombre y apellido?
             </label>
@@ -80,7 +81,8 @@ const ContactForm = () => {
           <div className="w-full sm:w-1/2 ml-0 sm:ml-4 mb-6">
             <label
               htmlFor="email"
-              className="block mb-2 text-left font-bold text-blue-500"
+              className="block mb-2 text-left font-bold text-lg"
+              style={{color: "#1daaba"}}
             >
               Correo Electrónico:
             </label>
@@ -99,7 +101,8 @@ const ContactForm = () => {
         <div className="mb-6">
           <label
             htmlFor="subject"
-            className="block mb-2 text-left font-bold text-blue-500"
+            className="block mb-2 text-left font-bold text-lg"
+            style={{color: "#1daaba"}}
           >
             Asunto
           </label>
@@ -117,7 +120,8 @@ const ContactForm = () => {
         <div className="mb-2">
           <label
             htmlFor="message"
-            className="block mb-2 text-left font-bold text-blue-500"
+            className="block mb-2 text-left font-bold text-lg"
+            style={{color: "#1daaba"}}
           >
             Mensaje
           </label>
@@ -132,8 +136,8 @@ const ContactForm = () => {
           />
         </div>
         <div className="flex justify-end relative">
-        <button className="text-white py-2 px-4 mt-2  text-lg w-full md:w-1/5 rounded-md transform transition-transform hover:scale-105" type="submit"
-        style={{backgroundColor:"#001659", padding: "12px"}}>Enviar</button>
+        <button className="py-2 px-4 mt-2 text-white text-lg font-semibold w-full md:w-1/5 rounded-md transform transition-transform hover:scale-105" type="submit"
+        style={{backgroundColor:"#1f1f1f", padding: "12px"}}>Enviar</button>
         </div>
       </div>
     </form>
