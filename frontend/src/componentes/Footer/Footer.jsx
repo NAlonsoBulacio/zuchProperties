@@ -15,19 +15,21 @@ const Footer = () => {
     >
       <div className="max-w-[1450px] py-8 w-full flex flex-wrap justify-center items-center hidden lg:flex">
         <div className="w-full md:w-1/3 space-y-2">
+        <a href="https://wa.me/+529984112504" target="_blank">
           <div className="flex justify-center items-center space-x-2 ">
             <AiTwotonePhone
               className="text-white"
               style={{ height: "23px", width: "23px" }}
             />
-            <p className="text-gray-300">+52 984 113 6390</p>
+            <p className="text-gray-300">+52 998 411 2504</p>
           </div>
+          </a>
           <div className="flex justify-center  items-center space-x-2">
             <AiOutlineMail
               className="text-white"
               style={{ height: "23px", width: "23px" }}
             />
-            <p className="text-gray-300">sach@gmail.com</p>
+            <p className="text-gray-300">zuchproperties@gmail.com</p>
           </div>
           <div className="flex justify-center  items-center space-x-2">
             <AiFillClockCircle
