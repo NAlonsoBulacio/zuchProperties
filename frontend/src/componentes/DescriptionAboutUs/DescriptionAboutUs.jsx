@@ -28,19 +28,21 @@ const DescriptionAboutUs = () => {
         </div>
         <div>
           <button className="button-chat text-xl rounded-full px-4 py-3 my-2 mb-4">
-            Chatea conmigo.
+            Chatea conmigo
           </button>
         </div>
       </div>
       <div className="w-[300px] space-y-2 flex justify-center items-center ">
         <div className="space-y-4 py-8">
+        <a href="https://wa.me/+529984112504" target="_blank">
           <div className="flex justify-center items-center space-x-2 ">
             <AiTwotonePhone style={{ height: "23px", width: "23px" }} />
-            <p className="text-gray-800">+52 984 113 6390</p>
+            <p className="text-gray-800">+52 998 411 2504</p>
           </div>
+          </a>
           <div className="flex justify-center  items-center space-x-2">
             <AiOutlineMail style={{ height: "23px", width: "23px" }} />
-            <p className="text-gray-800">sach@gmail.com</p>
+            <p className="text-gray-800">zuchproperties@gmail.com</p>
           </div>
           <div className="flex justify-center  items-center space-x-2">
             <AiFillClockCircle style={{ height: "23px", width: "23px" }} />

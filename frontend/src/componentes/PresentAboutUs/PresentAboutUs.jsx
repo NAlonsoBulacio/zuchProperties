@@ -17,11 +17,25 @@ const PresentAboutUs = () => {
         <h1 className="font-raleway-700 text-center text-4xl md:text-6xl">
           Zuch Properties
         </h1>
-        <p>
-        Bienvenidos a Zuch Properties, la agencia especializada en conexiones online para el sector inmobiliario. Nos destacamos como tu enlace estratégico, facilitando conexiones valiosas en el entorno digital, trabajando tanto con brokers profesionales como con particulares.
+        <p className='text-xl text-center'>
+        Somos una agencia especializada en conexiones online para el sector inmobiliario. Nos destacamos como tu enlace estratégico, facilitando conexiones valiosas en el entorno digital, trabajando tanto con brokers profesionales como con particulares.
+        </p>
+        <h1 className="font-raleway-700 text-center text-2xl md:text-3xl">
+          Nuestro enfoque:
+        </h1>
+        <p className='text-xl'>
+        En Zuch Properties, simplificamos la conexión entre compradores y vendedores, ofreciendo una plataforma digital que potencia la colaboración y el crecimiento, ya sea que seas un broker con experiencia o un particular buscando la casa de tus sueños.
+        </p>
+        <p className='text-xl'>
+        Únete a Zuch Properties y experimenta una nueva dimensión de conexiones online en el mundo inmobiliario.
+        </p>
+        <p className='text-xl'>
+        Atentamente,
+        <br/>
+Santiago Antunez Muñoz. CEO, Zuch Properties.
         </p>
       </div>
-      <div className="w-full flex flex-wrap justify-center items-center py-8">
+      {/* <div className="w-full flex flex-wrap justify-center items-center py-8">
         <div className="w-1/2 px-16 ">
           <div className="w-full flex justify-start items-center space-x-6 mb-4">
             <img
@@ -98,7 +112,7 @@ const PresentAboutUs = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   </div>
   )
