@@ -8,11 +8,14 @@ const propiedades = [
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
     photos: [
-      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
-      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
-      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
-      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
-      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983370/Zuch%20Properties/Propiedades/Akua/01.Fachada_Akua-min_wqhqfd.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983370/Zuch%20Properties/Propiedades/Akua/02.Alberca_abajo-min_o2yo8e.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983525/Zuch%20Properties/Propiedades/Akua/Estudio_svlgvb.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983527/Zuch%20Properties/Propiedades/Akua/v1_roof_daylight-min_bz3v2u.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983528/Zuch%20Properties/Propiedades/Akua/CO_WORKING-min_usb3uc.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983250/Zuch%20Properties/Propiedades/Akua/BUSSINES_CENTER__ejly2r.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983246/Zuch%20Properties/Propiedades/Akua/Ban%CC%83o_kribuy.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983526/Zuch%20Properties/Propiedades/Akua/Gym_-min_yoyxwe.jpg",
     ],
     full_description: [
       "Akua se nutre de los elementos sagrados que el agua nos brinda, para jugar con ellos de una manera sutil y encantadora, logrando así una perfecta fusión entre arquitectura moderna y amor por los majestuosos cenotes.",
@@ -102,12 +105,16 @@ const propiedades = [
     date: "Abril 2024",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
-    photos:[
-      "https://maxproperties.com.mx/wp-content/uploads/2022/03/102_-1667x903.webp",
-      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
-      "https://maxproperties.com.mx/wp-content/uploads/2022/03/102_-1667x903.webp",
-      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
-      "https://maxproperties.com.mx/wp-content/uploads/2022/03/102_-1667x903.webp",],
+    photos: [
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699982503/Zuch%20Properties/Propiedades/Athimar/fcuaia8n4qumudvjmf3r.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699982508/Zuch%20Properties/Propiedades/Athimar/ji0qjy15rwaxl3kdxox7.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699982520/Zuch%20Properties/Propiedades/Athimar/urxifmtgc52ja1ldqvvj.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699982525/Zuch%20Properties/Propiedades/Athimar/ni1fbscroqzcqvbzucgj.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699982526/Zuch%20Properties/Propiedades/Athimar/jiwph34mmqdftqxwtgon.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699982601/Zuch%20Properties/Propiedades/Athimar/xqns5f7uhcanjkmv8lbi.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699982514/Zuch%20Properties/Propiedades/Athimar/nekx4nsaioe1plz1he5o.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699982515/Zuch%20Properties/Propiedades/Athimar/yfpgwbyfhweoogt5htln.jpg",
+    ],
     full_description: [
       "Athimar es un desarrollo de lujo con el diseño y la arquitectura pensados minuciosamente para brindar ambientes con estilo, lujo y confort. La premisa del diseño fue generar vistas inigualables desde cada una de sus unidades, regalando una obra de arte en tonos turquesa sólo con mirar por tu ventana.",
       "¡Vivir en Athimar, será hacer un sueño realidad! Tendrás a tu alcance todas las comodidades y el confort de la vida ideal que siempre imaginaste.",
@@ -184,7 +191,8 @@ const propiedades = [
       "Proyecto compuesto 18 unidades residenciales Eco chic de alta plusvalía.",
     price: "$ 7,000,000 MXN",
     date: "Octubre 2023",
-    photo: "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
+    photo:
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
     photos:
       "https://maxproperties.com.mx/wp-content/uploads/20…7/becan_01_maxproperties-1667x903-1-1667x903.webp",
     full_description: [
@@ -251,6 +259,15 @@ const propiedades = [
     date: "Febrero 2023",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
+    photos: [
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984312/Zuch%20Properties/Propiedades/Balam/02-1667x903_z8ol4u.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984312/Zuch%20Properties/Propiedades/Balam/01-1667x903_xuwaak.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984313/Zuch%20Properties/Propiedades/Balam/04-1667x903_u0zzg2.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984312/Zuch%20Properties/Propiedades/Balam/08-1667x903_guffes.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984312/Zuch%20Properties/Propiedades/Balam/03-1667x903_irpup7.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984311/Zuch%20Properties/Propiedades/Balam/06-1667x903_lfj2kw.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984311/Zuch%20Properties/Propiedades/Balam/07-1667x903_fx2mps.webp",
+    ],
     full_description: [
       "Balam es un desarrollo residencial ubicado en el corazón de Tulum, sus 13 departamentos exclusivos, van desde los 105.26 m2 hasta los 121.1 m2. El desarrollo te envuelve en un entorno natural, otorgando vistas increíbles de Tulum.",
     ],
@@ -337,6 +354,14 @@ const propiedades = [
     date: "Agosto 2023",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699917338/Zuch%20Properties/Miniatura/mar_abella_p8p34m.png",
+    photos: [
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984797/Zuch%20Properties/Propiedades/Calakmul/Calakmul_01-2000x1084_go73sz.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984798/Zuch%20Properties/Propiedades/Calakmul/Calakmul_03-2000x1084_smqdtt.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984799/Zuch%20Properties/Propiedades/Calakmul/Calakmul_05-2000x1084_d7mppm.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984798/Zuch%20Properties/Propiedades/Calakmul/Calakmul_04-2000x1084_ypffon.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984797/Zuch%20Properties/Propiedades/Calakmul/Calakmul_07-2000x1084_dqmpqv.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984798/Zuch%20Properties/Propiedades/Calakmul/Calakmul_06-2000x1084_mhbsty.webp",
+    ],
     full_description: [
       "Calakmul es el nuevo desarrollo residencial ubicado en Tulum. Este desarrollo refleja nuestra conexión con la naturaleza y el eco chic de Tulum",
       "Calkmul cuenta con 15 unidades residenciales de alta plusvalia y amenidades como Lobby, gimnasio, sala de juegos, estacionamiento, alberca, bar y área de fogateros, creando un entorno tranquilo y relajante.",
@@ -492,6 +517,15 @@ const propiedades = [
     date: "Septiembre 2024",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699917338/Zuch%20Properties/Miniatura/mar_abella_p8p34m.png",
+    photos: [
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985481/Zuch%20Properties/Propiedades/Edzna/edzna-01_s7mldb.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985558/Zuch%20Properties/Propiedades/Edzna/edzna-02_efz56d.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985559/Zuch%20Properties/Propiedades/Edzna/edzna-03_zxuf7t.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985567/Zuch%20Properties/Propiedades/Edzna/edzna-04_d1kcgc.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985481/Zuch%20Properties/Propiedades/Edzna/edzna-05_eqkjwg.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985482/Zuch%20Properties/Propiedades/Edzna/edzna-07_c3uuts.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985492/Zuch%20Properties/Propiedades/Edzna/edzna-08_f9v1vl.png",
+    ],
     full_description: [
       "Es un desarrollo residencial que consta de 36 apartamentos desde 56.54 m2 hasta 180 m2 y 6 espacios comerciales desde 82 m2 hasta 139 m2, con un estilo contemporáneo único con increíbles comodidades y un diseño que combina la elegancia y confort.",
     ],
@@ -567,6 +601,14 @@ const propiedades = [
     date: "Diciembre 2023",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699917338/Zuch%20Properties/Miniatura/mar_abella_p8p34m.png",
+    photos: [
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985629/Zuch%20Properties/Propiedades/Lik%20Organic/paam-1000x672_dfuh91.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985631/Zuch%20Properties/Propiedades/Lik%20Organic/lik_organic_02-1200x650-1-2500x1354_oaybyx.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985631/Zuch%20Properties/Propiedades/Lik%20Organic/lik_organic_03-1200x650-1-2500x1354_gwkqtt.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985632/Zuch%20Properties/Propiedades/Lik%20Organic/lik_organic_05-1200x650-1-2500x1354_ugetyb.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985634/Zuch%20Properties/Propiedades/Lik%20Organic/lik_organic_04-1200x650-1-2500x1354_tfuqjh.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985633/Zuch%20Properties/Propiedades/Lik%20Organic/lik_organic_06-1200x650-1-2500x1354_ygpwuu.webp",
+    ],
     full_description: [
       "Lik Organic se desarrolla en armonía con su entorno, fusionado con el medio ambiente natural que lo rodea.",
       "El proyecto es un condominio vertical, que consta de 20 departamentos, clasificados en cuatro tipologías: Estudios, 1 recámara, 2 recámaras con sistema Lock-Off, y PentHouses.",
@@ -633,6 +675,14 @@ const propiedades = [
     date: "Noviembre 2023",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
+    photps: [
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985976/Zuch%20Properties/Propiedades/Lik%20Zama%20II/zama_102-1667x903_m17ykm.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985977/Zuch%20Properties/Propiedades/Lik%20Zama%20II/zama_101-1667x903_txbjhm.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985976/Zuch%20Properties/Propiedades/Lik%20Zama%20II/zama_104-1667x903_j73zci.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985976/Zuch%20Properties/Propiedades/Lik%20Zama%20II/zama_103-1667x903_jjowv8.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985979/Zuch%20Properties/Propiedades/Lik%20Zama%20II/zama_105-1667x903_cotqh8.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985977/Zuch%20Properties/Propiedades/Lik%20Zama%20II/zama_100-1667x903_zjkvon.webp",
+    ],
     full_description: [
       "Lik Zama es el nuevo desarrollo residencial ubicado en la zona más exclusiva de Tulum, Aldea Zama. Este desarrollo tiene una combinación entre la naturaleza y el confort que brinda Tulum combinado con el innovador entorno urbano de la zona.",
       "El desarrollo contara con 30 apartamentos tipo estudio, penthouses y 4 locales comerciales en la planta baja. Algunas de las amenidades de lujo que tendrá Lik Zama son: Lobby, Elevador, Gimnasio, Estacionamientos y Alberca en el hermoso Roof Top creando el espacio perfecto con paz y armonía.",
@@ -688,6 +738,15 @@ const propiedades = [
     date: "Enero 2023",
     photo:
       "	https://maxproperties.com.mx/wp-content/uploads/2022/04/zama_102-1667x903.webp",
+      photos: [
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699988811/Zuch%20Properties/Propiedades/Lik%20Xelba/01-Fachada_y3wepy.jpg",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699988808/Zuch%20Properties/Propiedades/Lik%20Xelba/06-lobby_vovxyc.jpg",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699988803/Zuch%20Properties/Propiedades/Lik%20Xelba/13-Transversal_vofduv.jpg",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699988803/Zuch%20Properties/Propiedades/Lik%20Xelba/11-Gym_egjmk6.jpg",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699988806/Zuch%20Properties/Propiedades/Lik%20Xelba/12-Comedor_ykcrlc.jpg",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699988801/Zuch%20Properties/Propiedades/Lik%20Xelba/07-alberca_rrhqfg.jpg,",
+        
+      ],
     full_description: [
       "Lik Zama es el nuevo desarrollo residencial ubicado en la zona más exclusiva de Tulum, Aldea Zama. Este desarrollo tiene una combinación entre la naturaleza y el confort que brinda Tulum combinado con el innovador entorno urbano de la zona.",
       "El desarrollo contara con 30 apartamentos tipo estudio, penthouses y 4 locales comerciales en la planta baja. Algunas de las amenidades de lujo que tendrá Lik Zama son: Lobby, Elevador, Gimnasio, Estacionamientos y Alberca en el hermoso Roof Top creando el espacio perfecto con paz y armonía.",
@@ -742,6 +801,20 @@ const propiedades = [
     date: "Diciembre 2025",
     photo:
       "	https://maxproperties.com.mx/wp-content/uploads/2023/08/AnyConv.com__mar-01.webp",
+      photos: [
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986204/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-01_rzepu6.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986207/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-05_rav4co.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986205/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-03_i7wd6d.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986204/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-02_ypxjg5.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986207/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-04_q0iiet.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986208/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-06_cxshyk.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986210/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-07_tlsca1.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986210/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-08_ezxi0x.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986202/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-11_ev34b2.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986202/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-10_lyh7fy.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986212/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-09_n1zavw.webp",
+      ],
+
     full_description: [
       "Mar A’Bella Cancun es un complejo residencial con 2 majestuosas torres en Costa Mujeres, frente al Mar Caribe. Descubre sus exclusivos departamentos de 3 y 5 recámaras en venta con impresionantes vistas al mar y acceso directo a la playa. ",
     ],
@@ -856,6 +929,16 @@ const propiedades = [
     date: "Septiembre 2023",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699917338/Zuch%20Properties/Miniatura/mar_abella_p8p34m.png",
+      photos: [
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986367/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_01-1200x700_yewe9a.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986451/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_03-1200x700_spbiwt.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986456/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_06-1200x700_fcnhul.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986449/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_02-1200x700_l8j8em.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986453/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_05-1200x700_qrlnu6.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986452/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_04-1200x700_kpnv6t.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986457/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_07-1200x700_xjjlk4.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986458/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_08-1200x700_b8dkfe.webp",
+      ],
     full_description: [
       "Eco Chic Apartments",
       "Paam Cheel es un desarrollo residencial integrado por 40 unidades, 20 estudios y 20 departamentos de 1 recámara con un estilo Eco Chic Chic, donde se combina lo estético, lo regional, la modernidad, los materiales de la región  y la naturaleza. Adentrado a su entorno tiene e invita a quedarte.",
@@ -924,6 +1007,16 @@ const propiedades = [
     date: "Agosto 2023",
     photo:
       "https://maxproperties.com.mx/wp-content/uploads/2022/05/100-1667x903.webp",
+      photos: [
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986850/Zuch%20Properties/Propiedades/Parques%20Zama/100-1667x903_jrbdvf.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986847/Zuch%20Properties/Propiedades/Parques%20Zama/106-1667x903_y0j0qc.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986849/Zuch%20Properties/Propiedades/Parques%20Zama/107-1667x903_d2hg3x.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986552/Zuch%20Properties/Propiedades/Parques%20Zama/105-1667x903_op7owa.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986566/Zuch%20Properties/Propiedades/Parques%20Zama/108-1667x903_tb3zlv.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986564/Zuch%20Properties/Propiedades/Parques%20Zama/109-1667x903_puebwn.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986852/Zuch%20Properties/Propiedades/Parques%20Zama/102-1667x903_bpracb.webp",
+
+      ],
     full_description: [
       "Un proyecto compuesto por 5 torres de departamentos de 1, 2 y 3 recámaras con sistema lock off, ubicado en la nueva zona comercial de Aldea Zama. ",
       "Parques Zama también contará con una extensa área comercial de más de 2,500 m! con estacionamiento propio.",
@@ -1008,6 +1101,19 @@ const propiedades = [
     date: "Julio 2025",
     photo:
       "https://maxproperties.com.mx/wp-content/uploads/2023/08/thalassa-01.png",
+      photos: [
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986883/Zuch%20Properties/Propiedades/Thalassa/thalassa-04_gj2s3e.png",
+        'https://res.cloudinary.com/doczyujqf/image/upload/v1699986888/Zuch%20Properties/Propiedades/Thalassa/thalassa-07_q8casu.png',
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986888/Zuch%20Properties/Propiedades/Thalassa/thalassa-08_gjunv6.png",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986899/Zuch%20Properties/Propiedades/Thalassa/thalassa-11_putzji.png",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986896/Zuch%20Properties/Propiedades/Thalassa/thalassa-02_vqzg9k.png",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986893/Zuch%20Properties/Propiedades/Thalassa/thalassa-10_u10dis.png",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986895/Zuch%20Properties/Propiedades/Thalassa/thalassa-01_xlqkda.png",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986887/Zuch%20Properties/Propiedades/Thalassa/thalassa-06_kazhg4.png",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986885/Zuch%20Properties/Propiedades/Thalassa/thalassa-05_bfj1ge.png",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986890/Zuch%20Properties/Propiedades/Thalassa/thalassa-03_payryl.png",
+
+      ],
     full_description: [
       "Bienvenido al proyecto de departamentos más exclusivo de Cancún, donde la modernidad y la elegancia se fusionan con la influencia clásica de la antigua Grecia. Aquí, la arquitectura moderna y el toque jónico se combinan para crear un estilo único.",
       "Situado en la segunda línea de mar de Cancún, este proyecto de departamentos ofrece un estilo de vida de lujo y comodidad incomparables.",
@@ -1123,8 +1229,13 @@ const propiedades = [
     date: "Abril 2024",
     photo:
       "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
-    photos:
-      "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
+    photos:[
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986988/Zuch%20Properties/Propiedades/Vidara/vidara_04-2083x1400_pjegjf.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986989/Zuch%20Properties/Propiedades/Vidara/vidara_03-2083x1400_ssjand.webp",
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1699986992/Zuch%20Properties/Propiedades/Vidara/vidara_01-2083x1400_ubq6va.webp",
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1699986990/Zuch%20Properties/Propiedades/Vidara/vidara_02-2083x1400_cgassd.webp",  
+    
+    ],
     full_description: [
       "Es un desarrollo exclusivo de 12 niveles con tan sólo 36 departamentos, donde destaca el majestuoso paisaje de las playas color turquesa de la Riviera Maya. Idóneo para quien busca privacidad, confort y placidez.",
       "Creamos espacios únicos ideales para vivir momentos memorables. Las amenidades de Vidaraa Tower se convierten en una extensión de punto de reunión para generar un ambiente de confianza y confort entre los huespedes y residentes.",
@@ -1206,8 +1317,18 @@ const propiedades = [
     date: "Entrega inmediata",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699916312/Zuch%20Properties/Miniatura/balam_min_cjujwx.jpg",
-    photos:
-      "https://maxproperties.com.mx/wp-content/uploads/2022/08/14_villas_toh-1667x903.webp",
+    photos:[
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699987231/Zuch%20Properties/Propiedades/Villas%20Toh/14_villas_toh-1667x903_qc22d6.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699987249/Zuch%20Properties/Propiedades/Villas%20Toh/07_villas_toh-1667x903_rfksoh.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699987244/Zuch%20Properties/Propiedades/Villas%20Toh/10_villas_toh-1667x903_at1t6y.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699987247/Zuch%20Properties/Propiedades/Villas%20Toh/12_villas_toh-1667x903_af3478.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699987252/Zuch%20Properties/Propiedades/Villas%20Toh/08_villas_toh-1667x903_sitx79.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699987256/Zuch%20Properties/Propiedades/Villas%20Toh/04_villas_toh-1667x903_qtzqhe.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699987257/Zuch%20Properties/Propiedades/Villas%20Toh/06_villas_toh-1667x903_fdzmk7.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699987259/Zuch%20Properties/Propiedades/Villas%20Toh/01_villas_toh-1667x903_p8oscn.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699987266/Zuch%20Properties/Propiedades/Villas%20Toh/02_villas_toh-1667x903_czsdme.webp",
+
+    ],
     full_description: [
       "Un proyecto que forma parte de su entorno, que fusiona la naturaleza y la arquitectura, que incluye materiales de la región, que genera comunidad y que crea una propuesta de valor única.",
       "Tulum como lugar de retiro. Además de ser un hot spot turístico, Tulum se ha convertido en el nuevo destino de los jubilados extranjeros, cuenta con accesibilidad a una cobertura de salud con precios razonables.",

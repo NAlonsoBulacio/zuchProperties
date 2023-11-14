@@ -45,7 +45,7 @@ const Property = () => {
             name={propiedad.name}
             full_description={propiedad.full_description}
             brochure_link={propiedad.brochure_link}
-            youtube_link={propiedad.youtube_link}
+            link={propiedad.youtube_link}
           />
           <Amenidades amenidades={propiedad.amenidades} />
           <Location

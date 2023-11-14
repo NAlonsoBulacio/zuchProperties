@@ -13,14 +13,12 @@ const PresentAboutUs = () => {
       />
     </div>
     <div className="w-1/2">
-      <div className="max-w-[700px]">
+      <div className="max-w-[700px] space-y-2">
         <h1 className="font-raleway-700 text-center text-4xl md:text-6xl">
           Zuch Properties
         </h1>
         <p>
-          Somos una agencia inmobiliaria líder en Playa del Carmen, Tulum y
-          la Riviera Maya, <br/>nos distinguimos por nuestra ética profesional y
-          honestidad.
+        Bienvenidos a Zuch Properties, la agencia especializada en conexiones online para el sector inmobiliario. Nos destacamos como tu enlace estratégico, facilitando conexiones valiosas en el entorno digital, trabajando tanto con brokers profesionales como con particulares.
         </p>
       </div>
       <div className="w-full flex flex-wrap justify-center items-center py-8">
