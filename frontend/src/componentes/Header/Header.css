@@ -1,14 +1,14 @@
-/* header {
-    background-color: rgba(0, 0, 0, 0.2); 
-    transition: background-color 0.3s; 
-  } */
-
   .header {
-    height: 90px;
+    height: 133px;
     width: 100%;
     z-index: 4;
     transition: .3s ease-in;
     background-color: #1f1f1f;
+}
+@media screen and (max-width: 600px) {
+  .header {
+      height: 103px;
+  }
 }
 .header-bg{
     background-color: #1f1f1f;
@@ -54,4 +54,5 @@
     display: block;
     opacity: 1; /* Mostrar el div al hacer hover */
   }
+  
   

@@ -19,11 +19,11 @@ const Property = () => {
     for (let i = 0; i < propiedades.length; i++) {
       if (propiedades[i].path === path) {
         objetoEncontrado = propiedades[i];
-        break; 
+        break;
       }
     }
     if (objetoEncontrado) {
-      setPropiedad(objetoEncontrado)
+      setPropiedad(objetoEncontrado);
     } else {
       console.log("Objeto no encontrado");
     }

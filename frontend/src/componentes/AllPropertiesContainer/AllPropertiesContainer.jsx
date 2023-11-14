@@ -28,14 +28,14 @@ const AllPropertiesContainer = ({
     <div className="bg-gray-100 w-full py-14">
       <div className="space-y-2">
         <h1
-          className="font-outfit-600 text-center text-3xl sm:text-3xl md:text-7xl "
+          className="font-outfit-600 text-center text-4xl md:text-7xl "
           style={{ color: "#1f1f1f" }}
         >
           {" "}
           Propiedades en {place_name}
         </h1>
         <div className="flex justify-center items-center">
-          <p className="max-w-[1300px] text-2xl text-gray-700">{place_descripcion}</p>
+          <p className="max-w-[1300px] text-lg md:text-2xl text-gray-700">{place_descripcion}</p>
         </div>
       </div>
       <div

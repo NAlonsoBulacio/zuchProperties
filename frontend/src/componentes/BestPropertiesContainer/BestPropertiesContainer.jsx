@@ -50,7 +50,7 @@ const BestPropertiesContainer = () => {
       </div>
       <div className="mb-8">
         <button
-          className="w-1/2 h-16 text-3xl"
+          className="w-2/3 md:w-1/2 h-16 text-xl md:text-3xl"
           style={{ backgroundColor: "#1f1f1f", color: "#FFFFFF" }}
         >
           Haz click aqui para ver todas las propiedades

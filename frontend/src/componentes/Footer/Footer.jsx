@@ -6,15 +6,15 @@ import {
   AiFillClockCircle,
 } from "react-icons/ai";
 import { BiLogoLinkedin, BiLogoFacebook } from "react-icons/bi";
-import { BsPinMapFill } from "react-icons/bs";
+import FooterPhone from "../FooterPhone/FooterPhone";
 const Footer = () => {
   return (
     <div
-      className="w-full h-auto flex justify-center items-center"
+      className="w-full h-auto flex flex-wrap justify-center items-center"
       style={{ backgroundColor: "#1f1f1f" }}
     >
-      <div className="max-w-[1450px] py-8 w-full flex flex-wrap justify-center items-center">
-      <div className="w-1/3 space-y-2">
+      <div className="max-w-[1450px] py-8 w-full flex flex-wrap justify-center items-center hidden lg:flex">
+        <div className="w-full md:w-1/3 space-y-2">
           <div className="flex justify-center items-center space-x-2 ">
             <AiTwotonePhone
               className="text-white"
@@ -37,7 +37,7 @@ const Footer = () => {
             <p className="text-gray-300">Lun - Vie: 10.00 am - 18.00 pm</p>
           </div>
         </div>
-        <div className="w-1/3">
+        <div className="w-full md:w-1/3 ">
           <div className="flex justify-center items-center ">
             <p className=" text-gray-400">
               © Copyright 2023 | {""}
@@ -46,7 +46,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="w-1/3 space-y-3">
+        <div className="w-full md:w-1/3  space-y-3">
           <div>
             <h1 className="text-gray-400 text-xl">Nuestras redes sociales.</h1>
           </div>
@@ -80,7 +80,9 @@ const Footer = () => {
             </button>
           </div>
         </div>
-
+      </div>
+      <div className="md:hidden">
+        <FooterPhone />
       </div>
     </div>
   );

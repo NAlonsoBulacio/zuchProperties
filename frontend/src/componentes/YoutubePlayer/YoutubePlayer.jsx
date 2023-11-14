@@ -4,8 +4,7 @@ const YoutubePlayer = ({ link }) => {
 
   return (
     <iframe
-      width="560"
-      height="360"
+    style={{ width: "100%", height: "360px" }}
       src={link}
       title="YouTube video player"
       frameborder="0"

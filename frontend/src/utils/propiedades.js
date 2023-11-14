@@ -97,7 +97,7 @@ const propiedades = [
   {
     name: "Athimar",
     description:
-      "Desarrollo de24 departamentos de 1, 2 y 3 habitaciones, 1 Penthouse y 8 Locales Comerciales",
+      "Desarrollo de 24 departamentos de 1, 2 y 3 habitaciones, 1 Penthouse y 8 Locales Comerciales",
     price: "$ 170,000 USD",
     date: "Abril 2024",
     photo:

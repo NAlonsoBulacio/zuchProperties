@@ -40,13 +40,15 @@ const CarouselSlider = () => {
           alt="Imagen carrusel"
           className="carousel-img image-fade-in-zoom"
         />
-        <h2 className="title-over font-montserrat-300 tracking-">
+        <h2 className="title-over font-montserrat-300 ">
           ZUCH PROPERTIES
         </h2>
-        <h1 className="title-over-image font-raleway-700 text-8xl w-2/3">
+        <div className="max-w-[1300px]">
+        <h1 className="title-over-image w-full font-raleway-700 text-5xl md:text-8xl md:w-2/3">
           WE HELP YOU MAKE YOUR DREAMS <br />
           COME TRUE
         </h1>
+        </div>
         <button>Ver todas las propiedades</button>
       </div>
     </div>

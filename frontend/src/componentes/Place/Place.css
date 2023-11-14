@@ -9,3 +9,12 @@
 .shadow-place:hover {
   background-color:  rgba(0, 0, 0, 0.2);
 }
+.title-place{
+  font-size: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .title-place{
+    font-size: 28px;
+  }
+}

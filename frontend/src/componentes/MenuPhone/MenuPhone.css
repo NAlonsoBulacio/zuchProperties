@@ -6,7 +6,6 @@
     height: 0;
     background-color: rgba(0, 0, 0, 0.9); /* Fondo negro semi-transparente */
     transition: height 0.3s;
-    /* overflow: hidden; */
     height: 100vh;
     z-index: 3;
     display: flex;
@@ -22,6 +21,9 @@
     font-size: 1.5rem; /* Tamaño del texto */
     margin: 10px 0; /* Espaciado vertical entre elementos <a> */
   }
+  .menu-phone a:hover {
+    color: #1daaba ;
+  }
   
   .menu-phone button {
     /* Estilos para el botón "Cerrar" */
@@ -31,4 +33,7 @@
     cursor: pointer;
     font-size: 1.5rem;
     margin-top: 20px; /* Espaciado superior para el botón */
+  }
+  .menu-phone button:hover {
+    color: #1daaba ;
   }

@@ -40,9 +40,9 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="justify-center items-center h-screen max-w-[1600px] shadow-xl"
+      className="justify-center items-center h-screen max-w-[1600px] shadow-lg md:shadow-xl"
     >
-      <div className="py-4">
+      <div className="py-0 md:py-4">
         <div className="px-8 w-full ">
           <h1
             className="font-outfit-800 text-center md:text-left text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl"

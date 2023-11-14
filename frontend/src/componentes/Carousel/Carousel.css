@@ -3,8 +3,6 @@
     position: relative;
     overflow: hidden;
     display: flex;
-    overflow: scroll;
-    scroll-snap-type: x mandatory;
   }
   
   .carousel-properties {
@@ -12,8 +10,6 @@
     height: auto;
     object-fit: cover;
     left: 0;
-    position: sticky;
-    scroll-snap-align: center;
   }
   .image-opacity {
     animation: fadeOpacity 0.5s ease-in-out; /* Adjusted durations */

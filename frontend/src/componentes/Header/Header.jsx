@@ -23,9 +23,9 @@ const Header = () => {
   };
   return (
     <div className="w-full">
-      <header className="header text-white p-4" style={{ height: "133px" }}>
+      <header className="header text-white p-4">
         <div
-          className="mx-auto flex items-center justify-between lg:hidden"
+          className="mx-auto flex items-center px-2 justify-between lg:hidden"
           style={{ maxWidth: "1150px", height: "70px" }}
         >
           <div className="logo flex items-center space-x-4">
@@ -108,7 +108,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <div>{menuOpen ? <MenuPhone /> : ""}</div>
+      <div>{menuOpen ? <MenuPhone  handleMenuToggle={handleMenuToggle}/> : ""}</div>
     </div>
   );
 };

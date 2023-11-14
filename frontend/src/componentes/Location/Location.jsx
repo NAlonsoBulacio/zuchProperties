@@ -5,7 +5,7 @@ const Location = ({location_descriprion, location}) => {
     <div className="w-full flex justify-center items-center">
     <div className="max-w-[1200px] py-20">
       <div className="flex justify-center items-center py-10">
-        <h1 className="font-raleway-700 text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+        <h1 className="font-raleway-700 text-center text-4xl md:text-6xl">
           Ubicación
         </h1>
       </div>

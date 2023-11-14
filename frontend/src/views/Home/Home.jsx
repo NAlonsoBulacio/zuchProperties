@@ -20,7 +20,7 @@ const Home = () => {
       <div className="w-full">
         <FollowUs />
       </div>
-      <div className="text-center py-4 max-w-[1223px] mx-auto ">
+      <div className="text-center max-w-[1223px] mx-auto ">
         <ContactUs />
       </div>
       <Footer />

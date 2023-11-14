@@ -31,12 +31,7 @@
     object-fit: cover; /* Mantiene la relación de aspecto y cubre toda la pantalla */
     z-index: 0; /* Coloca la imagen detrás del elemento con el filtro */
   }
-  @media (max-width: 768px) {
-    .carousel-img {
-      height: 100vh; 
-      width: auto; 
-    }
-  }
+
 
   .title-over {
     position: absolute;
@@ -59,6 +54,26 @@
     padding: 10px; /* Espacio alrededor del texto */
     z-index: 2;
   }
+  @media (max-width: 768px) {
+    .carousel-div {
+      height: 80vh; 
+    }
+    .carousel-slider {
+      height: 80vh;
+    }
+    .carousel-img {
+      height: 100%; 
+      width: auto; 
+    }
+    .title-over{
+      top: 26%; 
+  }
+  .title-over-image{
+    top: 49%; 
+  }
+
+  
+}
 
   /* New CSS class for the image animation */
 .image-fade-in-zoom {

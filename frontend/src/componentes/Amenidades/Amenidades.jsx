@@ -6,14 +6,14 @@ const Amenidades = ({amenidades}) => {
     <div className="w-full flex justify-center items-center bg-gray-200 h-auto">
     <div className="py-32">
       <h1
-        className="font-raleway-700 text-center text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl"
+        className="font-raleway-700 text-center text-4xl mdtext-6xl"
         style={{ color: "#1f1f1f" }}
       >
         Amenidades
       </h1>
       <div className="flex flex-wrap justify-center items-center ">
         {amenidades?.map((amenidad) => (
-          <div key={amenidad.type} className={ numero % 6 === 0 ? "w-1/6 py-8" : numero % 5 === 0 ? "w-1/5 py-8" : "w-1/4 py-8"}>
+          <div key={amenidad.type} className={ numero % 6 === 0 ? "w-1/2 md:w-1/6 py-8" : numero % 5 === 0 ? "w-1/2 md:w-1/5 py-8" : "w-1/2 md:w-1/4 py-8"}>
             <div className="flex justify-center items-center">
               <img
                 src={amenidad.imgUrl}
