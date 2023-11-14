@@ -7,6 +7,7 @@ import BestPropertiesContainer from "../../componentes/BestPropertiesContainer/B
 import NewCarousel from "../../componentes/NewCarousel/NewCarousel"
 import Flyer1 from '../../componentes/Flyer1/Flyer1';
 import Footer from "../../componentes/Footer/Footer";
+import WhatsAppButton from "../../componentes/Whatsapp/WhatsappButton";
 const Home = () => {
   return (
     <div className="flex flex-col items-center">
@@ -24,6 +25,7 @@ const Home = () => {
         <ContactUs />
       </div>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };

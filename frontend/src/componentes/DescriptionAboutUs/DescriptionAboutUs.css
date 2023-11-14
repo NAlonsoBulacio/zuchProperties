@@ -1,0 +1,11 @@
+.button-chat{
+    background-color: #1f1f1f;
+    color: white;
+    transition:  color 0.3s;
+}
+
+@media screen and (max-width: 600px) {
+    .button-chat{
+        color: #1daaba;
+    }
+  }
