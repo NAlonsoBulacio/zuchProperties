@@ -1,9 +1,9 @@
 import React from "react";
-
-const BestProperties = ({ imgUrl, name, price }) => {
+import './BestProperties.css'
+const BestProperties = ({ imgUrl, name, price, path }) => {
   return (
     <div className="mx-auto text-center">
-      <a href="/">
+      <a href={`/property/${path}`}>
         <h1
           className="font-poppins-500 text-center text-4xl p-4"
           style={{ color: "#1f1f1f", fontSize: "42px" }}
@@ -12,7 +12,7 @@ const BestProperties = ({ imgUrl, name, price }) => {
         </h1>
       </a>
       <a href="/">
-        <img src={imgUrl} alt="img of property" />
+        <img src={imgUrl} alt="img of property" className="img-best"/>
       </a>
       <button
         className="w-full font-poppins-400 text-lg h-10 mt-4"

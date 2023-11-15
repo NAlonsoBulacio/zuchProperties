@@ -47,7 +47,7 @@ const PlacesContainer = ({ properties }) => {
     }
   };
   return (
-    <div className="py-32">
+    <div className="py-16 md:py-32">
       <div className="flex justify-center items-center">
         <div className="space-y-2">
         <div className="w-full md:w-[1226px] flex justify-start items-center">

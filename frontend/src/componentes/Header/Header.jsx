@@ -29,11 +29,13 @@ const Header = () => {
           style={{ maxWidth: "1150px", height: "70px" }}
         >
           <div className="logo flex items-center space-x-4">
-            <img
-              src={logo}
-              alt="Logo"
-              style={{ height: "87px", weight: "87px" }}
-            />
+            <a href="/">
+              <img
+                src={logo}
+                alt="Logo"
+                style={{ height: "87px", weight: "87px" }}
+              />
+            </a>
             <nav className="font-poppins-200 space-x-4"></nav>
           </div>
           <button className="hamburguer" onClick={handleMenuToggle}>
@@ -74,12 +76,14 @@ const Header = () => {
                 Propiedades
                 <div
                   className="w-auto h-auto flex justify-center items-center absolute inset-0"
-                  style={{top:"345px", right: "160px", zIndex: "5" }}
+                  style={{ top: "345px", right: "160px", zIndex: "5" }}
                 >
                   <div className="div-dropdown bg-white space-y-4 py-2">
                     {propiedades?.map((prop) => (
                       <div className="bg-white text-gray-800 text-left px-4">
-                        <a className="a-h" href={`/property/${prop.path}`}>{prop.name}</a>
+                        <a className="a-h" href={`/property/${prop.path}`}>
+                          {prop.name}
+                        </a>
                       </div>
                     ))}
                   </div>
@@ -100,15 +104,19 @@ const Header = () => {
               </a>
             </nav>
             <div className="flex items-center mr-6">
-              <button className="whatsapp flex items-center justify-center px-4 py-1 rounded-full border space-x-2">
-                <BsWhatsapp className="h-5 w-5" />
-                <span>Whatsapp</span>
-              </button>
+              <a href="https://wa.me/+529984112504" target="_blank">
+                <button className="whatsapp flex items-center justify-center px-4 py-1 rounded-full border space-x-2">
+                  <BsWhatsapp className="h-5 w-5" />
+                  <span>Whatsapp</span>
+                </button>
+              </a>
             </div>
           </div>
         </div>
       </header>
-      <div>{menuOpen ? <MenuPhone  handleMenuToggle={handleMenuToggle}/> : ""}</div>
+      <div>
+        {menuOpen ? <MenuPhone handleMenuToggle={handleMenuToggle} /> : ""}
+      </div>
     </div>
   );
 };

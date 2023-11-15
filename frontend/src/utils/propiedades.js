@@ -809,7 +809,7 @@ const propiedades = [
     price: "$ 7,890,000 MXN",
     date: "Diciembre 2025",
     photo:
-      "	https://maxproperties.com.mx/wp-content/uploads/2023/08/AnyConv.com__mar-01.webp",
+      "https://maxproperties.com.mx/wp-content/uploads/2023/08/AnyConv.com__mar-01.webp",
       photos: [
         "https://res.cloudinary.com/doczyujqf/image/upload/v1699986204/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-01_rzepu6.webp",
         "https://res.cloudinary.com/doczyujqf/image/upload/v1699986207/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-05_rav4co.webp",

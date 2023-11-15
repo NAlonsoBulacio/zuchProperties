@@ -44,31 +44,32 @@ const TopBar = () => {
       </div>
       <div className="full-div flex justify-center items-center hidden lg:flex">
         <div className="flex justify-center items-center space-x-10">
+          <a href="https://wa.me/+529984112504" target="_blank">
+            <div className="flex justify-center items-center space-x-2">
+              <AiTwotonePhone />
+              <p>+52 984 113 6390</p>
+            </div>
+          </a>
           <div className="flex justify-center items-center space-x-2">
-            <AiTwotonePhone />
-            <p>+52 984 113 6390</p>
-          </div>
-          <div className="flex justify-center items-center space-x-2">
-
             <BsPinMapFill />
-            <p>
-              Tulum, Cancún, Playa del Carmen, Cozumel .Riviera Maya
-            </p>
+            <p>Tulum, Cancún, Playa del Carmen, Cozumel .Riviera Maya</p>
           </div>
           <div className="flex justify-center items-center space-x-2">
-          <AiFillClockCircle />
+            <AiFillClockCircle />
             <p>Lun - Vie: 10.00 am - 18.00 pm</p>
           </div>
           <div className="flex justify-center items-center space-x-2">
-            <button
-              className="flex justify-center items-center rounded-full h-8 w-8 transition-transform transform hover:scale-105"
-              style={{ backgroundColor: "#1f1f1f" }}
-            >
-              <AiOutlineInstagram
-                className="text-white"
-                style={{ height: "21px", width: "21px" }}
-              />
-            </button>
+            <a href="https://www.instagram.com/zuchproperties/" target="_blank">
+              <button
+                className="flex justify-center items-center rounded-full h-8 w-8 transition-transform transform hover:scale-105"
+                style={{ backgroundColor: "#1f1f1f" }}
+              >
+                <AiOutlineInstagram
+                  className="text-white"
+                  style={{ height: "21px", width: "21px" }}
+                />
+              </button>
+            </a>
             <button
               className="flex justify-center items-center rounded-full h-8 w-8 transition-transform transform hover:scale-105"
               style={{ backgroundColor: "#1f1f1f" }}

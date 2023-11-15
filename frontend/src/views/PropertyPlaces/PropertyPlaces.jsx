@@ -6,6 +6,7 @@ import PlacesContainer from "../../componentes/PlacesContainer/PlacesContainer";
 import Footer from "../../componentes/Footer/Footer";
 import ContactForm from "../../componentes/ContactForm/ContactForm";
 import Flyer2 from "../../componentes/Flyer2/Flyer2";
+import WhatsAppButton from '../../componentes/Whatsapp/WhatsappButton'
 const PropertyPlaces = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const PropertyPlaces = () => {
         <ContactForm />
       </div>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };

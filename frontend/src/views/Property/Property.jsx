@@ -10,6 +10,7 @@ import ContactForm from "../../componentes/ContactForm/ContactForm";
 import { useParams } from "react-router-dom";
 import propiedades from "../../utils/propiedades";
 import Footer from "../../componentes/Footer/Footer";
+import WhatsAppButton from '../../componentes/Whatsapp/WhatsappButton'
 const Property = () => {
   const [propiedad, setPropiedad] = useState(null);
   const { path } = useParams();
@@ -59,6 +60,7 @@ const Property = () => {
             <ContactForm />
           </div>
           <Footer />
+          <WhatsAppButton />
         </div>
       ) : (
         <div>

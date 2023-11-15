@@ -1,0 +1,11 @@
+.img-best{
+    width: 100%;
+    height: 300px;
+}
+
+@media screen and (max-width: 600px) {
+    .img-best{
+        width: 100%;
+        height: 250px;
+    }
+  }
