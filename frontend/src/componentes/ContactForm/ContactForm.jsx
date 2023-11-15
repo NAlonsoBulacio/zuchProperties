@@ -9,7 +9,13 @@ const ContactForm = () => {
     message: "",
     phone: "",
   });
-  const [success, setSuccess] = useState('false')
+  const [errors, setErrors] = useState({
+    name: "",
+    email: "",
+    phone: "",
+  });
+  const [success, setSuccess] = useState("false");
+  const [formSubmitted, setFormSubmitted] = useState(false);
   useEffect(() => {
     setSuccess(false);
   }, []);
@@ -19,10 +25,13 @@ const ContactForm = () => {
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+    validate({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setFormSubmitted(true)
+    if(Object.keys(errors).length === 0){
     emailjs.send(serviceId, templateId, formData, apiKey).then(
       (response) => {
         console.log("Correo electrónico enviado con éxito", response);
@@ -41,9 +50,29 @@ const ContactForm = () => {
       phone: "",
     });
     alert("¡Mensaje enviado exitosamente!");
-    setSuccess(true)
+    setSuccess(true);}
   };
 
+  const validate = (registro) => {
+    let errors = {};
+    if (!registro.name) {
+      errors.name = "Llenar con su nombre";
+    }
+    if (!registro.email) {
+      errors.email = "Debes ingresar un email.";
+    }
+    if (registro.email) {
+      const emailRegex =
+        /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
+      if (!emailRegex.test(registro.email)) {
+        errors.email = "El email ingresado no es válido";
+      }
+    }
+    if (!registro.phone) {
+      errors.phone = "Ingresar su número.";
+    }
+    setErrors(errors);
+  };
   return (
     <form
       onSubmit={handleSubmit}
@@ -63,8 +92,7 @@ const ContactForm = () => {
             className="font-roboto-500 font-bold text-center md:text-left text-lg md:text-2xl"
             style={{ color: "#001659" }}
           >
-            Para recibir el mejor asesoramiento para tu próxima obra de
-            construcción
+            Para recibir el mejor asesoramiento en tu próxima inversión.
           </p>
         </div>
         <div className="w-full max-w-6xl p-8 font-roboto-300">
@@ -75,38 +103,66 @@ const ContactForm = () => {
                 className="block mb-2 text-left font-bold text-lg"
                 style={{ color: "#1daaba" }}
               >
-                ¿Cuál es tu nombre y apellido?
+                Su nombre y apellido
               </label>
               <input
                 className="w-full bg-gray-200 rounded-md"
                 style={{ padding: "16px" }}
-                placeholder="Ingresá tu nombre y apellido"
+                placeholder="Ingrese su nombre y apellido"
                 type="text"
                 id="name"
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
               />
+              {formSubmitted && errors.name && (
+                <span className="text-red-500 text-left">{errors.name}</span>
+              )}
             </div>
             <div className="w-full sm:w-1/2 ml-0 sm:ml-4 mb-6">
               <label
-                htmlFor="email"
+                htmlFor="phone"
                 className="block mb-2 text-left font-bold text-lg"
                 style={{ color: "#1daaba" }}
               >
-                Correo Electrónico:
+                Su número de contacto
               </label>
               <input
                 className="w-full bg-gray-200 rounded-md"
                 style={{ padding: "16px" }}
-                placeholder="Ingresá tu Correo Electrónico"
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
+                placeholder="Ingrese su número de contacto"
+                type="text"
+                id="phone"
+                name="phone"
+                value={formData.phone}
                 onChange={handleChange}
               />
+              {formSubmitted && errors.phone && (
+                <span className="text-red-500">{errors.phone}</span>
+              )}
             </div>
+          </div>
+          <div className=" mb-6">
+            <label
+              htmlFor="email"
+              className="block mb-2 text-left font-bold text-lg"
+              style={{ color: "#1daaba" }}
+            >
+              Correo Electrónico
+            </label>
+            <input
+              className="w-full bg-gray-200 rounded-md"
+              style={{ padding: "16px" }}
+              placeholder="Ingrese su Correo Electrónico"
+              type="email"
+              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+            />
+            {formSubmitted && errors.email && (
+              <span className="text-red-500">{errors.email}</span>
+            )}
           </div>
           <div className="mb-6">
             <label
@@ -119,7 +175,7 @@ const ContactForm = () => {
             <input
               className="w-full bg-gray-200 rounded-md"
               style={{ padding: "16px" }}
-              placeholder="Ingresá el asunto del mensaje"
+              placeholder="Ingrese el asunto del mensaje"
               type="text"
               id="subject"
               name="subject"
@@ -127,25 +183,7 @@ const ContactForm = () => {
               onChange={handleChange}
             />
           </div>
-          <div className="mb-6">
-            <label
-              htmlFor="phone"
-              className="block mb-2 text-left font-bold text-lg"
-              style={{ color: "#1daaba" }}
-            >
-              Número de contacto
-            </label>
-            <input
-              className="w-full bg-gray-200 rounded-md"
-              style={{ padding: "16px" }}
-              placeholder="Ingresá el tu número de contacto"
-              type="text"
-              id="phone"
-              name="phone"
-              value={formData.phone}
-              onChange={handleChange}
-            />
-          </div>
+
           <div className="mb-2">
             <label
               htmlFor="message"
@@ -157,7 +195,7 @@ const ContactForm = () => {
             <textarea
               className="w-full bg-gray-200 rounded-md"
               style={{ padding: "16px" }}
-              placeholder="Ingresá tu mensaje"
+              placeholder="Ingrese tu mensaje"
               id="message"
               name="message"
               value={formData.message}
@@ -170,7 +208,7 @@ const ContactForm = () => {
               type="submit"
               style={{ backgroundColor: "#1f1f1f", padding: "12px" }}
             >
-              {success ? 'Enviado' : 'Enviar'}
+              {success ? "Enviado" : "Enviar"}
             </button>
           </div>
         </div>
