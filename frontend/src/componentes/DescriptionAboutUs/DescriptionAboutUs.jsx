@@ -8,8 +8,8 @@ import {
 import './DescriptionAboutUs.css'
 const DescriptionAboutUs = () => {
   return (
-    <div className="w-full bg-gray-100 flex flex-wrap justify-center items-start space-x-0 md:space-x-8 py-12">
-    <div>
+    <div className="w-full bg-gray-100 flex flex-wrap justify-center items-start space-x-0 md:space-x-8 space-y-12 py-12">
+    <div className=' '>
       <div className="w-full md:w-[300px] bg-white rounded-3xl space-y-4 ">
         <img
           className="w-full rounded-3xl"
