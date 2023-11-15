@@ -49,13 +49,14 @@ const TopBar = () => {
             <p>+52 984 113 6390</p>
           </div>
           <div className="flex justify-center items-center space-x-2">
-            <AiFillClockCircle />
+
+            <BsPinMapFill />
             <p>
-              Cancún, Playa del Carmen, Puerto Aventuras, Tulum. Riviera Maya
+              Tulum, Cancún, Playa del Carmen, Cozumel .Riviera Maya
             </p>
           </div>
           <div className="flex justify-center items-center space-x-2">
-            <BsPinMapFill />
+          <AiFillClockCircle />
             <p>Lun - Vie: 10.00 am - 18.00 pm</p>
           </div>
           <div className="flex justify-center items-center space-x-2">

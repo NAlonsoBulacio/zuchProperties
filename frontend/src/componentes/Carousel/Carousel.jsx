@@ -6,6 +6,15 @@ const MyCarousel = ({ images }) => {
   const [selectedImage, setSelectedImage] = useState(images[0]);
 
   useEffect(() => {
+    const preloadImages = () => {
+      images.forEach((image) => {
+        const img = new Image();
+        img.src = image;
+      });
+    };
+    preloadImages();
+  }, [images]);
+  useEffect(() => {
     const autoplayInterval = setInterval(() => {
       next();
     }, 8000);

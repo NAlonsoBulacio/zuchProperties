@@ -8,7 +8,7 @@ const propiedades = [
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
     photos: [
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983370/Zuch%20Properties/Propiedades/Akua/01.Fachada_Akua-min_wqhqfd.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1700048554/Zuch%20Properties/Propiedades/Akua/01.Fachada_Akua-min_wqhqfd.jpg",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699983370/Zuch%20Properties/Propiedades/Akua/02.Alberca_abajo-min_o2yo8e.jpg",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699983525/Zuch%20Properties/Propiedades/Akua/Estudio_svlgvb.jpg",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699983527/Zuch%20Properties/Propiedades/Akua/v1_roof_daylight-min_bz3v2u.jpg",
