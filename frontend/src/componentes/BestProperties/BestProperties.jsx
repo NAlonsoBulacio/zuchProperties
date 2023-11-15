@@ -11,7 +11,7 @@ const BestProperties = ({ imgUrl, name, price, path }) => {
           {name}
         </h1>
       </a>
-      <a href="/">
+      <a href={`/property/${path}`}>
         <img src={imgUrl} alt="img of property" className="img-best"/>
       </a>
       <button
