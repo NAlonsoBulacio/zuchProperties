@@ -58,7 +58,7 @@ const ContactForm = () => {
             CONTACTANOS
           </h1>
         </div>
-        <div className="ml-0 md:px-8">
+        <div className="ml-0 px-3 md:px-8">
           <p
             className="font-roboto-500 font-bold text-center md:text-left text-lg md:text-2xl"
             style={{ color: "#001659" }}
