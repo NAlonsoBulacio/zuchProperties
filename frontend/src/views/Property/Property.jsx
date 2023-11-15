@@ -28,6 +28,7 @@ const Property = () => {
       console.log("Objeto no encontrado");
     }
   }, [path, propiedades]);
+
   return (
     <>
       {propiedad ? (
@@ -45,7 +46,8 @@ const Property = () => {
             name={propiedad.name}
             full_description={propiedad.full_description}
             brochure_link={propiedad.brochure_link}
-            link={propiedad.youtube_link}
+           youtube_link={propiedad.youtube_link}
+           theasys_link={propiedad.theasys_link}
           />
           <Amenidades amenidades={propiedad.amenidades} />
           <Location

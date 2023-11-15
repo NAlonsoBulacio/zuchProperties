@@ -22,7 +22,6 @@ const propiedades = [
       "El imponente y misterioso estilo de AKUA se percibe desde el inicio, presentando una hipnótica fachada en donde el diseño y la innovación coquetean entre líneas rectas, formas orgánicas, dando origen a un verdadero sello personal que lo distingue de los demás.",
       "Cada una de las habitaciones fue pensado para la comodidad y disfrute de cada persona que desee vivir la experiencia de Akua con sus deliciosos acabados de manera tzalam y pisos de cerámica grises.",
     ],
-    youtube_link: "https://youtu.be/A0nNSOCll9Q",
     brochure_link:
       "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
     amenidades: [
@@ -121,7 +120,7 @@ const propiedades = [
       "Athimar es un edificio de 6 niveles. Cuenta con 25 unidades conformadas por 8 tipologías diferentes entre las que podrás encontrar departamentos de 1 a 3 recámaras, con terraza, rooftop o jacuzzi e increíbles amenidades.",
     ],
     youtube_link:
-      "https://www.youtube.com/embed/6iRB6KGgxoQ?si=WNAdurNdT_AsJqy7?mute=1",
+      "VVYUEEc-NYE",
     brochure_link:
       "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
     amenidades: [
@@ -193,8 +192,16 @@ const propiedades = [
     date: "Octubre 2023",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
-    photos:
-      "https://maxproperties.com.mx/wp-content/uploads/20…7/becan_01_maxproperties-1667x903-1-1667x903.webp",
+    photos:[
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1700050830/Zuch%20Properties/Propiedades/Becan/becan_03_maxproperties-1667x903-1-1667x903_prp3fu.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1700050830/Zuch%20Properties/Propiedades/Becan/becan_09_maxproperties-1667x903-1-1667x903_acbjjp.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1700050829/Zuch%20Properties/Propiedades/Becan/becan_07_maxproperties-1667x903-1-1667x903_zx6um6.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1700050829/Zuch%20Properties/Propiedades/Becan/becan_04_maxproperties-1667x903-1-1667x903_ddrolm.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1700050829/Zuch%20Properties/Propiedades/Becan/becan_06_maxproperties-1667x903-1-1667x903_ackrv5.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1700050829/Zuch%20Properties/Propiedades/Becan/becan_08_maxproperties-1667x903-1-1667x903_qj2yc7.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1700050829/Zuch%20Properties/Propiedades/Becan/becan_02_maxproperties-1667x903-1-1667x903_ze9bd3.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1700050829/Zuch%20Properties/Propiedades/Becan/becan_01_maxproperties-1667x903-1-1667x903_fh6ubz.webp0",
+      ],
     full_description: [
       "Becán es el nuevo proyecto residencial ubicado en Tulum. Este desarrollo refleja nuestra conexión con la naturaleza y el Eco Chic característico de Tulum. Becán cuenta con 18 unidades residenciales de alta plusvalía que van desde los 98.35 m2 a los 127.52 m2 ",
     ],
@@ -441,7 +448,7 @@ const propiedades = [
     ],
     youtube_link: "https://www.youtube.com/watch?v=39n09qMqlfk",
     brochure_link:
-      "https://drive.google.com/drive/folders/1qkOdkofpJ6fqY9Xo4Dofg2OJpM4UaeVi",
+      "https://drive.google.com/file/d/1ROkN5Yz41_QnFkmao1M107RnJ0S4UtPa/view?usp=drive_link",
     amenidades: [
       {
         type: "Estacionamiento",
@@ -675,7 +682,7 @@ const propiedades = [
     date: "Noviembre 2023",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
-    photps: [
+    photos: [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699985976/Zuch%20Properties/Propiedades/Lik%20Zama%20II/zama_102-1667x903_m17ykm.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699985977/Zuch%20Properties/Propiedades/Lik%20Zama%20II/zama_101-1667x903_txbjhm.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699985976/Zuch%20Properties/Propiedades/Lik%20Zama%20II/zama_104-1667x903_j73zci.webp",
@@ -748,8 +755,8 @@ const propiedades = [
         
       ],
     full_description: [
-      "Lik Zama es el nuevo desarrollo residencial ubicado en la zona más exclusiva de Tulum, Aldea Zama. Este desarrollo tiene una combinación entre la naturaleza y el confort que brinda Tulum combinado con el innovador entorno urbano de la zona.",
-      "El desarrollo contara con 30 apartamentos tipo estudio, penthouses y 4 locales comerciales en la planta baja. Algunas de las amenidades de lujo que tendrá Lik Zama son: Lobby, Elevador, Gimnasio, Estacionamientos y Alberca en el hermoso Roof Top creando el espacio perfecto con paz y armonía.",
+      "Lik Xelba es un nuevo edificio de condominios con 63 estudios y penthouses. El edificio Lik Xelba constará de Planta Baja, Tres Niveles y un Rooftop con amenidades, tales como: Acceso a Beach Clubs, Rooftop pool, Solarium, Bar, Gym, Enorme jardín endémico central, Lobby, Estacionamiento y Seguridad 24/7.",
+      "En Lik Xelba, sé parte de Tulum con un perfecto equilibrio con la naturaleza. Encuéntrate y crea conexión con la madre naturaleza en un ambiente de armonía. Después de nuestros exitosos desarrollos residenciales: Lik Tulum, Lik Organic, Lik Zamá 1 y 2… llega uno más de la familia Lik… Lik Xelba.",
     ],
     brochure_link:
       "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
@@ -787,7 +794,7 @@ const propiedades = [
     ],
     path: "lik-xelba",
     location_descriprion:
-      "Municipio de Tulum Aldea Zamá Premium, 77765 Tulum, Quintana Roo",
+      "Lik Xelba está ubicado en la Región 15, una de las zonas de mayor crecimiento de Tulum, lo que te permite disfrutar del entorno mientras haces un recorrido hacia las playas públicas, clubes de playa, cenotes, ruinas de tulum y el centro; haciendo de Tulum la experiencia más placentera.",
     location: {
       lat: "20.201103605114167",
       lng: "-87.46297259155084",
@@ -1022,7 +1029,7 @@ const propiedades = [
       "Parques Zama también contará con una extensa área comercial de más de 2,500 m! con estacionamiento propio.",
       "24 LOCALES COMERCIALES DE 105 M! EN VENTA.",
     ],
-    youtube_link: "https://www.youtube.com/watch?v=co9bCrtSLKg&t=43s",
+    youtube_link: "7T5uf998qkU",
     brochure_link:
       "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
     amenidades: [
@@ -1118,7 +1125,7 @@ const propiedades = [
       "Bienvenido al proyecto de departamentos más exclusivo de Cancún, donde la modernidad y la elegancia se fusionan con la influencia clásica de la antigua Grecia. Aquí, la arquitectura moderna y el toque jónico se combinan para crear un estilo único.",
       "Situado en la segunda línea de mar de Cancún, este proyecto de departamentos ofrece un estilo de vida de lujo y comodidad incomparables.",
     ],
-    youtube_link: "https://youtu.be/A0nNSOCll9Q",
+    youtube_link: "izatbGh_yR4",
     brochure_link:
       "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
     amenidades: [

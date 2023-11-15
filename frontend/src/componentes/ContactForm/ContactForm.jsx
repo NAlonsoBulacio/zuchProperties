@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
 
 const ContactForm = () => {
@@ -7,8 +7,12 @@ const ContactForm = () => {
     email: "",
     subject: "",
     message: "",
+    phone: "",
   });
-
+  const [success, setSuccess] = useState('false')
+  useEffect(() => {
+    setSuccess(false);
+  }, []);
   const serviceId = "service_d3be1jm";
   const templateId = "template_s5qu5dh";
   const apiKey = "2MjSYyOi2hn-e8l4w";
@@ -34,13 +38,16 @@ const ContactForm = () => {
       email: "",
       subject: "",
       message: "",
+      phone: "",
     });
+    alert("¡Mensaje enviado exitosamente!");
+    setSuccess(true)
   };
 
   return (
     <form
       onSubmit={handleSubmit}
-      className="justify-center items-center h-screen max-w-[1600px] shadow-lg md:shadow-xl"
+      className="justify-center items-center h-auto md:h-screen max-w-[1600px] shadow-lg md:shadow-xl"
     >
       <div className="py-0 md:py-4">
         <div className="px-8 w-full ">
@@ -120,6 +127,25 @@ const ContactForm = () => {
               onChange={handleChange}
             />
           </div>
+          <div className="mb-6">
+            <label
+              htmlFor="phone"
+              className="block mb-2 text-left font-bold text-lg"
+              style={{ color: "#1daaba" }}
+            >
+              Número de contacto
+            </label>
+            <input
+              className="w-full bg-gray-200 rounded-md"
+              style={{ padding: "16px" }}
+              placeholder="Ingresá el tu número de contacto"
+              type="text"
+              id="phone"
+              name="phone"
+              value={formData.phone}
+              onChange={handleChange}
+            />
+          </div>
           <div className="mb-2">
             <label
               htmlFor="message"
@@ -144,7 +170,7 @@ const ContactForm = () => {
               type="submit"
               style={{ backgroundColor: "#1f1f1f", padding: "12px" }}
             >
-              Enviar
+              {success ? 'Enviado' : 'Enviar'}
             </button>
           </div>
         </div>
