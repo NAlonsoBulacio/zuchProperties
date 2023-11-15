@@ -1,10 +1,10 @@
 import React from "react";
 import YouTube from "react-youtube";
-
+import "./YoutubePlayer.css"
 const YoutubePlayer = ({ videoId }) => {
   const opts = {
     height: "360",
-    width: "640",
+    width: "100%",
     playerVars: {
       autoplay: 1, // Iniciar automáticamente
       mute: 1, // Iniciar con mute
@@ -12,7 +12,7 @@ const YoutubePlayer = ({ videoId }) => {
   };
 
   return (
-    <div>
+    <div className="youtube-div">
       <YouTube videoId={videoId} opts={opts} />
     </div>
   );
