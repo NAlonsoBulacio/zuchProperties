@@ -2,10 +2,10 @@ import React from 'react'
 import MyCarousel from '../Carousel/Carousel'
 const PresentProperty = ({name, price, description, date, photos}) => {
   return (
-    <div className="w-full flex justify-center items-center py-12 mt-6">
+    <div className="w-full flex justify-center items-center md:px-0 py-12 mt-6">
     <div className="max-w-[1200px] flex justify-center items-center">
       <div className="w-full h-auto">
-        <div className="w-full flex flex-wrap justify-center items-center">
+        <div className="w-full flex flex-wrap px-4 md:px-0 justify-center items-center">
           <div className="w-full md:w-2/3">
             <h1
               className="font-outfit-800 text-left text-4xl md:text-6xl"
