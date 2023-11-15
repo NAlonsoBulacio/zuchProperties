@@ -6,7 +6,7 @@ const propiedades = [
     price: "$ 109,000 USD",
     date: "Entrega inmediata",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1700053931/Zuch%20Properties/Propiedades/Akua/min/akua_min.jpg",
     photos: [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1700048554/Zuch%20Properties/Propiedades/Akua/01.Fachada_Akua-min_wqhqfd.jpg",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699983370/Zuch%20Properties/Propiedades/Akua/02.Alberca_abajo-min_o2yo8e.jpg",
@@ -103,7 +103,7 @@ const propiedades = [
     price: "$ 170,000 USD",
     date: "Abril 2024",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699982520/Zuch%20Properties/Propiedades/Athimar/urxifmtgc52ja1ldqvvj.jpg",
     photos: [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699982503/Zuch%20Properties/Propiedades/Athimar/fcuaia8n4qumudvjmf3r.jpg",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699982508/Zuch%20Properties/Propiedades/Athimar/ji0qjy15rwaxl3kdxox7.jpg",
@@ -191,7 +191,7 @@ const propiedades = [
     price: "$ 7,000,000 MXN",
     date: "Octubre 2023",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1700050830/Zuch%20Properties/Propiedades/Becan/becan_03_maxproperties-1667x903-1-1667x903_prp3fu.webp",
     photos:[
       "https://res.cloudinary.com/doczyujqf/image/upload/v1700050830/Zuch%20Properties/Propiedades/Becan/becan_03_maxproperties-1667x903-1-1667x903_prp3fu.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1700050830/Zuch%20Properties/Propiedades/Becan/becan_09_maxproperties-1667x903-1-1667x903_acbjjp.webp",
@@ -265,7 +265,7 @@ const propiedades = [
     price: "$ 7,500,000 MXN",
     date: "Febrero 2023",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984312/Zuch%20Properties/Propiedades/Balam/03-1667x903_irpup7.webp",
     photos: [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699984312/Zuch%20Properties/Propiedades/Balam/02-1667x903_z8ol4u.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699984312/Zuch%20Properties/Propiedades/Balam/01-1667x903_xuwaak.webp",
@@ -360,7 +360,7 @@ const propiedades = [
     price: "$ 340,000 USD",
     date: "Agosto 2023",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699917338/Zuch%20Properties/Miniatura/mar_abella_p8p34m.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699984798/Zuch%20Properties/Propiedades/Calakmul/Calakmul_04-2000x1084_ypffon.webp",
     photos: [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699984797/Zuch%20Properties/Propiedades/Calakmul/Calakmul_01-2000x1084_go73sz.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699984798/Zuch%20Properties/Propiedades/Calakmul/Calakmul_03-2000x1084_smqdtt.webp",
@@ -422,6 +422,7 @@ const propiedades = [
     path: "calakmul",
     location_descriprion:
       "Av. Central, Aldea Zamá Premium, Tulum. 77765 Quintana Roo.",
+      place_id: "1",
     location: {
       lat: "20.19396111151585",
       lng: "-87.45997921946264",
@@ -430,11 +431,11 @@ const propiedades = [
   {
     name: "Casa libre",
     description:
-      "ulum Casa Libre Airena es un conjunto de 24 residencias de lujo situadas en Tulum en áreas que van de los 98 a los 262 metros cuadrados.",
+      "Tulum Casa Libre Airena es un conjunto de 24 residencias de lujo situadas en Tulum en áreas que van de los 98 a los 262 metros cuadrados.",
     price: "$ 310,000 USD",
     date: "Entrega inmediata",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699917338/Zuch%20Properties/Miniatura/mar_abella_p8p34m.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985156/Zuch%20Properties/Propiedades/Casa%20Libre/CR208654-Edit_lsjrpe.jpg",
     photos: [
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
@@ -523,7 +524,7 @@ const propiedades = [
     price: "$ 2,280,448 MXN",
     date: "Septiembre 2024",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699917338/Zuch%20Properties/Miniatura/mar_abella_p8p34m.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985559/Zuch%20Properties/Propiedades/Edzna/edzna-03_zxuf7t.png",
     photos: [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699985481/Zuch%20Properties/Propiedades/Edzna/edzna-01_s7mldb.png",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699985558/Zuch%20Properties/Propiedades/Edzna/edzna-02_efz56d.png",
@@ -594,11 +595,11 @@ const propiedades = [
     path: "edzna",
     location_descriprion:
       "Edzna se encuentra en Aldea Premium 1 de Aldea Zamá, considerado la zona más exclusiva de Tulum en el corazón de la Riviera maya.",
+      place_id:"1",
     location: {
       lat: "20.203340729377743",
       lng: "-87.46126953837292",
     },
-    place_id: "3",
   },
   {
     name: "Lik Organic",
@@ -607,7 +608,7 @@ const propiedades = [
     price: "$ 2,235,477 MXN",
     date: "Diciembre 2023",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699917338/Zuch%20Properties/Miniatura/mar_abella_p8p34m.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985634/Zuch%20Properties/Propiedades/Lik%20Organic/lik_organic_04-1200x650-1-2500x1354_tfuqjh.webp",
     photos: [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699985629/Zuch%20Properties/Propiedades/Lik%20Organic/paam-1000x672_dfuh91.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699985631/Zuch%20Properties/Propiedades/Lik%20Organic/lik_organic_02-1200x650-1-2500x1354_oaybyx.webp",
@@ -668,11 +669,11 @@ const propiedades = [
     path: "lik-organic",
     location_descriprion:
       "Municipio de Tulum Aldea Zamá Premium, 77765 Tulum, Quintana Roo",
+      place_id: "1",
     location: {
       lat: "20.18760404842734",
       lng: "-87.46492157923684",
     },
-    place_id: "4",
   },
   {
     name: "Lik Zamá II",
@@ -681,7 +682,7 @@ const propiedades = [
     price: "$ 1,980,000 MXN",
     date: "Noviembre 2023",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916215/Zuch%20Properties/Miniatura/athimar_min_lb8sfn.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985977/Zuch%20Properties/Propiedades/Lik%20Zama%20II/zama_101-1667x903_txbjhm.webp",
     photos: [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699985976/Zuch%20Properties/Propiedades/Lik%20Zama%20II/zama_102-1667x903_m17ykm.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699985977/Zuch%20Properties/Propiedades/Lik%20Zama%20II/zama_101-1667x903_txbjhm.webp",
@@ -731,11 +732,11 @@ const propiedades = [
     path: "lik-zama",
     location_descriprion:
       "Municipio de Tulum Aldea Zamá Premium, 77765 Tulum, Quintana Roo",
+      place_id: "1",
     location: {
       lat: "20.201103605114167",
       lng: "-87.46297259155084",
     },
-    place_id: "2",
   },
   {
     name: "Lik Xelba",
@@ -744,7 +745,7 @@ const propiedades = [
     price: "$ 1,740,737 MXN",
     date: "Enero 2023",
     photo:
-      "	https://maxproperties.com.mx/wp-content/uploads/2022/04/zama_102-1667x903.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699988817/Zuch%20Properties/Propiedades/Lik%20Xelba/10-Sendero_hhjwfb.jpg",
       photos: [
         "https://res.cloudinary.com/doczyujqf/image/upload/v1699988811/Zuch%20Properties/Propiedades/Lik%20Xelba/01-Fachada_y3wepy.jpg",
         "https://res.cloudinary.com/doczyujqf/image/upload/v1699988808/Zuch%20Properties/Propiedades/Lik%20Xelba/06-lobby_vovxyc.jpg",
@@ -795,6 +796,7 @@ const propiedades = [
     path: "lik-xelba",
     location_descriprion:
       "Lik Xelba está ubicado en la Región 15, una de las zonas de mayor crecimiento de Tulum, lo que te permite disfrutar del entorno mientras haces un recorrido hacia las playas públicas, clubes de playa, cenotes, ruinas de tulum y el centro; haciendo de Tulum la experiencia más placentera.",
+      place_id: "1",
     location: {
       lat: "20.201103605114167",
       lng: "-87.46297259155084",
@@ -803,7 +805,7 @@ const propiedades = [
   {
     name: "Mar A’Bella",
     description:
-      "Mar A’Bella Cancun es un complejo residencial con 4 majestuosas torres en Costa Mujeres, frente al Mar Caribe.",
+      "Mar A’Bella Cancún es un complejo residencial con 4 majestuosas torres en Costa Mujeres, frente al Mar Caribe.",
     price: "$ 7,890,000 MXN",
     date: "Diciembre 2025",
     photo:
@@ -926,7 +928,7 @@ const propiedades = [
       lat: "21.22175666346186",
       lng: "-86.8022692635783",
     },
-    place_id: "3",
+    place_id: "4",
   },
   {
     name: "Paam Cheel",
@@ -935,7 +937,7 @@ const propiedades = [
     price: "$ 3,605,000 MXN",
     date: "Septiembre 2023",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699917338/Zuch%20Properties/Miniatura/mar_abella_p8p34m.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986457/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_07-1200x700_xjjlk4.webp",
       photos: [
         "https://res.cloudinary.com/doczyujqf/image/upload/v1699986367/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_01-1200x700_yewe9a.webp",
         "https://res.cloudinary.com/doczyujqf/image/upload/v1699986451/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_03-1200x700_spbiwt.webp",
@@ -1004,7 +1006,7 @@ const propiedades = [
       lat: "20.21579929980339",
       lng: "-87.45032572526472",
     },
-    place_id: "4",
+    place_id: "1",
   },
   {
     name: "Parques Zama",
@@ -1013,7 +1015,7 @@ const propiedades = [
     price: "$ 4,128,600 MXN",
     date: "Agosto 2023",
     photo:
-      "https://maxproperties.com.mx/wp-content/uploads/2022/05/100-1667x903.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986852/Zuch%20Properties/Propiedades/Parques%20Zama/102-1667x903_bpracb.webp",
       photos: [
         "https://res.cloudinary.com/doczyujqf/image/upload/v1699986850/Zuch%20Properties/Propiedades/Parques%20Zama/100-1667x903_jrbdvf.webp",
         "https://res.cloudinary.com/doczyujqf/image/upload/v1699986847/Zuch%20Properties/Propiedades/Parques%20Zama/106-1667x903_y0j0qc.webp",
@@ -1099,6 +1101,7 @@ const propiedades = [
       lat: "20.197012250412914",
       lng: "-87.46252253450763",
     },
+    place_id: "1",
   },
   {
     name: "Thalassa",
@@ -1107,7 +1110,7 @@ const propiedades = [
     price: "$ 3,497,027 MXN",
     date: "Julio 2025",
     photo:
-      "https://maxproperties.com.mx/wp-content/uploads/2023/08/thalassa-01.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986888/Zuch%20Properties/Propiedades/Thalassa/thalassa-07_q8casu.png",
       photos: [
         "https://res.cloudinary.com/doczyujqf/image/upload/v1699986883/Zuch%20Properties/Propiedades/Thalassa/thalassa-04_gj2s3e.png",
         'https://res.cloudinary.com/doczyujqf/image/upload/v1699986888/Zuch%20Properties/Propiedades/Thalassa/thalassa-07_q8casu.png',
@@ -1227,6 +1230,7 @@ const propiedades = [
       lat: "21.22404492253756",
       lng: "-86.8027594042177",
     },
+    place_id: "4",
   },
   {
     name: "Vidaraa",
@@ -1235,7 +1239,7 @@ const propiedades = [
     price: "$ 4,328,658 MXN",
     date: "Abril 2024",
     photo:
-      "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_01-2083x1400.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986988/Zuch%20Properties/Propiedades/Vidara/vidara_04-2083x1400_pjegjf.webp",
     photos:[
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699986988/Zuch%20Properties/Propiedades/Vidara/vidara_04-2083x1400_pjegjf.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699986989/Zuch%20Properties/Propiedades/Vidara/vidara_03-2083x1400_ssjand.webp",
@@ -1315,6 +1319,7 @@ const propiedades = [
       lat: "21.22494407185645",
       lng: "-86.80318255700497",
     },
+    place_id: "4",
   },
   {
     name: "Villas TOH",
@@ -1323,7 +1328,7 @@ const propiedades = [
     price: "$ 693,240 USD",
     date: "Entrega inmediata",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699916312/Zuch%20Properties/Miniatura/balam_min_cjujwx.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699987231/Zuch%20Properties/Propiedades/Villas%20Toh/14_villas_toh-1667x903_qc22d6.webp",
     photos:[
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699987231/Zuch%20Properties/Propiedades/Villas%20Toh/14_villas_toh-1667x903_qc22d6.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699987249/Zuch%20Properties/Propiedades/Villas%20Toh/07_villas_toh-1667x903_rfksoh.webp",

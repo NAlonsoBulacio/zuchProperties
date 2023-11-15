@@ -1,7 +1,17 @@
+.border-container{
+  border: 2px solid #1f1f1f; /* Borde negro de 2px */
+  border-radius: 50px; /* Curvatura de las esquinas */
+}
+
+.img-div{
+  border-top-left-radius: 50px; /* Curvatura de la esquina superior izquierda */
+  border-top-right-radius: 50px; /* Curvatura de la esquina superior derecha */
+}
+
 .button-place {
     position: absolute;
-    top: 80%;
-    left: 50%;
+    top: 89%;
+    left: 80%;
     transform: translate(-50%, -50%);
     border: 2px solid rgba(0, 0, 0, 0.4); /* Borde negro */
     background: rgba(0, 0, 0, 0.4);
@@ -19,8 +29,21 @@
   .img-scale {
     overflow: hidden; /* Para recortar el contenido que se desborde */
     transition: transform 1s; /* Agrega una transición suave para el efecto */
+    height: 400px;
   }
   
   .img-scale:hover {
     transform: scale(1.2); /* Aplica un aumento de escala del 120% en el hover */
+  }
+
+  .shadow-bottom {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  @media screen and (max-width: 600px) {
+    .img-scale {
+      height: 200px;
+    }
   }

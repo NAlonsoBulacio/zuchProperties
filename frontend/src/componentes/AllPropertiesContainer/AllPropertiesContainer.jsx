@@ -24,37 +24,40 @@ const AllPropertiesContainer = ({
       console.log("Objeto no encontrado");
     }
   }, [id, propiedades]);
+
+  const cantidad = properties.length;
   return (
-    <div className="bg-gray-100 w-full py-14">
-      <div className="space-y-2">
-        <h1
-          className="font-outfit-600 text-center text-4xl md:text-7xl "
-          style={{ color: "#1f1f1f" }}
-        >
-          {" "}
-          Propiedades en {place_name}
-        </h1>
-        <div className="flex justify-center items-center">
-          <p className="max-w-[1300px] text-lg md:text-2xl text-gray-700">{place_descripcion}</p>
+      <div className="bg-gray-100 w-full py-14">
+        <div className="space-y-2">
+          <h1
+            className="font-outfit-600 text-center text-4xl md:text-7xl "
+            style={{ color: "#1f1f1f" }}
+          >
+            {" "}
+            Propiedades en {place_name}
+          </h1>
+          <div className="flex justify-center items-center">
+            <p className="max-w-[1300px] text-lg md:text-2xl text-gray-700">
+              {place_descripcion}
+            </p>
+          </div>
+        </div>
+        <div className="w-full flex items-start justify-center py-10">
+          <div className="flex flex-wrap md:max-w-[1300px] items-center justify-center">
+            {properties?.map((datos, index) => (
+              <div key={index} className={cantidad === 1 ? "w-full p-4 px-8 mb-8": "w-full md:w-1/2 p-4 px-8 mb-8"}>
+                <AllProperties
+                  imgUrl={datos.photo}
+                  description={datos.description}
+                  name={datos.name}
+                  price={datos.price}
+                  path={datos.path}
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-      <div
-        className="w-full flex items-start justify-center py-10"
-      >
-        <div className="flex flex-wrap md:max-w-[1300px] items-center justify-center">
-          {properties?.map((datos, index) => (
-            <div key={index} className="w-full sm:w-1/2 md:w-1/3 p-4 mb-8">
-              <AllProperties
-                imgUrl={datos.photo}
-                name={datos.name}
-                price={datos.price}
-                path={datos.path}
-              />
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
   );
 };
 
