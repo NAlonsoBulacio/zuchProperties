@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./NewCarousel.css";
 const CarouselSlider = () => {
   const images = [
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1699640063/slides/slide1_kwopte_pior4j.webp",
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1699640026/slides/slide2_r91igj_zllutk.webp",
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1699639874/slides/slide3_bz7to1_xeg5wx.webp",
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1700068022/Zuch%20Properties/Slides/slide1_kwopte_pior4j_11zon_udzjq7.webp",
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1700068022/Zuch%20Properties/Slides/slide2_r91igj_zllutk_11zon_jwegbb.webp",
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1700068022/Zuch%20Properties/Slides/slide3_bz7to1_xeg5wx_11zon_zwtfwt.webp",
   ];
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [selectedImage, setSelectedImage] = useState(images[0]);
