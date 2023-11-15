@@ -8,9 +8,9 @@ import {
 import './DescriptionAboutUs.css'
 const DescriptionAboutUs = () => {
   return (
-    <div className="w-full bg-gray-100 flex justify-center items-start space-x-8 py-12">
+    <div className="w-full bg-gray-100 flex flex-wrap justify-center items-start space-x-8 py-12">
     <div>
-      <div className="w-[300px] bg-white rounded-3xl space-y-4 ">
+      <div className="w-full md:w-[300px] bg-white rounded-3xl space-y-4 mx-4 md:mx-0">
         <img
           className="w-full rounded-3xl"
           src="https://res.cloudinary.com/doczyujqf/image/upload/v1699970243/Zuch%20Properties/zach_ewiw86.jpg"
@@ -32,7 +32,7 @@ const DescriptionAboutUs = () => {
           </button>
         </div>
       </div>
-      <div className="w-[300px] space-y-2 flex justify-center items-center ">
+      <div className="w-full md:w-[300px] space-y-2 flex justify-center items-center ">
         <div className="space-y-4 py-8">
         <a href="https://wa.me/+529984112504" target="_blank">
           <div className="flex justify-center items-center space-x-2 ">

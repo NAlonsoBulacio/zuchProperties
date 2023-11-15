@@ -3,9 +3,14 @@
     color: white;
     transition:  color 0.3s;
 }
-
-@media screen and (max-width: 600px) {
+.button-chat:hover{
+    color: #1daaba;
+}
+.img-about{
+width: auto;
+}
+/* @media screen and (max-width: 600px) {
     .button-chat{
-        color: #1daaba;
+
     }
-  }
+  } */

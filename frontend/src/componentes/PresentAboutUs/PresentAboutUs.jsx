@@ -1,19 +1,15 @@
 import React from "react";
-import img1 from "../../multimedia/induccion.png";
-import img2 from "../../multimedia/poblacion.png";
-import img3 from "../../multimedia/precision.png";
-import img4 from "../../multimedia/presentacion.png";
 const PresentAboutUs = () => {
   return (
-    <div className="w-full flex justify-center items-center py-8">
-      <div className="w-1/2 px-8">
+    <div className="w-full flex flex-wrap justify-center items-center space-y-6 py-8">
+      <div className="w-full md:w-1/2 px-8">
         <img
           src="https://res.cloudinary.com/doczyujqf/image/upload/v1699970685/Zuch%20Properties/happy-cancun_nrfvf3.jpg"
           alt=""
         />
       </div>
-      <div className="w-1/2">
-        <div className="max-w-[700px] space-y-2">
+      <div className="w-full md:w-1/2">
+        <div className="w-full md:max-w-[700px] space-y-2">
           <h1 className="font-raleway-700 text-center text-4xl md:text-6xl">
             Zuch Properties
           </h1>
