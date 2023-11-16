@@ -15,6 +15,7 @@ const FooterPhone = () => {
             <h1 className="text-gray-400 text-xl">Nuestras redes sociales.</h1>
           </div>
           <div className="flex flex-wrap justify-center items-center space-x-4">
+          <a href="https://www.instagram.com/zuchproperties/" target="_blank">
             <button
               className="flex justify-center items-center rounded-full h-10 w-10 transition-transform transform hover:scale-110"
               style={{ backgroundColor: "#1f1f1f" }}
@@ -24,6 +25,7 @@ const FooterPhone = () => {
                 style={{ height: "28px", width: "28px" }}
               />
             </button>
+            </a>
             <button
               className="flex justify-center items-center rounded-full h-10 w-10 transition-transform transform hover:scale-110"
               style={{ backgroundColor: "#1f1f1f" }}
@@ -33,6 +35,7 @@ const FooterPhone = () => {
                 style={{ height: "28px", width: "28px" }}
               />
             </button>
+            <a href="https://www.facebook.com/profile.php?id=100063976607904&mibextid=LQQJ4d" target="_blank">
             <button
               className="flex justify-center items-center rounded-full h-10 w-10 transition-transform transform hover:scale-110"
               style={{ backgroundColor: "#1f1f1f" }}
@@ -42,22 +45,25 @@ const FooterPhone = () => {
                 style={{ height: "28px", width: "28px" }}
               />
             </button>
+            </a>
           </div>
         </div>
         <div className="w-full space-y-2">
+        <a href="https://wa.me/+529984112504" target="_blank">
           <div className="flex justify-center items-center space-x-2 ">
             <AiTwotonePhone
               className="text-white"
               style={{ height: "23px", width: "23px" }}
             />
-            <p className="text-gray-300">+52 984 113 6390</p>
+            <p className="text-gray-300">+52 998 411 2504</p>
           </div>
+          </a>
           <div className="flex justify-center  items-center space-x-2">
             <AiOutlineMail
               className="text-white"
               style={{ height: "23px", width: "23px" }}
             />
-            <p className="text-gray-300">sach@gmail.com</p>
+            <p className="text-gray-300">zuchproperties@gmail.com</p>
           </div>
           <div className="flex justify-center  items-center space-x-2">
             <AiFillClockCircle

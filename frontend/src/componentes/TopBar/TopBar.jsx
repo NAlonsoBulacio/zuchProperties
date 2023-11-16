@@ -70,6 +70,7 @@ const TopBar = () => {
                 />
               </button>
             </a>
+            <a href="https://www.facebook.com/profile.php?id=100063976607904&mibextid=LQQJ4d" target="_blank">
             <button
               className="flex justify-center items-center rounded-full h-8 w-8 transition-transform transform hover:scale-105"
               style={{ backgroundColor: "#1f1f1f" }}
@@ -79,6 +80,7 @@ const TopBar = () => {
                 style={{ height: "21px", width: "21px" }}
               />
             </button>
+            </a>
             <button
               className="flex justify-center items-center rounded-full h-8 w-8 transition-transform transform hover:scale-105"
               style={{ backgroundColor: "#1f1f1f" }}
