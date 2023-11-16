@@ -66,28 +66,30 @@ const PlacesContainer = ({ properties }) => {
       <div className="w-full flex items-center justify-center py-8">
         <div className="flex flex-wrap md:max-w-[1300px] items-center justify-center">
           {places.map((datos, index) => (
+            <a className="w-full sm:w-1/2 md:w-1/2 p-4 mb-8" href={`/properties/${datos.id}`}>
             <button
               key={index}
-              className="w-full sm:w-1/2 md:w-1/2 p-4 mb-8"
-              onClick={() =>
-                handleButtonClick(
-                  <AllPropertiesContainer
-                    id={datos.id}
-                    propiedades={propiedades}
-                    place_name={datos.name}
-                    place_descripcion={datos.place_descripcion}
-                  />
-                )
-              }
+              className=""
+              // onClick={() =>
+              //   handleButtonClick(
+              //     <AllPropertiesContainer
+              //       id={datos.id}
+              //       propiedades={propiedades}
+              //       place_name={datos.name}
+              //       place_descripcion={datos.place_descripcion}
+              //     />
+              //   )
+              // }
             >
               <Place imgUrl={datos.img} name={datos.name} id={datos.id} />
             </button>
+            </a>
           ))}
         </div>
       </div>
-      <div id="new-component-container">
+      {/* <div id="new-component-container">
         {selectedComponent && <div>{selectedComponent}</div>}
-      </div>
+      </div> */}
     </div>
   );
 };

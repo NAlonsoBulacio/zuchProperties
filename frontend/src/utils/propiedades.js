@@ -438,10 +438,15 @@ const propiedades = [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699985156/Zuch%20Properties/Propiedades/Casa%20Libre/CR208654-Edit_lsjrpe.jpg",
     photos: [
       "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
-      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
-      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
-      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
-      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985156/Zuch%20Properties/Propiedades/Casa%20Libre/CR208654-Edit_lsjrpe.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985152/Zuch%20Properties/Propiedades/Casa%20Libre/CR208493-Edit_qy4wif.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985149/Zuch%20Properties/Propiedades/Casa%20Libre/IMG_4058-HDR_zrlilr.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985145/Zuch%20Properties/Propiedades/Casa%20Libre/IMG_4154-HDR_e1o6rg.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985149/Zuch%20Properties/Propiedades/Casa%20Libre/IMG_4121-HDR_uvwejf.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985149/Zuch%20Properties/Propiedades/Casa%20Libre/CR208462-Edit_jm1znh.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985157/Zuch%20Properties/Propiedades/Casa%20Libre/CR208472-Edit_kj2ebn.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985157/Zuch%20Properties/Propiedades/Casa%20Libre/IMG_4181-HDR_hdeeht.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699985158/Zuch%20Properties/Propiedades/Casa%20Libre/CR208427-Edit_ulhxaf.jpg",
     ],
     full_description: [
       "Tulum Casa Libre Airena es un conjunto de 24 residencias de lujo situadas en Tulum en áreas que van de los 98 a los 262 metros cuadrados. Cada una está diseñada para cubrir diferentes estilos de vida: estudio, Garden house, departamento y pent-house todos con alberca propia. Se encuentran en el exclusiva zona de Aldea Zama a 2 km de la playa de Tulum. Cuentan con alberca propia y un estilo inolvidable de la mano de unos de los mejores despachos arquitectónicos de México.",
@@ -752,7 +757,7 @@ const propiedades = [
         "https://res.cloudinary.com/doczyujqf/image/upload/v1699988803/Zuch%20Properties/Propiedades/Lik%20Xelba/13-Transversal_vofduv.jpg",
         "https://res.cloudinary.com/doczyujqf/image/upload/v1699988803/Zuch%20Properties/Propiedades/Lik%20Xelba/11-Gym_egjmk6.jpg",
         "https://res.cloudinary.com/doczyujqf/image/upload/v1699988806/Zuch%20Properties/Propiedades/Lik%20Xelba/12-Comedor_ykcrlc.jpg",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699988801/Zuch%20Properties/Propiedades/Lik%20Xelba/07-alberca_rrhqfg.jpg,",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1699988801/Zuch%20Properties/Propiedades/Lik%20Xelba/07-alberca_rrhqfg.jpg",
         
       ],
     full_description: [
@@ -933,7 +938,7 @@ const propiedades = [
   {
     name: "Paam Cheel",
     description:
-      "Desarrollo exclusivo con2 Estudios y 20 departamentos de 1 recámara con un estilo Eco Chic.",
+      "Desarrollo exclusivo con 2 Estudios y 20 departamentos de 1 recámara con un estilo Eco Chic.",
     price: "$ 3,605,000 MXN",
     date: "Septiembre 2023",
     photo:

@@ -14,7 +14,7 @@ function App() {
       <Route exact path="/about-us" component={AboutUs} />
       {/* <Route exact path="/properties" component={Properties} /> */}
       <Route exact path="/places" component={PropertyPlaces} />
-      <Route exact path="/properties/:place" component={Properties} />
+      <Route exact path="/properties/:place_id" component={Properties} />
       <Route path="/property/:path" component={Property} />
     </div>
   );

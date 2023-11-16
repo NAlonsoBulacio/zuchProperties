@@ -47,7 +47,7 @@ const TopBar = () => {
           <a href="https://wa.me/+529984112504" target="_blank">
             <div className="flex justify-center items-center space-x-2">
               <AiTwotonePhone />
-              <p>+52 984 113 6390</p>
+              <p>+52 998 411 2504</p>
             </div>
           </a>
           <div className="flex justify-center items-center space-x-2">

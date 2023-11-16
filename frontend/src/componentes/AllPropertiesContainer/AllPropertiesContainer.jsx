@@ -6,34 +6,38 @@ const AllPropertiesContainer = ({
   place_name,
   place_descripcion,
 }) => {
-  const [properties, setProperties] = useState(null);
-  useEffect(() => {
-    const objetosEncontrados = [];
+  const [properties, setProperties] = useState(propiedades);
+  // useEffect(() => {
+  //   const objetosEncontrados = [];
 
-    for (let i = 0; i < propiedades.length; i++) {
-      if (propiedades[i].place_id === id) {
-        objetosEncontrados.push(propiedades[i]);
-      }
-    }
-    if (objetosEncontrados) {
-      setProperties(objetosEncontrados);
-    } else {
-      console.log("Objeto no encontrado");
-    }
-  }, [id, propiedades]);
+  //   for (let i = 0; i < propiedades.length; i++) {
+  //     if (propiedades[i].place_id === id) {
+  //       objetosEncontrados.push(propiedades[i]);
+  //     }
+  //   }
+  //   if (objetosEncontrados) {
+  //     setProperties(objetosEncontrados);
+  //   } else {
+  //     console.log("Objeto no encontrado");
+  //   }
+  // }, [id, propiedades]);
 
   return (
-      <div className="bg-gray-100 w-full py-14">
-        <div className="space-y-2">
-          <h1
-            className="font-outfit-600 text-center text-4xl md:text-7xl "
+      <div className="bg-gray-100 w-full py-20">
+        <div className="space-y-3">
+          <div className="flex justify-center items-center ">
+            <div className="w-[1200px]">
+            <h1
+            className=" font-outfit-600 text-center md:text-left text-4xl md:text-7xl "
             style={{ color: "#1f1f1f" }}
           >
-            {" "}
             Propiedades en {place_name}
           </h1>
+            </div>
+
+          </div>
           <div className="flex justify-center items-center">
-            <p className="max-w-[1300px] text-lg md:text-2xl text-gray-700">
+            <p className="max-w-[1200px] text-center md:text-left text-lg md:text-2xl text-gray-700">
               {place_descripcion}
             </p>
           </div>

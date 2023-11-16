@@ -1,11 +1,13 @@
 .border-container{
-  border: 2px solid #1f1f1f; /* Borde negro de 2px */
+  border: 3px solid #1f1f1f; /* Borde negro de 2px */
   border-radius: 50px; /* Curvatura de las esquinas */
+
 }
 
 .img-div{
   border-top-left-radius: 50px; /* Curvatura de la esquina superior izquierda */
   border-top-right-radius: 50px; /* Curvatura de la esquina superior derecha */
+  background-color: #1f1f1f;
 }
 
 .button-place {
@@ -13,8 +15,8 @@
     top: 89%;
     left: 80%;
     transform: translate(-50%, -50%);
-    border: 2px solid rgba(0, 0, 0, 0.4); /* Borde negro */
-    background: rgba(0, 0, 0, 0.4);
+    border: 4px solid rgba(0, 0, 0, 0.4); /* Borde negro */
+    background: rgba(73, 73, 73, 0.4);
     color: #e3e1e1; /* Color del texto */
     transition: 0.3s; /* Transición para el efecto hover */
     z-index: 2;
