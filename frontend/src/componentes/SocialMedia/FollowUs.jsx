@@ -14,12 +14,17 @@ const FollowUs = () => {
           </h1>
         </div>
         <div className="w-full md:w-auto">
-          <SocialIcon
-            url="https://facebook.com"
-            href="https://iconos8.es/icons/set/instagram"
-            style={{ height: 45, width: 45 }}
+          <a
+            href="https://www.facebook.com/profile.php?id=100063976607904&mibextid=LQQJ4d"
             target="_blank"
-          />
+          >
+            <SocialIcon
+              url="https://facebook.com"
+              href="https://iconos8.es/icons/set/instagram"
+              style={{ height: 45, width: 45 }}
+              target="_blank"
+            />
+          </a>
           <SocialIcon
             url="https://linkedin.com"
             href="https://iconos8.es/icons/set/instagram"
@@ -27,12 +32,14 @@ const FollowUs = () => {
             style={{ height: 45, width: 45 }}
             target="_blank"
           />
-          <SocialIcon
-            url="https://instagram.com"
-            href="https://iconos8.es/icons/set/instagram"
-            style={{ height: 45, width: 45 }}
-            target="_blank"
-          />
+          <a href="https://www.instagram.com/zuchproperties/" target="_blank">
+            <SocialIcon
+              url="https://instagram.com"
+              href="https://iconos8.es/icons/set/instagram"
+              style={{ height: 45, width: 45 }}
+              target="_blank"
+            />
+          </a>
         </div>
       </div>
     </div>
