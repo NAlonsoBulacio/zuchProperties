@@ -10,7 +10,7 @@ const DescriptionContact = () => {
     <div className="w-full bg-gray-100 flex flex-wrap justify-center items-start space-x-0 md:space-x-8 py-12">
       <ContactForm />
       <div>
-        <div className="w-full md:w-[400px] bg-white rounded-3xl space-y-4 ">
+        <div className="w-full md:w-[400px] bg-white rounded-3xl py-4 space-y-4 ">
           <div>
             <h1 className="text-2xl">Información</h1>
           </div>
@@ -33,7 +33,7 @@ const DescriptionContact = () => {
               <a href="https://wa.me/+529984112504" target="_blank">
                 <div className="flex justify-center items-center space-x-2 ">
                   <AiTwotonePhone style={{ height: "35px", width: "35px" }} />
-                  <p className="text-gray-800 text-xl">+52 998 411 2504</p>
+                  <p className="text-gray-800 text-xl">+54 3815305162</p>
                 </div>
               </a>
               <div className="flex justify-center  items-center space-x-2">

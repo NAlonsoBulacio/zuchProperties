@@ -37,7 +37,7 @@ const DescriptionAboutUs = () => {
             <a href="https://wa.me/+529984112504" target="_blank">
               <div className="flex justify-center items-center space-x-2 ">
                 <AiTwotonePhone style={{ height: "30px", width: "30px" }} />
-                <p className="text-gray-800 text-lg">+52 998 411 2504</p>
+                <p className="text-gray-800 text-lg">+54 3815305162</p>
               </div>
             </a>
             <div className="flex justify-center  items-center space-x-2">
