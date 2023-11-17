@@ -1,8 +1,25 @@
 import React from "react";
 import './BestProperties.css'
+import { motion } from "framer-motion";
 const BestProperties = ({ imgUrl, name, price, path }) => {
+  const cardVariants = {
+    offscreen: {
+      opacity: 0,
+    },
+    onscreen: {
+      opacity: 1,
+      transition: {
+        type: "spring",
+        duration: 2,
+      },
+    },
+  };
   return (
-    <div className="mx-auto text-center">
+    <motion.h1 className="mx-auto text-center"
+    variants={cardVariants}
+    initial="offscreen"
+    whileInView="onscreen"
+    viewport={{ once: true, amount: 0.2 }}>
       <a href={`/property/${path}`}>
         <h1
           className="font-poppins-500 text-center text-4xl p-4"
@@ -20,7 +37,7 @@ const BestProperties = ({ imgUrl, name, price, path }) => {
       >
         Unidades desde {price}
       </button>
-    </div>
+    </motion.h1>
   );
 };
 

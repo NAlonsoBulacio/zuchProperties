@@ -80,7 +80,9 @@ const FooterPhone = () => {
               <span className="text-white">Zuch Properties </span>| <br/> All Rights
               Reserved <br /> Constructores de sueños. <br/> Creadores de realidades.
             </p>
+
           </div>
+          <a href="/terms-condition" className="text-white">Terminos y Condiciones</a>
         </div>
       </div>
     </div>

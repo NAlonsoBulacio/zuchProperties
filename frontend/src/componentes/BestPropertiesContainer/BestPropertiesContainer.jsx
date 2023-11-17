@@ -1,5 +1,6 @@
 import React from "react";
 import BestProperties from "../BestProperties/BestProperties";
+import { motion } from "framer-motion";
 const BestPropertiesContainer = () => {
   const projects = [
     {
@@ -39,6 +40,18 @@ const BestPropertiesContainer = () => {
       path: "mar-abella",
     },
   ];
+  const cardVariants = {
+    offscreen: {
+      opacity: 0,
+    },
+    onscreen: {
+      opacity: 1,
+      transition: {
+        type: "spring",
+        duration: 1.8,
+      },
+    },
+  };
   return (
     <div>
       <div className="w-full flex items-center justify-center">
@@ -57,12 +70,16 @@ const BestPropertiesContainer = () => {
       </div>
       <div className="mb-8">
         <a href="/places">
-          <button
+          <motion.button
             className="w-2/3 md:w-1/2 h-16 text-xl md:text-3xl"
             style={{ backgroundColor: "#1f1f1f", color: "#FFFFFF" }}
+            variants={cardVariants}
+            initial="offscreen"
+            whileInView="onscreen"
+            viewport={{ once: true, amount: 0.2 }}
           >
             Haz click aqui para ver todas las propiedades
-          </button>
+          </motion.button>
         </a>
       </div>
     </div>
