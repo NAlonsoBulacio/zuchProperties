@@ -437,7 +437,6 @@ const propiedades = [
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699985156/Zuch%20Properties/Propiedades/Casa%20Libre/CR208654-Edit_lsjrpe.jpg",
     photos: [
-      "https://maxproperties.com.mx/wp-content/uploads/2021/08/akua_01-1200x650.png",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699985156/Zuch%20Properties/Propiedades/Casa%20Libre/CR208654-Edit_lsjrpe.jpg",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699985152/Zuch%20Properties/Propiedades/Casa%20Libre/CR208493-Edit_qy4wif.jpg",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699985149/Zuch%20Properties/Propiedades/Casa%20Libre/IMG_4058-HDR_zrlilr.jpg",
