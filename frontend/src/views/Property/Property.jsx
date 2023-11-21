@@ -76,7 +76,7 @@ const Property = () => {
             <div className="relative w-full md:w-[1200px]">
               <a
                 href={`/properties/${place.id}`}
-                className="absolute top-2 left-2 flex items-center space-x-2"
+                className="absolute top-2 left-2 flex items-center space-x-2 hover:border-b-2 hover:border-gray-600"
               >
                 <FaArrowLeftLong className="text-gray-600 text-lg"/><p className="text-gray-600 text-xl font-outfit-500">Ver más propiedades de {place.name}</p>
               </a>
@@ -109,7 +109,7 @@ const Property = () => {
             <div className="relative w-full md:w-[1200px]">
               <a
                 href={`/properties/${place.id}`}
-                className="absolute top-0 md:bottom-32 left-2 flex items-center space-x-2"
+                className="absolute top-0 md:bottom-32 left-2 flex items-center space-x-2 hover:border-b-2 hover:border-gray-600"
               >
                 <FaArrowLeftLong className="text-gray-600 text-xl"/><p className="text-gray-600 text-xl font-outfit-500">Ver más propiedades de {place.name}</p>
               </a>

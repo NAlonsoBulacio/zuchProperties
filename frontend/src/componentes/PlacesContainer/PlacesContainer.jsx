@@ -11,6 +11,12 @@ const PlacesContainer = ({ properties }) => {
       place_descripcion: "Tulum es una ciudad en donde abunda la fauna marina, desde este lugar se organizan excursiones de buceo a la famosa Barrera de Coral Mesoamericana."
     },
     {
+      name: "Cancún",
+      img: "https://res.cloudinary.com/doczyujqf/image/upload/v1699901372/Places/cancunn_ta2z64.jpg",
+      id: "4",
+      place_descripcion: "Cancún es una ciudad de México ubicada en la península de Yucatán que limita con el mar Caribe y que es conocida por sus playas, los numerosos centros turísticos y la vida nocturna.",
+    },
+    {
       name: "Cozumel",
       img: "https://res.cloudinary.com/doczyujqf/image/upload/v1699901382/Places/cozumel_nzxwe7.jpg",
       id: "2",
@@ -21,12 +27,6 @@ const PlacesContainer = ({ properties }) => {
       img: "https://res.cloudinary.com/doczyujqf/image/upload/v1699901371/Places/playadelcarmen_bsvzbb.jpg",
       id: "3",
       place_descripcion: "Playa del Carmen es un balneario costero de México que se ubica a lo largo de la costa caribeña de la Riviera Maya, en la Península de Yucatán. Pertenece al estado de Quintana Roo y es famosa por sus playas bordeadas de palmeras y los arrecifes de coral.",
-    },
-    {
-      name: "Cancún",
-      img: "https://res.cloudinary.com/doczyujqf/image/upload/v1699901372/Places/cancunn_ta2z64.jpg",
-      id: "4",
-      place_descripcion: "Cancún es una ciudad de México ubicada en la península de Yucatán que limita con el mar Caribe y que es conocida por sus playas, los numerosos centros turísticos y la vida nocturna.",
     },
   ];
   const [selectedComponent, setSelectedComponent] = useState(null);
@@ -50,15 +50,15 @@ const PlacesContainer = ({ properties }) => {
     <div className="py-16 md:py-32">
       <div className="flex justify-center items-center">
         <div className="space-y-2">
-        <div className="w-full md:w-[1226px] flex justify-start items-center">
+        <div className="w-full md:w-[1226px] flex justify-center md:justify-start items-center px-2">
           <h1
-            className="font-outfit-600 text-center md:text-left text-4xl md:text-7xl "
+            className="font-outfit-600 text-center md:text-left text-3xl md:text-7xl "
             style={{ color: "#1f1f1f" }}
           >
             Explora la Rivera Maya
           </h1>
         </div>
-        <div className="w-full md:w-[1226px] flex justify-start items-center">
+        <div className="w-full md:w-[1226px] flex justify-start items-center px-2">
           <p className="text-xl md:text-2xl text-gray-700">Encuentra los mejores inmuebles en venta en la Riviera Maya y sus alrededores.</p>
         </div>
         </div>

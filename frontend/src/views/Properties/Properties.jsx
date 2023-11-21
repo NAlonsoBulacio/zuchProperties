@@ -6,6 +6,7 @@ import Flyer1 from "../../componentes/Flyer1/Flyer1";
 import AllPropertiesContainer from "../../componentes/AllPropertiesContainer/AllPropertiesContainer";
 import propiedades from "../../utils/propiedades";
 import Footer from "../../componentes/Footer/Footer";
+import { FaArrowLeftLong } from "react-icons/fa6";
 const Properties = () => {
   const [properties, setProperties] = useState(null);
   const [place, setPlace] = useState(null);
@@ -77,6 +78,16 @@ const Properties = () => {
           <TopBar />
           <Header />
           <Flyer1 />
+          <div className="flex justify-center items-center ">
+            <div className="relative w-full md:w-[1200px]">
+              <a
+                href={`/places`}
+                className="absolute top-2 left-2 flex items-center space-x-2 hover:border-b-2 hover:border-gray-600"
+              >
+                <FaArrowLeftLong className="text-gray-600 text-lg"/><p className="text-gray-600 text-xl font-outfit-500">Volver a las locaciones</p>
+              </a>
+            </div>
+          </div>
           <AllPropertiesContainer
             propiedades={properties}
             place_name={place.name}

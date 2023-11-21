@@ -23,7 +23,7 @@ const propiedades = [
       "Cada una de las habitaciones fue pensado para la comodidad y disfrute de cada persona que desee vivir la experiencia de Akua con sus deliciosos acabados de manera tzalam y pisos de cerámica grises.",
     ],
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/drive/folders/1mbLeUdmj_iA5WnUfxelNHxEhKobKZK87",
     amenidades: [
       {
         type: "Estacionamiento",
@@ -122,7 +122,7 @@ const propiedades = [
     youtube_link:
       "VVYUEEc-NYE",
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/drive/folders/1Xc6mQdtInwbhzg6MiaUVw19D0eyZDa5r",
     amenidades: [
       {
         type: "Estacionamiento",
@@ -208,7 +208,7 @@ const propiedades = [
     theasys_link:
       "https://www.theasys.io/viewer/xG0rb39ovRo5fhtay0pEAzSSksm0sk/",
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/file/d/1DHMQCMJfh1BaWeeNFLFVx39Jla8VxSKs/view?usp=drive_link",
     amenidades: [
       {
         type: "Estacionamiento",
@@ -279,9 +279,9 @@ const propiedades = [
       "Balam es un desarrollo residencial ubicado en el corazón de Tulum, sus 13 departamentos exclusivos, van desde los 105.26 m2 hasta los 121.1 m2. El desarrollo te envuelve en un entorno natural, otorgando vistas increíbles de Tulum.",
     ],
     theasys_link:
-      "https://www.youtube.com/embed/6iRB6KGgxoQ?si=WNAdurNdT_AsJqy7?mute=1",
+      "https://www.theasys.io/viewer/Dr04pyVhIBjaiGSsNSL5Zfa10bPg8c/",
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/file/d/1zhF7_RkzMwVz3znnBLrO8bBrNj0IDS2w/view?usp=drive_link",
     amenidades: [
       {
         type: "Estacionamiento",
@@ -376,7 +376,7 @@ const propiedades = [
     theasys_link:
       "https://www.theasys.io/viewer/lMklrdkEOQ3XRvyPfCO3fkLeWc1eo1/",
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/file/d/1EEN1kvkLstK35_jLD9SdvbxLS6M3WZvF/view?usp=drive_link",
     amenidades: [
       {
         type: "Estacionamiento",
@@ -451,9 +451,8 @@ const propiedades = [
       "Tulum Casa Libre Airena es un conjunto de 24 residencias de lujo situadas en Tulum en áreas que van de los 98 a los 262 metros cuadrados. Cada una está diseñada para cubrir diferentes estilos de vida: estudio, Garden house, departamento y pent-house todos con alberca propia. Se encuentran en el exclusiva zona de Aldea Zama a 2 km de la playa de Tulum. Cuentan con alberca propia y un estilo inolvidable de la mano de unos de los mejores despachos arquitectónicos de México.",
       "La mayoría de nuestras unidades están diseñadas con Lock Off para independizartu unidad en dos. Así, podrás optimizar tu inversión retornos a través de rentas vacacionales en dólares americanos cuando no hagas uso de tu residencia.",
     ],
-    youtube_link: "https://www.youtube.com/watch?v=39n09qMqlfk",
     brochure_link:
-      "https://drive.google.com/file/d/1ROkN5Yz41_QnFkmao1M107RnJ0S4UtPa/view?usp=drive_link",
+      "https://drive.google.com/file/d/1KsZiGkSSSSfV7mdbAQTHgeg6X4yELWZU/view?usp=drive_link",
     amenidades: [
       {
         type: "Estacionamiento",
@@ -541,9 +540,8 @@ const propiedades = [
     full_description: [
       "Es un desarrollo residencial que consta de 36 apartamentos desde 56.54 m2 hasta 180 m2 y 6 espacios comerciales desde 82 m2 hasta 139 m2, con un estilo contemporáneo único con increíbles comodidades y un diseño que combina la elegancia y confort.",
     ],
-    youtube_link: "https://www.youtube.com/watch?v=LMsOs8rGq4E&t=42s",
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/file/d/1ilapXOs_7zed1Sswc1vUh31CdcvHcwDu/view?usp=drive_link",
     amenidades: [
       {
         type: "Cine",
@@ -627,7 +625,7 @@ const propiedades = [
       "Contacta a cualquiera de nuestros asesores para saber todos los detalles de su lanzamiento.",
     ],
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/file/d/1Onhn1ssN0RskDux9CkD6_qJ9b3HY2wX8/view?usp=drive_link",
     amenidades: [
       {
         type: "Club de playa",
@@ -700,7 +698,7 @@ const propiedades = [
       "El desarrollo contara con 30 apartamentos tipo estudio, penthouses y 4 locales comerciales en la planta baja. Algunas de las amenidades de lujo que tendrá Lik Zama son: Lobby, Elevador, Gimnasio, Estacionamientos y Alberca en el hermoso Roof Top creando el espacio perfecto con paz y armonía.",
     ],
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/file/d/1-EhC2dZKdREpBuEUUNldmGcMTHxrvk-Y/view?usp=drive_link",
     amenidades: [
       {
         type: "Elevador",
@@ -764,7 +762,7 @@ const propiedades = [
       "En Lik Xelba, sé parte de Tulum con un perfecto equilibrio con la naturaleza. Encuéntrate y crea conexión con la madre naturaleza en un ambiente de armonía. Después de nuestros exitosos desarrollos residenciales: Lik Tulum, Lik Organic, Lik Zamá 1 y 2… llega uno más de la familia Lik… Lik Xelba.",
     ],
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/file/d/1yr3h0z4zbHYCnuoIdYLBVglYRhP0onCk/view?usp=drive_link",
     amenidades: [
       {
         type: "Elevador",
@@ -832,7 +830,7 @@ const propiedades = [
       "Mar A’Bella Cancun es un complejo residencial con 2 majestuosas torres en Costa Mujeres, frente al Mar Caribe. Descubre sus exclusivos departamentos de 3 y 5 recámaras en venta con impresionantes vistas al mar y acceso directo a la playa. ",
     ],
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/file/d/1IgcwFTIiO8EEPUUqqCQ29EoY4b7MiEGD/view?usp=drive_link",
     amenidades: [
       {
         type: "Estacionamiento",
@@ -957,10 +955,8 @@ const propiedades = [
       "Paam Cheel es un desarrollo residencial integrado por 40 unidades, 20 estudios y 20 departamentos de 1 recámara con un estilo Eco Chic Chic, donde se combina lo estético, lo regional, la modernidad, los materiales de la región  y la naturaleza. Adentrado a su entorno tiene e invita a quedarte.",
       "Paam Cheel te conectara en un ambiente lleno de naturaleza sin desconectarse de la modernidad y de los orígenes de la región de Tulum. ",
     ],
-    youtube_link:
-      "https://www.youtube.com/embed/6iRB6KGgxoQ?si=WNAdurNdT_AsJqy7?mute=1",
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/file/d/1VQij4DdEiOHDFfVptwGVZegqGWibgS78/view?usp=drive_link",
     amenidades: [
       {
         type: "Estacionamiento",
@@ -1037,7 +1033,7 @@ const propiedades = [
     ],
     youtube_link: "7T5uf998qkU",
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/file/d/1_nrI00lmbxVX6F6znlJRQJtMaoW7qoQF/view?usp=drive_link",
     amenidades: [
       {
         type: "Estacionamiento",
@@ -1134,7 +1130,7 @@ const propiedades = [
     ],
     youtube_link: "izatbGh_yR4",
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/file/d/13Q8pByJYb63isLsVVdFdWH9EzP9gLpKl/view?usp=drive_link",
     amenidades: [
       {
         type: "Estacionamiento",
@@ -1257,7 +1253,7 @@ const propiedades = [
     ],
     youtube_link: "https://youtu.be/A0nNSOCll9Q",
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/file/d/1FQV-qC7VN0QuiEw1uTAGo9NJTnaLgtVq/view?usp=drive_link",
     amenidades: [
       {
         type: "Estacionamiento",
@@ -1350,9 +1346,8 @@ const propiedades = [
       "Tulum como lugar de retiro. Además de ser un hot spot turístico, Tulum se ha convertido en el nuevo destino de los jubilados extranjeros, cuenta con accesibilidad a una cobertura de salud con precios razonables.",
       "Ofrece una calidad de vida inigualable en un entorno seguro y con clima acogedor, los costos de vivienda son significativamente más bajos que en otros países. Comunidad socialmente responsable",
     ],
-    youtube_link: "https://youtu.be/A0nNSOCll9Q",
     brochure_link:
-      "https://drive.google.com/drive/folders/1KcZ4JoNOfac1LtJOutqzqup3mRfNL_n4",
+      "https://drive.google.com/file/d/1D_SbKVKHftttkDIjVU_zJCqPHo5vNZ8G/view?usp=drive_link",
     amenidades: [
       {
         type: "Estacionamiento",
