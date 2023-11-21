@@ -7,6 +7,7 @@ import PropertyPlaces from "./views/PropertyPlaces/PropertyPlaces";
 import Contact from "./views/Contact/Contact";
 import AboutUs from "./views/AboutUs/AboutUs";
 import TermsAndCondition from "./views/TermsAndCondition/TermsAndCondition";
+import Privacity from "./views/Privacity/Privacity";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <Route exact path="/properties/:place_id" component={Properties} />
       <Route path="/property/:path" component={Property} />
       <Route path="/terms-condition" component={TermsAndCondition} />
+      <Route path="/privacity" component={Privacity} />
     </div>
   );
 }

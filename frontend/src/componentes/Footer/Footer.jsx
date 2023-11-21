@@ -47,7 +47,9 @@ const Footer = () => {
               Reserved <br /> Constructores de sueños. Creadores de realidades.
             </p>
           </div>
-          <a href="/terms-condition" className="text-white">Terminos y Condiciones</a>
+          <a href="/terms-condition" className="text-white hover:border-b-2">Terminos</a>
+          <span className="text-white"> | </span>
+          <a href="/privacity" className="text-white hover:border-b-2">Privacidad </a>
         </div>
         <div className="w-full md:w-1/3  space-y-3">
           <div>

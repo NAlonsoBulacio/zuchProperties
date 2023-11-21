@@ -9,52 +9,53 @@ const TermsAndCondition = () => {
       <Header />
       <div className="flex justify-center items-center">
         <div className="max-w-[1100px] px-6 py-6 space-y-6">
-          <h1 className="text-xl">Terminos y condiciones</h1>
+          <h1 className="text-xl">Términos y Condiciones</h1>
           <p className="text-left text-gray-600">
-            Política de Privacidad - Zuch Properties Última Actualización:
-            17/11/2023 <br/><br/>En Zuch Properties, la privacidad y seguridad de nuestros
-            usuarios son de máxima importancia. Esta Política de Privacidad
-            describe cómo recopilamos, usamos y protegemos la información
-            personal proporcionada por los usuarios de nuestros servicios. <br/><br/><br/>1.
-            Información que Recopilamos: <br/><br/>1.1. Información Personal: Podemos
-            recopilar información personal, como nombres, direcciones de correo
-            electrónico, números de teléfono, y otra información relevante para
-            brindar nuestros servicios. <br/><br/>1.2. Información de Uso: Recopilamos
-            información sobre la forma en que los usuarios interactúan con
-            nuestra plataforma, incluidas las páginas visitadas, el tiempo de
-            visita y otras estadísticas relevantes. <br/><br/><br/>2. Uso de la Información:
-            <br/><br/>2.1. Mejora de Servicios: Utilizamos la información recopilada para
-            mejorar la calidad de nuestros servicios, personalizar la
-            experiencia del usuario y optimizar nuestras operaciones. <br/><br/>2.2.
-            Comunicación: Podemos utilizar la información de contacto
-            proporcionada para enviar actualizaciones, noticias relevantes y
-            responder a consultas de usuarios. <br/><br/><br/>3. Compartir Información: <br/><br/>3.1.
-            Con Brokers y Clientes: Zuch Properties facilita la conexión entre
-            brokers y clientes, compartiendo información relevante para
-            facilitar estas conexiones. <br/><br/>3.2. Terceros de Confianza: Podemos
-            compartir información con terceros de confianza que nos ayudan a
-            operar y mejorar nuestros servicios. <br/><br/><br/>4. Seguridad de la Información:
-            <br/><br/> 4.1. Implementamos medidas de seguridad adecuadas para proteger la
-            información personal de nuestros usuarios. Sin embargo, ninguna
-            transmisión por Internet o almacenamiento electrónico es
-            completamente segura.<br/><br/><br/> 5. Cookies y Tecnologías Similares: <br/><br/>5.1.
-            Utilizamos cookies y tecnologías similares para mejorar la
-            experiencia del usuario, realizar análisis y personalizar el
-            contenido. Al utilizar nuestros servicios, aceptas el uso de estas
-            tecnologías. <br/><br/><br/>6. Acceso y Control de la Información: <br/><br/>6.1. Los
-            usuarios tienen derecho a acceder, corregir o eliminar su
-            información personal. Pueden gestionar sus preferencias de
-            comunicación a través de la configuración de la cuenta. <br/><br/><br/>7. Cambios
-            en la Política de Privacidad: <br/><br/>7.1. Nos reservamos el derecho de
-            actualizar esta Política de Privacidad. Cualquier cambio se
-            notificará a los usuarios a través de nuestro sitio web u otros
-            medios apropiados. <br/><br/><br/>8. Contáctenos: <br/><br/>8.1. Si tienes preguntas o
-            inquietudes sobre esta Política de Privacidad, contáctanos a través
-            de zuchproperties@gmail.com. <br/><br/> Al utilizar los servicios de
-            Zuch Properties, aceptas los términos de esta Política de
-            Privacidad. <br/>
+          Términos y Condiciones - Zuch Properties Última Actualización:
+            17/11/2023 <br/><br/>Bienvenido a Zuch Properties, la
+            plataforma que facilita la conexión entre clientes y brokers en el
+            mundo inmobiliario. Antes de utilizar nuestros servicios, es
+            importante que leas y comprendas nuestros términos y condiciones. Al
+            acceder y utilizar nuestro sitio web o servicios, aceptas estar
+            legalmente vinculado por estos términos. <br/><br/>1. Servicios de Zuch
+            Properties: <br/><br/>1.1. Zuch Properties actúa como intermediario digital,
+            facilitando la conexión entre clientes y brokers en el ámbito
+            inmobiliario. <br/><br/>1.2. Nuestros servicios incluyen marketing digital,
+            promoción de propiedades, y la creación de conexiones estratégicas
+            entre compradores y vendedores. <br/><br/>2. Responsabilidades del Usuario:
+            <br/><br/>2.1. Al utilizar Zuch Properties, aceptas utilizar los servicios de
+            manera ética y legal. <br/><br/>2.2. Eres responsable de cualquier contenido
+            que publiques o compartas a través de nuestra plataforma. <br/><br/>3.
+            Relación con Brokers y Clientes: <br/><br/>3.1. Zuch Properties no es un
+            agente inmobiliario ni un corredor. No somos responsables de las
+            transacciones entre brokers y clientes. <br/><br/>3.2. Zuch Properties se
+            reserva el derecho de modificar o retirar la conexión entre
+            cualquier usuario, broker o cliente, si se considera que viola estos
+            términos. <br/><br/>4. Comisiones y Pagos: <br/><br/>4.1. Zuch Properties puede cobrar
+            comisiones por servicios específicos. Estos detalles se
+            especificarán claramente antes de la utilización del servicio. <br/><br/>4.2.
+            Los pagos deben realizarse según los términos acordados. Zuch
+            Properties no se responsabiliza de las transacciones financieras
+            entre brokers y clientes. <br/><br/>5. Privacidad y Seguridad: <br/><br/>5.1. Zuch
+            Properties se compromete a proteger la privacidad de los usuarios.
+            Consulta nuestra Política de Privacidad para obtener información
+            detallada. <br/><br/>5.2. Aunque implementamos medidas de seguridad, no
+            podemos garantizar la seguridad completa de la información
+            transmitida a través de nuestra plataforma. <br/><br/>6. Terminación de
+            Cuenta: <br/><br/>6.1. Zuch Properties se reserva el derecho de suspender o
+            cerrar cuentas que violen estos términos y condiciones. <br/><br/>6.2. Puedes
+            cerrar tu cuenta en cualquier momento, sujeto a las obligaciones
+            contractuales existentes. Estos términos y condiciones pueden
+            actualizarse periódicamente. Es responsabilidad del usuario revisar
+            regularmente los términos actuales. Al continuar utilizando Zuch
+            Properties después de cualquier cambio, aceptas los términos
+            modificados. Si tienes alguna pregunta o inquietud, contáctanos a
+            través de: Zuchproperties@gmail.com
           </p>
-          <p className="text-gray-700 text-center"><br/>Atentamente, Santiago Antúnez Muñoz CEO, Zuch Properties</p>
+          <p className="text-gray-700 text-center">
+            <br />
+            Atentamente, Santiago Antúnez Muñoz CEO, Zuch Properties
+          </p>
         </div>
       </div>
       <Footer />
