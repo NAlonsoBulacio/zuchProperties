@@ -12,6 +12,7 @@ const TopBar = () => {
       <div className="phone-div flex justify-center items-center lg:hidden">
         <div className="flex justify-center items-center">
           <div className="flex justify-center items-center space-x-4">
+            <a href="https://www.instagram.com/zuchproperties">
             <button
               className="flex justify-center items-center rounded-full h-8 w-8 transition-transform transform hover:scale-105"
               style={{ backgroundColor: "#1f1f1f" }}
@@ -21,6 +22,7 @@ const TopBar = () => {
                 style={{ height: "21px", width: "21px" }}
               />
             </button>
+            </a>
             <button
               className="flex justify-center items-center rounded-full h-8 w-8 transition-transform transform hover:scale-105"
               style={{ backgroundColor: "#1f1f1f" }}
