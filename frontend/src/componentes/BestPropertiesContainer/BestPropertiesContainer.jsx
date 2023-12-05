@@ -53,7 +53,28 @@ const BestPropertiesContainer = () => {
     },
   };
   return (
-    <div>
+    <div className="md:py-8">
+      <div className="flex justify-center">
+        <div className="w-full md:max-w-[1300px] flex flex-wrap justify-center items-center py-4 md:py-10 px-3 md:px-0">
+          <div className="w-full">
+            <h1 className="font-outfit-800 text-gray-800 text-xl md:text-5xl text-left">
+              ENCUENTRA LA PROPIEDAD, CASA O DEPARTAMENTO DE TUS SUEÑOS
+            </h1>
+          </div>
+          <div className="w-full flex justify-center md:justify-start ">
+            <div className="w-1/2">
+              <hr className="my-4 border-[1.5px] border-cyan-500" />
+            </div>
+          </div>
+          <div className="w-full">
+            <p className="text-center md:text-left text-lg md:text-2xl font-outfit-400 text-gray-700 ">
+              Tenemos propiedades en venta en todo México que se ajustan a tu
+              presupuesto y estilo. Desde Los Cabos y Puerto Vallarta en el
+              Pacífico, hasta Cancún, Tulum y Akumal en el Caribe mexicano.
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="w-full flex items-center justify-center">
         <div className="flex flex-wrap md:max-w-[1300px] items-center justify-center">
           {projects.map((datos, index) => (

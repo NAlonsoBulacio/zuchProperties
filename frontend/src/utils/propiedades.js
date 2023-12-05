@@ -1,5 +1,96 @@
 const propiedades = [
   {
+    name: "Aflora",
+    description:
+      "Al ingresar a Aflora es entrar a un santuario, es un puente entre nuestro mundo y el más allá.",
+    price: "$ 162,796 USD",
+    date: "Julio 2024",
+    photo:
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195773/Zuch%20Properties/Propiedades/Aflora/AFLORA_DEPAS_-_3BRGH_Terraza_oficbu.jpg",
+    photos: [
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195773/Zuch%20Properties/Propiedades/Aflora/AFLORA_DEPAS_-_3BRGH_Terraza_oficbu.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195771/Zuch%20Properties/Propiedades/Aflora/AFLORA_LOFTS_Cowork_jp3hmz.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195771/Zuch%20Properties/Propiedades/Aflora/AFLORA_LOFTS_Reca%CC%81mara_np3zsb.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195770/Zuch%20Properties/Propiedades/Aflora/AFLORA_DEPAS_-_3BRLUX_Ban%CC%83o_principal_kbbzwr.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195770/Zuch%20Properties/Propiedades/Aflora/AFLORA_VILLA_Reca%CC%81mara_Secundaria_fecgrm.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195769/Zuch%20Properties/Propiedades/Aflora/AFLORA_DEPAS_-_3BRLUX_2BR_Sala_comedor_cocina_ndo3g0.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195770/Zuch%20Properties/Propiedades/Aflora/AFLORA_LOFT_Ban%CC%83o_mvzzqc.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195769/Zuch%20Properties/Propiedades/Aflora/AFLORA_VILLA_Ban%CC%83o_principal_cztqpp.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195771/Zuch%20Properties/Propiedades/Aflora/AFLORA_LOFTS_Exterior_vzqepz.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195773/Zuch%20Properties/Propiedades/Aflora/AFLORA_Master_Plan_zgiaof.png",
+
+    ],
+    full_description: [
+      "Aflora es una comunidad exclusiva ubicada en la zona residencial de Aldea Zama, uno de los lugares con mayor plusvalía en el corazón de Tulum. A unos pasos de la Avenida Cobá, el acceso directo a las mundialmente famosas playas de Tulum.  El desarrollo cuenta con 199 Unidades divididas en 3 conceptos únicos;",
+      "Wonder Loft Village (Loft para estancias cortas): Loft de 425 Sq Ft - desde $162,796 USD",
+      "Magic Apartment Towers (Residencias de lujo): 1 recámara de 880 Sq Ft - desde $195,000 USD",
+      "Essence Luxury (Villas de Lujo): Villa ( 4 recámaras ) de 4738 Sq Ft – desde $812,000 USD",
+    ],
+    brochure_link:
+      "https://drive.google.com/drive/u/2/folders/19Wd10Uy4wwMzTupnT1WjgLPOdKHj6bFd",
+    amenidades: [
+      {
+        type: "Panza dinning and bar",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+      },
+      {
+        type: "Gym",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+      },
+      {
+        type: "Recepción",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+      },
+      {
+        type: "Kids playground",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/child_svsosb.png",
+      },
+      {
+        type: "Sunset Tower Lobby",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/terraza_pqwcym.png",
+      },
+
+      {
+        type: "Piscina semi olímpica",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+      },
+      {
+        type: "Coworking Lounge",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+      },
+      {
+        type: "Bath House Spa & Temazcal",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622953/amenidades/spa_iqp31s.png",
+      },
+      {
+        type: "Salon de Yoga",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/yoga_thiwct.png",
+      },
+      {
+        type: "Sculpture Garden",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+      },
+    ],
+    location_descriprion:
+      "Tulum, Quintana Roo 77760, México",
+    path: "aflora",
+    location: {
+      lat: "20.200813281498682", 
+      lng: "-87.45107208954234",
+    },
+    place_id: "1",
+  },
+  {
     name: "Akua",
     description:
       "Estudios y departamentos de 1 y 2 recámaras totalmente equipados en Áldea Zamá.",
@@ -185,6 +276,83 @@ const propiedades = [
     place_id: "2",
   },
   {
+    name: "Bahia Tankah",
+    description:
+      "Desarrollo exclusivo frente a la playa, 17 residencias lujosas con apartamentos y áticos de 1 a 3 habitaciones, piscinas privadas y vistas panorámicas al Mar Caribe y la selva maya.",
+    price: "$ 430,500 USD",
+    date: "Diciembre 2023",
+    photo:
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694715/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINALES_FRONTAL_nt2sda.webp",
+    photos: [
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694716/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINALES_LATERAL-1_kw5pgi.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694715/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINALES_VISTA-PERGOLA-1_wrlsxq.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694715/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINALES_FRONTAL_nt2sda.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694749/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINAL_DEPA_2DO_PISO_LATERAL_3_vr3ng8.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694749/Zuch%20Properties/Propiedades/Bahia%20Tankah/INTERIORES_TANKAH_VISTA_DEPA_foos4q.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694718/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINALES_VISTA-PATIO-LOBBY_nlfzjl.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694717/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINALES_VISTA-FRONTAL_lgwth3.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694717/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINALES_VISTA-DEPA_m40xvs.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694714/Zuch%20Properties/Propiedades/Bahia%20Tankah/PLANTA-ARRIBA_cgdr8i.webp",
+    ],
+    full_description: [
+      "Bahia Tankah es una zona de Tulum que se ha convertido en la zona para los que buscan invertir en el mejor lugar frente al mar en la Riviera Maya. Ubicado a pocos minutos del centro de Tulum y con una hermosa playa de aguas cristalinas, Tankah ofrece una combinación perfecta de tranquilidad, exclusividad y comodidad. Ésta se encuentra en una zona protegida, frente al arrecife de coral y tiene gran variedad de vida marina. Hay varios sitios de buceo y esnórquel populares como son Cenote Manatí, el Cenote Dos Ojos y el Cenote Caracol. De hecho Cenote Manatí, (o Casa Cenote) no solo es uno de los más hermosos de Tulum, además se encuentra literalmente a pasos de algunos de los nuevos desarrollos en Tankah.",
+      "El proyecto de 3 torres consta de un total de 17 lujosas residencias, con diferentes tipos de apartamentos y áticos de 1, 2 y 3 habitaciones, todos con piscinas privadas y donde algunas unidades también cuentan con un sistema de cierre independiente.",
+      "Su diseño de tres torres con un patio central ofrece vistas increíbles tanto del Mar Caribe como de la selva maya.",
+    ],
+    brochure_link:
+      "https://drive.google.com/drive/u/2/folders/1ZhZknmWkrDljrjs0m8i23b0YIR_QWgnr",
+    amenidades: [
+      {
+        type: "Parking",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+      },
+      {
+        type: "Lobby",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+      },
+      {
+        type: "Private Dock",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/terraza_pqwcym.png",
+      },
+      {
+        type: "Elevator",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+      },
+      {
+        type: "Swimming Pool",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+      },
+      {
+        type: "Sunbeds",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+      },
+      {
+        type: "Beach front",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1701695956/amenidades/sombrilla_wwhagq.png",
+      },
+      {
+        type: "24/7 Security",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699642475/amenidades/ejercito_pgsn7z.png",
+      },
+    ],
+    path: "bahia-tankah",
+    location_descriprion:
+      "Bahia Tankah está ubicado a pocos minutos del centro de Tulum, lo que lo hace muy conveniente para aquellos que buscan estar cerca de las atracciones y servicios de la ciudad pero al mismo tiempo buscan tranquilidad.",
+    location: {
+      lat: "20.267525119355707",
+      lng: "-87.38963967878587",
+    },
+    place_id: "1",
+  },
+  {
     name: "Becán",
     description:
       "Proyecto compuesto 18 unidades residenciales Eco chic de alta plusvalía.",
@@ -200,7 +368,6 @@ const propiedades = [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1700050829/Zuch%20Properties/Propiedades/Becan/becan_06_maxproperties-1667x903-1-1667x903_ackrv5.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1700050829/Zuch%20Properties/Propiedades/Becan/becan_08_maxproperties-1667x903-1-1667x903_qj2yc7.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1700050829/Zuch%20Properties/Propiedades/Becan/becan_02_maxproperties-1667x903-1-1667x903_ze9bd3.webp",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1700050829/Zuch%20Properties/Propiedades/Becan/becan_01_maxproperties-1667x903-1-1667x903_fh6ubz.webp0",
       ],
     full_description: [
       "Becán es el nuevo proyecto residencial ubicado en Tulum. Este desarrollo refleja nuestra conexión con la naturaleza y el Eco Chic característico de Tulum. Becán cuenta con 18 unidades residenciales de alta plusvalía que van desde los 98.35 m2 a los 127.52 m2 ",
@@ -933,6 +1100,98 @@ const propiedades = [
     place_id: "4",
   },
   {
+    name: "Narai",
+    description:
+      "NARAI TULUM es un desarrollo residencial conformado por 52 departamentos en venta en Aldea Zama, estudios, departamentos de 1 y 2 recámaras, así como espectaculares penthouses de 3 recámaras con alberca privada.",
+    price: "$ $2,850,000 MXN",
+    date: "Diciembre 2025",
+    photo:
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701784313/Zuch%20Properties/Propiedades/Narai/1.-Narai-Fachada_mu8qbj.webp",
+      photos: [
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784313/Zuch%20Properties/Propiedades/Narai/1.-Narai-Fachada_mu8qbj.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784326/Zuch%20Properties/Propiedades/Narai/7.-Narai-Jardi%CC%81n-Central_gkc6hf.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784324/Zuch%20Properties/Propiedades/Narai/4.-Narai-Reca%CC%81maras_Lock-Off_zuejdv.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784317/Zuch%20Properties/Propiedades/Narai/8.-Narai-Jardi%CC%81n-Central_amfoot.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784318/Zuch%20Properties/Propiedades/Narai/12.-Narai-PH_Unidad-50_hqbmls.jpg",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784318/Zuch%20Properties/Propiedades/Narai/11.-Narai-Estudio-Plus_ito0io.jpg",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784317/Zuch%20Properties/Propiedades/Narai/13.-Narai-PH_Unidad-52_am3dol.jpg",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784317/Zuch%20Properties/Propiedades/Narai/10.-Narai-Roof-Top_stdcoz.jpg",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784316/Zuch%20Properties/Propiedades/Narai/9.-Narai-Roof-Top_vwtlq4.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784315/Zuch%20Properties/Propiedades/Narai/3.-Narai-Gym_omcbuq.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784314/Zuch%20Properties/Propiedades/Narai/5.-Narai-Estudio_ya5a59.webp",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784319/Zuch%20Properties/Propiedades/Narai/6.-Narai-Cinema_ipvazx.jpg",
+        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784319/Zuch%20Properties/Propiedades/Narai/2.-Narai-Lobby_reeahw.webp",
+      ],
+
+    full_description: [
+      "Narai Tulum nace de un concepto de trascendencia, que te permite respirar y disfrutar sabiendo que has llegado a TU lugar. Siempre estamos en la búsqueda constante de un sentido de pertenencia, en busca de un lugar al que podamos llamar hogar.",
+      "Hemos creado un espacio que te permitirá crear momentos valiosos y crear recuerdos para toda la vida, donde ser tú mismo significa disfrutar de una vida plena. Porque si bien hay muchos lugares donde podrías vivir, Narai Tulum es más que eso, es tu hogar.",
+      "Narai Tulum cuenta con Rooftop con Alberca, Solarium, Jacuzzi, Cine, Gimnasio de 100 m2, Alberca con carril de nado, Acceso Swim up en planta baja, Recepción, Elevador, Local Comercial y más.",
+    ],
+    brochure_link:
+      "https://drive.google.com/file/d/1L32NULyerI96Lv19iLxBOufT5bypLZzQ/view?usp=drive_link",
+    amenidades: [
+      {
+        type: "Recepcion",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+      },
+      {
+        type: "Jacuzzi",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622949/amenidades/jacuzzi_ammwx7.png",
+      },
+      {
+        type: "Gym 100 m2",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+      },
+      {
+        type: "Elevador",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+      },
+      {
+        type: "Alberca con carril de nado",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+      },
+      {
+        type: "Alberca planta baja",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+      },
+      {
+        type: "Solarium",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1701782780/amenidades/bronceado_a8txfi.png",
+      },
+      {
+        type: "Cine",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/cine_davbil.png",
+      },
+      {
+        type: "Premisas Comerciales",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/restaurante_glorg4.png",
+      },
+      {
+        type: "Piscina en el techo",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1701782991/amenidades/piscina_fkkggk.png",
+      },
+    ],
+    path: "narai",
+    location_descriprion:
+      "Narai Tulum se encuentra en Aldea Zamá, Tulum, Quintana Roo, México. Forma parte de la exclusiva comunidad de Narai Tulum, dentro de la prestigiosa zona de Aldea Zamá, con una ubicación premium dentro de la misma, además de fácil acceso a la nueva Avenida Kukulcán, que en tan solo un par de minutos de recorrido te permite disfrutar de la zona hotelera y las mejores playas de Tulum.",
+    location: {
+      lat: "20.200126100324674", 
+      lng: "-87.4651210671535",
+    },
+    place_id: "1",
+  },
+  {
     name: "Paam Cheel",
     description:
       "Desarrollo exclusivo con 2 Estudios y 20 departamentos de 1 recámara con un estilo Eco Chic.",
@@ -1376,6 +1635,104 @@ const propiedades = [
     location: {
       lat: "20.193016111108783",
       lng: "-87.46820359118591",
+    },
+    place_id: "1",
+  },
+  {
+    name: "Zama Towers",
+    description:
+      "Departamentos en zona premium de Aldea Zamá.",
+    price: "$ 4,105,500 MXN",
+    date: "Entrega inmediata",
+    photo:
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786287/Zuch%20Properties/Propiedades/Zama%20Towers/03-Fachada_c7fkzv.webp",
+    photos:[
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786287/Zuch%20Properties/Propiedades/Zama%20Towers/03-Fachada_c7fkzv.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786274/Zuch%20Properties/Propiedades/Zama%20Towers/07-Lobby_1_owo5u5.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786282/Zuch%20Properties/Propiedades/Zama%20Towers/08-Lobby_jcrufp.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786280/Zuch%20Properties/Propiedades/Zama%20Towers/2d-depto-chico-comedor-_ybirya.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786272/Zuch%20Properties/Propiedades/Zama%20Towers/14-Sala-Juegos_gotbos.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786273/Zuch%20Properties/Propiedades/Zama%20Towers/22-Roof_Top_ptkks0.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786271/Zuch%20Properties/Propiedades/Zama%20Towers/18-Recamara_depto_chico_msntui.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786269/Zuch%20Properties/Propiedades/Zama%20Towers/11-Coworking_ub3git.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786267/Zuch%20Properties/Propiedades/Zama%20Towers/16-Swim_-up_m0cgug.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786266/Zuch%20Properties/Propiedades/Zama%20Towers/15-Alberca_pszlbp.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786269/Zuch%20Properties/Propiedades/Zama%20Towers/12-Cine_okwtrh.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786275/Zuch%20Properties/Propiedades/Zama%20Towers/13-Gym_jqfsld.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786275/Zuch%20Properties/Propiedades/Zama%20Towers/21-Sala_Tv_Roof_iyvemv.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701786284/Zuch%20Properties/Propiedades/Zama%20Towers/01-Fachada_z6zto7.webp",
+
+    ],
+    full_description: [
+      "Zamá towers premium es un desarrollo residencial con 24 departamentos de lujo en un entorno natural y exclusivo, con un estilo contemporáneo único e increíbles comodidades y su diseño combina elegancia y confort.",
+      "Es un desarrollo residencial que consta de 36 apartamentos desde 56.54 m2 hasta 180 m2 y 6 espacios comerciales desde 82 m2 hasta 139 m2, con un estilo contemporáneo único con increíbles comodidades y un diseño que combina la elegancia y confort.  ",
+      "Cuenta con Beach Clubs exclusivos: Vilas Pescadores y Gitano Beach.",
+    ],
+    brochure_link:
+      "https://drive.google.com/file/d/1yxkLbcuarFiywPGrCSbuPZT3SiVfUcSh/view?usp=drive_link",
+    amenidades: [
+      {
+        type: "Recepción",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+      },
+      {
+        type: "Albercas",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+      },
+      {
+        type: "Bar",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+      },
+      {
+        type: "Gimnasio",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+      },
+      {
+        type: "Cinema",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/cine_davbil.png",
+      },
+      {
+        type: "Roof Top",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/terraza_pqwcym.png",
+      },
+      {
+        type: "Coworking",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+      },
+      {
+        type: "Seguridad",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699642475/amenidades/ejercito_pgsn7z.png",
+      },
+      {
+        type: "Asoleadores",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+      },
+      {
+        type: "Estacionamiento",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+      },
+      {
+        type: "Firepit",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/fuego_mekoo1.png",
+      },
+    ],
+    location_descriprion:
+      "Localizado en Aldea Zamá, dentro de una de las zonas más exclusivas, Aldea premium. A solo 10 minutos de la playa y a 15 minutos de las pirámides de Tulum.",
+    path: "zama-towers",
+    location: {
+      lat: "20.19614815945491",
+      lng: "-87.46425281667962",
     },
     place_id: "1",
   },

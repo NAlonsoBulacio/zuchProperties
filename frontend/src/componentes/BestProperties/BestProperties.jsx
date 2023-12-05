@@ -22,7 +22,7 @@ const BestProperties = ({ imgUrl, name, price, path }) => {
     viewport={{ once: true, amount: 0.2 }}>
       <a href={`/property/${path}`}>
         <h1
-          className="font-poppins-500 text-center text-4xl p-4"
+          className="font-poppins-400 font-semibold text-center text-4xl p-4"
           style={{ color: "#1f1f1f", fontSize: "42px" }}
         >
           {name}

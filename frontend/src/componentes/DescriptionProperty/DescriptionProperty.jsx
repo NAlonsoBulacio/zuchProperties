@@ -42,7 +42,7 @@ const DescriptionProperty = ({
               ))}
             </div>
             <div className={youtube_link || theasys_link ? "flex justify-center md:justify-start items-center py-4" : "flex justify-center items-center py-4"}>
-              <a href={brochure_link}>
+              <a href={brochure_link} target="_blank">
                 <button
                   className="w-full rounded-md h-14 px-4 text-lg transition-transform transform hover:scale-105"
                   style={{ backgroundColor: "#1f1f1f", color: "#FFFFFF" }}
