@@ -45,7 +45,7 @@ const AllPropertiesContainer = ({
         <div className="w-full flex items-start justify-center py-10">
           <div className="flex flex-wrap md:max-w-[1300px] items-center justify-center">
             {properties?.map((datos, index) => (
-              <div key={index} className={properties.length === 1 ? "w-full p-4 px-8 mb-8": "w-full md:w-1/2 p-4 px-8 mb-8"}>
+              <div key={index} className={properties.length === 1 ? "w-2/3 p-4 px-8 mb-8": "w-full md:w-1/2 p-4 px-8 mb-8"}>
                 <AllProperties
                   imgUrl={datos.photo}
                   description={datos.description}

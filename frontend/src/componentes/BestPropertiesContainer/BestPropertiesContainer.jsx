@@ -18,25 +18,25 @@ const BestPropertiesContainer = () => {
     {
       name: "Lik Organic",
       img: "https://maxproperties.com.mx/wp-content/uploads/2022/05/lik_orga_inicio.png",
-      price: "3.860.000 MXN",
+      price: "2.235.477 MXN",
       path: "lik-organic",
     },
     {
       name: "Vidaraa",
       img: "https://maxproperties.com.mx/wp-content/uploads/2022/09/vidara_inicio.png",
-      price: "3.600.000 MXN",
+      price: "4.328.658 MXN",
       path: "vidaraa",
     },
     {
       name: "Becán",
       img: "https://maxproperties.com.mx/wp-content/uploads/2022/07/BECAN_INDES.webp",
-      price: "3.600.000 MXN",
+      price: "7.000.000 MXN",
       path: "becan",
     },
     {
       name: "Mar A'Bella",
       img: "https://maxproperties.com.mx/wp-content/uploads/2023/08/AnyConv.com__mar-01.webp",
-      price: "3.600.000 MXN",
+      price: "7.890.000 MXN",
       path: "mar-abella",
     },
   ];

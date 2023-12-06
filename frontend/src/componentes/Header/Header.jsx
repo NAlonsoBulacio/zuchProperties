@@ -78,7 +78,7 @@ const Header = () => {
                   className="w-auto h-auto flex justify-center items-center absolute inset-0"
                   style={{ top: "345px", right: "160px", zIndex: "5" }}
                 >
-                  <div className="div-dropdown bg-white space-y-4 py-2">
+                  {/* <div className="div-dropdown bg-white space-y-4 py-2">
                     {propiedades?.map((prop) => (
                       <div className="bg-white text-gray-800 text-left px-4">
                         <a className="a-h" href={`/property/${prop.path}`}>
@@ -86,7 +86,7 @@ const Header = () => {
                         </a>
                       </div>
                     ))}
-                  </div>
+                  // </div>   // este es el div que se desplegaba para ver las propiedades, lo saque porque era molesto*/}
                 </div>
               </a>
               <a

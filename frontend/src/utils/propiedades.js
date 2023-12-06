@@ -1492,6 +1492,97 @@ const propiedades = [
     place_id: "4",
   },
   {
+    name: "The Boat",
+    description:
+      "The Boat Residences es un desarrollo de condominios ubicado en la exclusiva área residencial de Coco Beach, sobre una avenida principal, a escasos pasos de la playa y muy cerca de la famosa Quinta Avenida.",
+    price: "$ 152,000 USD",
+    date: "Entrega Inmediata",
+    photo:
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/Exterior_V3.RGB_color_fvpanj.webp",
+    photos:[
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/Exterior_V3.RGB_color_fvpanj.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867159/Zuch%20Properties/Propiedades/The%20Boat/14_-_TheBoat_RoofTop_Mar_050417_yb0hfk.jpg",
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867176/Zuch%20Properties/Propiedades/The%20Boat/6_-_The_Boat_SALA_050917__nfmpz4.jpg",
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867175/Zuch%20Properties/Propiedades/The%20Boat/7_-_TheBoat_Cocina_050917__md1jvn.jpg",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867175/Zuch%20Properties/Propiedades/The%20Boat/8_-_The_Boat_Recamara_050917__k8thcv.jpg",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867175/Zuch%20Properties/Propiedades/The%20Boat/12_-_The_Boat_Rooftop_120817_OP1_smjxpu.jpg",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867175/Zuch%20Properties/Propiedades/The%20Boat/9_-_The_Boat_Lobby_120817_s4ekae.jpg",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867164/Zuch%20Properties/Propiedades/The%20Boat/13_-_TheBoat_050417_GYM__dbglwt.jpg",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/16_-_The_Boat_Chimenea__qn5cxd.jpg",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867159/Zuch%20Properties/Propiedades/The%20Boat/15_-_The_Boat_Rooftop_CINE_kmsj7m.jpg",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/Entrada_v2_tnwmre.webp",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/TheBoat_FachadaLateral__tyeovc.webp",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867177/Zuch%20Properties/Propiedades/The%20Boat/5_-_The_Boat_050417_CAM05__pnd9rt.jpg",  
+    
+    ],
+    full_description: [
+      "The Boat Playa del Carmen cuenta con acabados de lujo como piso de mármol arabescato en el lobby, madera de encino americano natural con laca mate y cocina de prestigiosa marca italiana con acabado tipo madera. Navega por caminos desconocidos y encuentra tu verdadera esencia. Expande tu mente y fortalece tu alma, mientras creas y disfrutas de lo que siempre has soñado en la vida. Bienvenido a bordo.",
+      "Emprende el viaje de tu vida e inicia una travesía hacia un nuevo comienzo. Rompe las ataduras en búsqueda de nuevas experiencias. Atrévete a salir de la rutina hacia un destino fascinante, deja que tus sueños se vuelvan realidad, direcciona el timón de tu vida hacia un horizonte lleno de libertad y plenitud.",
+    ],
+    brochure_link:
+      "https://drive.google.com/drive/folders/1H1fq83O779LhcdwCYLE395e3Tj6T-K4S?usp=sharing",
+    amenidades: [
+      {
+        type: "Estacionamiento subterráneo",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+      },
+      {
+        type: "Gimnasio",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+      },
+      {
+        type: "Recepción",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+      },
+      {
+        type: "Cine",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/cine_davbil.png",
+      },
+      {
+        type: "Alberca en forma de barco",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+      },
+      {
+        type: "Asoleadores",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+      },
+      {
+        type: "Firepit",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/fuego_mekoo1.png",
+      },
+      {
+        type: "Mirador",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/telescopio_pedgsr.png",
+      },
+      {
+        type: "Restaurante en Terraza",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/restaurante_glorg4.png",
+      },
+      {
+        type: "Sky lounge bar",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+      },
+    ],
+    location_descriprion:
+      "Zazil Ha, Playa del Carmen, Quintana Roo, México",
+    path: "the-boat",
+    location: {
+      lat: "20.636782528643455",
+      lng: "-87.06258020985425",
+    },
+    place_id: "3",
+  },
+  {
     name: "Vidaraa",
     description:
       "Desarrollo exclusivo de 12 niveles con tan sólo 36 departamentos.",
