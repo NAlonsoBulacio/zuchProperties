@@ -1583,6 +1583,100 @@ const propiedades = [
     place_id: "3",
   },
   {
+    name: "Urban Tower",
+    description:
+      "Desarrollo a 15 minutos de la playa, ubicado en una av principal, seguridad 24h, cine, guarderia con juegos para niños, piscina en la entrada y en el roof, gym y cochera.",
+    price: "$ 170,000 USD",
+    date: "Entrega Inmediata",
+    photo:
+      "https://lh5.googleusercontent.com/p/AF1QipPh8H2UjQqZvRsciHLhFH84gw0fo7IG7OylInQp=w203-h136-k-no",
+    photos:[
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701964979/Zuch%20Properties/Propiedades/Urban%20Tower/7_xjqum7.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701964979/Zuch%20Properties/Propiedades/Urban%20Tower/11_j4ykjv.jpg",
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964979/Zuch%20Properties/Propiedades/Urban%20Tower/10_vqsqsy.jpg",
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/8_e66fi6.jpg",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964979/Zuch%20Properties/Propiedades/Urban%20Tower/urban_y0c7pz.jpg",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964980/Zuch%20Properties/Propiedades/Urban%20Tower/6_jnnusw.jpg",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/urban2_yfvu3t.jpg",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/5_laertx.jpg",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/9_zohwij.jpg",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/4_uim7oh.jpg",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/Entrada_v2_tnwmre.webp",  
+    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964980/Zuch%20Properties/Propiedades/Urban%20Tower/6_jnnusw.jpg",  
+    
+    ],
+    full_description: [
+      "Unidades disponibles: Una, dos y tres recamaras, con cocina, baños, comedor y balcón. Desde $170,000 usd, $250,000$ usd y $300,000mil usd",
+      "Entrega inmediata y planes de financiación!!",
+      "Ventajas: Ubicada en una Zona tranquila a 10 minutos caminando de la fiesta de la 5ta av y 15 de la playa, Servicios esenciales cerca como: (OXO, gasolinerías, supermercados a una cuadra.",
+      "Por más información mándanos un msj para asesorarte!!",
+    ],
+    youtube_link:
+    "HqP8rzvxlBg",
+    brochure_link:
+      "https://drive.google.com/drive/folders/1D0apiA1r4Q9Z6KOh-fI0ZKbFSI9K6IuV?usp=drive_link",
+    amenidades: [
+      {
+        type: "Estacionamiento",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+      },
+      {
+        type: "Gimnasio",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+      },
+      {
+        type: "Cine",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/cine_davbil.png",
+      },
+      {
+        type: "Alberca",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+      },
+      {
+        type: "Restaurante en Terraza",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/restaurante_glorg4.png",
+      },
+      {
+        type: "Bar grill",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+      },
+      {
+        type: "Kids Club",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/child_svsosb.png",
+      },
+      {
+        type: "Jardin zen",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+      },
+      {
+        type: "Roof Garden",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/terraza_pqwcym.png",
+      },
+      {
+        type: "Coworking",
+        imgUrl:
+          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+      },
+    ],
+    location_descriprion:
+      "Calle 38 entre 35 y 30, Gonzalo Guerrero, 77720 Playa del Carmen, Q.R., México",
+    path: "urban-towers",
+    location: {
+      lat: "20.638884322140843",
+      lng: "-87.0712869619551",
+    },
+    place_id: "3",
+  },
+  {
     name: "Vidaraa",
     description:
       "Desarrollo exclusivo de 12 niveles con tan sólo 36 departamentos.",
