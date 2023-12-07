@@ -68,9 +68,8 @@ const BestPropertiesContainer = () => {
           </div>
           <div className="w-full">
             <p className="text-center md:text-left text-lg md:text-2xl font-outfit-400 text-gray-700 ">
-              Tenemos propiedades en venta en todo México que se ajustan a tu
-              presupuesto y estilo. Desde Los Cabos y Puerto Vallarta en el
-              Pacífico, hasta Cancún, Tulum y Akumal en el Caribe mexicano.
+              Tenemos propiedades en venta por toda la Riviera Maya que se ajustan a tu
+              presupuesto y estilo. 
             </p>
           </div>
         </div>
