@@ -1589,7 +1589,7 @@ const propiedades = [
     price: "$ 170,000 USD",
     date: "Entrega Inmediata",
     photo:
-      "https://lh5.googleusercontent.com/p/AF1QipPh8H2UjQqZvRsciHLhFH84gw0fo7IG7OylInQp=w203-h136-k-no",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701966305/Zuch%20Properties/Propiedades/Urban%20Tower/urban11_hcfic5.jpg",
     photos:[
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701964979/Zuch%20Properties/Propiedades/Urban%20Tower/7_xjqum7.jpg",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701964979/Zuch%20Properties/Propiedades/Urban%20Tower/11_j4ykjv.jpg",
