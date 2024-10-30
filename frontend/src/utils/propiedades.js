@@ -1,3 +1,55 @@
+import {
+  ascensor,
+  bar,
+  bell,
+  child,
+  cine,
+  fire,
+  fuego,
+  game,
+  garaje,
+  garden,
+  gym,
+  hamaca,
+  jacuzzi,
+  maletin,
+  meditacion,
+  parrilla,
+  pool,
+  restaurante,
+  salon,
+  secadora,
+  spa,
+  telescopio,
+  terraza,
+  yoga,
+  bici,
+  sombrilla,
+  policia,
+  aflora1,
+  aflora2,
+  aflora3,
+  aflora4,
+  aflora5,
+  aflora6,
+  aflora7,
+  aflora8,
+  akua1,
+  akua2,
+  akua3,
+  akua4,
+  akua5,
+  akua6,
+  akua7,
+  akua8,
+  bahia1,
+  bahia2,
+  bahia3,
+  bahia4,
+  bahia5,
+  bahia6,
+  bahia7,
+} from "../multimedia/index";
 const propiedades = [
   {
     name: "Aflora",
@@ -5,20 +57,16 @@ const propiedades = [
       "Al ingresar a Aflora es entrar a un santuario, es un puente entre nuestro mundo y el más allá.",
     price: "$ 162,796 USD",
     date: "Julio 2024",
-    photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195773/Zuch%20Properties/Propiedades/Aflora/AFLORA_DEPAS_-_3BRGH_Terraza_oficbu.jpg",
+    photo: aflora1,
     photos: [
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195773/Zuch%20Properties/Propiedades/Aflora/AFLORA_DEPAS_-_3BRGH_Terraza_oficbu.jpg",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195771/Zuch%20Properties/Propiedades/Aflora/AFLORA_LOFTS_Cowork_jp3hmz.jpg",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195771/Zuch%20Properties/Propiedades/Aflora/AFLORA_LOFTS_Reca%CC%81mara_np3zsb.png",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195770/Zuch%20Properties/Propiedades/Aflora/AFLORA_DEPAS_-_3BRLUX_Ban%CC%83o_principal_kbbzwr.jpg",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195770/Zuch%20Properties/Propiedades/Aflora/AFLORA_VILLA_Reca%CC%81mara_Secundaria_fecgrm.png",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195769/Zuch%20Properties/Propiedades/Aflora/AFLORA_DEPAS_-_3BRLUX_2BR_Sala_comedor_cocina_ndo3g0.jpg",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195770/Zuch%20Properties/Propiedades/Aflora/AFLORA_LOFT_Ban%CC%83o_mvzzqc.png",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195769/Zuch%20Properties/Propiedades/Aflora/AFLORA_VILLA_Ban%CC%83o_principal_cztqpp.png",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195771/Zuch%20Properties/Propiedades/Aflora/AFLORA_LOFTS_Exterior_vzqepz.png",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701195773/Zuch%20Properties/Propiedades/Aflora/AFLORA_Master_Plan_zgiaof.png",
-
+      aflora1,
+      aflora2,
+      aflora3,
+      aflora4,
+      aflora5,
+      aflora6,
+      aflora7,
+      aflora8,
     ],
     full_description: [
       "Aflora es una comunidad exclusiva ubicada en la zona residencial de Aldea Zama, uno de los lugares con mayor plusvalía en el corazón de Tulum. A unos pasos de la Avenida Cobá, el acceso directo a las mundialmente famosas playas de Tulum.  El desarrollo cuenta con 199 Unidades divididas en 3 conceptos únicos;",
@@ -31,61 +79,50 @@ const propiedades = [
     amenidades: [
       {
         type: "Panza dinning and bar",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+        imgUrl: bar,
       },
       {
         type: "Gym",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Recepción",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Kids playground",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/child_svsosb.png",
+        imgUrl: child,
       },
       {
         type: "Sunset Tower Lobby",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/terraza_pqwcym.png",
+        imgUrl: terraza,
       },
 
       {
         type: "Piscina semi olímpica",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Coworking Lounge",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+        imgUrl: salon,
       },
       {
         type: "Bath House Spa & Temazcal",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622953/amenidades/spa_iqp31s.png",
+        imgUrl: spa,
       },
       {
         type: "Salon de Yoga",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/yoga_thiwct.png",
+        imgUrl: yoga,
       },
       {
         type: "Sculpture Garden",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+        imgUrl: garden,
       },
     ],
-    location_descriprion:
-      "Tulum, Quintana Roo 77760, México",
+    location_descriprion: "Tulum, Quintana Roo 77760, México",
     path: "aflora",
     location: {
-      lat: "20.200813281498682", 
+      lat: "20.200813281498682",
       lng: "-87.45107208954234",
     },
     place_id: "1",
@@ -96,18 +133,8 @@ const propiedades = [
       "Estudios y departamentos de 1 y 2 recámaras totalmente equipados en Áldea Zamá.",
     price: "$ 109,000 USD",
     date: "Entrega inmediata",
-    photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1700053931/Zuch%20Properties/Propiedades/Akua/min/akua_min.jpg",
-    photos: [
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1700048554/Zuch%20Properties/Propiedades/Akua/01.Fachada_Akua-min_wqhqfd.jpg",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983370/Zuch%20Properties/Propiedades/Akua/02.Alberca_abajo-min_o2yo8e.jpg",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983525/Zuch%20Properties/Propiedades/Akua/Estudio_svlgvb.jpg",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983527/Zuch%20Properties/Propiedades/Akua/v1_roof_daylight-min_bz3v2u.jpg",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983528/Zuch%20Properties/Propiedades/Akua/CO_WORKING-min_usb3uc.jpg",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983250/Zuch%20Properties/Propiedades/Akua/BUSSINES_CENTER__ejly2r.jpg",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983246/Zuch%20Properties/Propiedades/Akua/Ban%CC%83o_kribuy.jpg",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1699983526/Zuch%20Properties/Propiedades/Akua/Gym_-min_yoyxwe.jpg",
-    ],
+    photo: akua1,
+    photos: [akua1, akua2, akua3, akua4, akua5, akua6, akua7, akua8],
     full_description: [
       "Akua se nutre de los elementos sagrados que el agua nos brinda, para jugar con ellos de una manera sutil y encantadora, logrando así una perfecta fusión entre arquitectura moderna y amor por los majestuosos cenotes.",
       "El imponente y misterioso estilo de AKUA se percibe desde el inicio, presentando una hipnótica fachada en donde el diseño y la innovación coquetean entre líneas rectas, formas orgánicas, dando origen a un verdadero sello personal que lo distingue de los demás.",
@@ -118,64 +145,52 @@ const propiedades = [
     amenidades: [
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Gym en dos niveles",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Recepción",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Elevador",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+        imgUrl: ascensor,
       },
 
       {
         type: "Piscina en Roofgarden",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Jardin",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+        imgUrl: garden,
       },
       {
         type: "Lavanderia",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/secadora_nuv6xb.png",
+        imgUrl: secadora,
       },
       {
         type: "Coworking",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+        imgUrl: salon,
       },
       {
         type: "Cine",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/cine_davbil.png",
+        imgUrl: cine,
       },
       {
         type: "Centro de negocios",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622950/amenidades/maletin_xqyxvg.png",
+        imgUrl: maletin,
       },
       {
         type: "Temazcal",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622953/amenidades/spa_iqp31s.png",
+        imgUrl: spa,
       },
       {
         type: "Salon de Yoga",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/yoga_thiwct.png",
+        imgUrl: yoga,
       },
     ],
     location_descriprion:
@@ -210,60 +225,49 @@ const propiedades = [
       "¡Vivir en Athimar, será hacer un sueño realidad! Tendrás a tu alcance todas las comodidades y el confort de la vida ideal que siempre imaginaste.",
       "Athimar es un edificio de 6 niveles. Cuenta con 25 unidades conformadas por 8 tipologías diferentes entre las que podrás encontrar departamentos de 1 a 3 recámaras, con terraza, rooftop o jacuzzi e increíbles amenidades.",
     ],
-    youtube_link:
-      "VVYUEEc-NYE",
+    youtube_link: "VVYUEEc-NYE",
     brochure_link:
       "https://drive.google.com/drive/folders/1Xc6mQdtInwbhzg6MiaUVw19D0eyZDa5r",
     amenidades: [
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Bar",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+        imgUrl: bar,
       },
       {
         type: "Estacionamiento bicicletas",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627214/amenidades/bicicleta_r70tsf.png",
+        imgUrl: bici,
       },
       {
         type: "Sala de juntas",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+        imgUrl: salon,
       },
       {
         type: "Centro de negocios",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622950/amenidades/maletin_xqyxvg.png",
+        imgUrl: maletin,
       },
       {
         type: "Vestíbulo",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Gimnasio",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Alberca",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Asoleadores",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+        imgUrl: hamaca,
       },
       {
         type: "Área de asadores",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/parrilla_gldpkq.png",
+        imgUrl: parrilla,
       },
     ],
     path: "athimar",
@@ -282,17 +286,15 @@ const propiedades = [
     price: "$ 430,500 USD",
     date: "Diciembre 2023",
     photo:
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694715/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINALES_FRONTAL_nt2sda.webp",
+    bahia1,
     photos: [
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694716/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINALES_LATERAL-1_kw5pgi.webp",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694715/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINALES_VISTA-PERGOLA-1_wrlsxq.webp",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694715/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINALES_FRONTAL_nt2sda.webp",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694749/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINAL_DEPA_2DO_PISO_LATERAL_3_vr3ng8.jpg",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694749/Zuch%20Properties/Propiedades/Bahia%20Tankah/INTERIORES_TANKAH_VISTA_DEPA_foos4q.jpg",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694718/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINALES_VISTA-PATIO-LOBBY_nlfzjl.webp",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694717/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINALES_VISTA-FRONTAL_lgwth3.webp",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694717/Zuch%20Properties/Propiedades/Bahia%20Tankah/FINALES_VISTA-DEPA_m40xvs.webp",
-      "https://res.cloudinary.com/doczyujqf/image/upload/v1701694714/Zuch%20Properties/Propiedades/Bahia%20Tankah/PLANTA-ARRIBA_cgdr8i.webp",
+      bahia1,
+  bahia2,
+  bahia3,
+  bahia4,
+  bahia5,
+  bahia6,
+  bahia7,
     ],
     full_description: [
       "Bahia Tankah es una zona de Tulum que se ha convertido en la zona para los que buscan invertir en el mejor lugar frente al mar en la Riviera Maya. Ubicado a pocos minutos del centro de Tulum y con una hermosa playa de aguas cristalinas, Tankah ofrece una combinación perfecta de tranquilidad, exclusividad y comodidad. Ésta se encuentra en una zona protegida, frente al arrecife de coral y tiene gran variedad de vida marina. Hay varios sitios de buceo y esnórquel populares como son Cenote Manatí, el Cenote Dos Ojos y el Cenote Caracol. De hecho Cenote Manatí, (o Casa Cenote) no solo es uno de los más hermosos de Tulum, además se encuentra literalmente a pasos de algunos de los nuevos desarrollos en Tankah.",
@@ -304,43 +306,37 @@ const propiedades = [
     amenidades: [
       {
         type: "Parking",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Lobby",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Private Dock",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/terraza_pqwcym.png",
+        imgUrl: terraza,
       },
       {
         type: "Elevator",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+        imgUrl: ascensor,
       },
       {
         type: "Swimming Pool",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Sunbeds",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+        imgUrl: hamaca,
       },
       {
         type: "Beach front",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1701695956/amenidades/sombrilla_wwhagq.png",
+          sombrilla,
       },
       {
         type: "24/7 Security",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699642475/amenidades/ejercito_pgsn7z.png",
+          policia
       },
     ],
     path: "bahia-tankah",
@@ -360,7 +356,7 @@ const propiedades = [
     date: "Octubre 2023",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1700050830/Zuch%20Properties/Propiedades/Becan/becan_03_maxproperties-1667x903-1-1667x903_prp3fu.webp",
-    photos:[
+    photos: [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1700050830/Zuch%20Properties/Propiedades/Becan/becan_03_maxproperties-1667x903-1-1667x903_prp3fu.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1700050830/Zuch%20Properties/Propiedades/Becan/becan_09_maxproperties-1667x903-1-1667x903_acbjjp.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1700050829/Zuch%20Properties/Propiedades/Becan/becan_07_maxproperties-1667x903-1-1667x903_zx6um6.webp",
@@ -368,7 +364,7 @@ const propiedades = [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1700050829/Zuch%20Properties/Propiedades/Becan/becan_06_maxproperties-1667x903-1-1667x903_ackrv5.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1700050829/Zuch%20Properties/Propiedades/Becan/becan_08_maxproperties-1667x903-1-1667x903_qj2yc7.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1700050829/Zuch%20Properties/Propiedades/Becan/becan_02_maxproperties-1667x903-1-1667x903_ze9bd3.webp",
-      ],
+    ],
     full_description: [
       "Becán es el nuevo proyecto residencial ubicado en Tulum. Este desarrollo refleja nuestra conexión con la naturaleza y el Eco Chic característico de Tulum. Becán cuenta con 18 unidades residenciales de alta plusvalía que van desde los 98.35 m2 a los 127.52 m2 ",
     ],
@@ -379,43 +375,37 @@ const propiedades = [
     amenidades: [
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Bar",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+        imgUrl: bar,
       },
       {
         type: "Firepit",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/fuego_mekoo1.png",
+          fire,
       },
       {
         type: "Game room",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/game_nbaij6.png",
+         game,
       },
       {
         type: "Lobby",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Gimnasio",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Alberca",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Camastro",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+        imgUrl: hamaca,
       },
     ],
     path: "becan",
@@ -452,63 +442,52 @@ const propiedades = [
     amenidades: [
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Jacuzzi",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622949/amenidades/jacuzzi_ammwx7.png",
+          jacuzzi,
       },
       {
         type: "Elevador",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+        imgUrl: ascensor,
       },
       {
         type: "Coworking",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+        imgUrl: salon,
       },
       {
         type: "Centro de negocios",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622950/amenidades/maletin_xqyxvg.png",
+        imgUrl: maletin,
       },
       {
         type: "Jardines",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+        imgUrl: garden,
       },
       {
         type: "Gym en dos niveles",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Piscina en Roofgarden",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Lavanderia",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/secadora_nuv6xb.png",
+        imgUrl: secadora,
       },
       {
         type: "Cine",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/cine_davbil.png",
+        imgUrl: cine,
       },
       {
         type: "Salon de Yoga",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/yoga_thiwct.png",
+        imgUrl: yoga,
       },
       {
         type: "Temazcal",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622953/amenidades/spa_iqp31s.png",
+        imgUrl: spa,
       },
     ],
     path: "balam",
@@ -547,49 +526,42 @@ const propiedades = [
     amenidades: [
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Salas de Juegos",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+        imgUrl: salon,
       },
       {
         type: "Lobby",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Gym",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Alberca",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Camastro",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+        imgUrl: hamaca,
       },
       {
         type: "Bar",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+        imgUrl: bar,
       },
       {
         type: "Firepit",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/fuego_mekoo1.png",
+          fire,
       },
     ],
     path: "calakmul",
     location_descriprion:
       "Av. Central, Aldea Zamá Premium, Tulum. 77765 Quintana Roo.",
-      place_id: "1",
+    place_id: "1",
     location: {
       lat: "20.19396111151585",
       lng: "-87.45997921946264",
@@ -623,59 +595,49 @@ const propiedades = [
     amenidades: [
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Gym",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Recepción",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Elevador",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+        imgUrl: ascensor,
       },
 
       {
         type: "Piscina",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Jardin",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+        imgUrl: garden,
       },
       {
         type: "Pool bar",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+        imgUrl: bar,
       },
       {
         type: "Seguridad",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699642475/amenidades/ejercito_pgsn7z.png",
+          policia
       },
       {
         type: "Spa",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622953/amenidades/spa_iqp31s.png",
+        imgUrl: spa,
       },
       {
         type: "Salon de Yoga",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/yoga_thiwct.png",
+        imgUrl: yoga,
       },
       {
         type: "Lobby nomada",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
     ],
     location_descriprion:
@@ -712,59 +674,51 @@ const propiedades = [
     amenidades: [
       {
         type: "Cine",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/cine_davbil.png",
+        imgUrl: cine,
       },
       {
         type: "Game room",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/game_nbaij6.png",
+         game,
       },
       {
         type: "Recepcion",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Gym",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Albercas",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Jardines",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+        imgUrl: garden,
       },
       {
         type: "Pool bar",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+        imgUrl: bar,
       },
       {
         type: "Seguridad",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699642475/amenidades/ejercito_pgsn7z.png",
+          policia
       },
       {
         type: "Roof top",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/terraza_pqwcym.png",
+        imgUrl: terraza,
       },
       {
         type: "Coworking",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+        imgUrl: salon,
       },
     ],
     path: "edzna",
     location_descriprion:
       "Edzna se encuentra en Aldea Premium 1 de Aldea Zamá, considerado la zona más exclusiva de Tulum en el corazón de la Riviera maya.",
-      place_id:"1",
+    place_id: "1",
     location: {
       lat: "20.203340729377743",
       lng: "-87.46126953837292",
@@ -796,49 +750,43 @@ const propiedades = [
     amenidades: [
       {
         type: "Club de playa",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+        imgUrl: hamaca,
       },
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Recepcion",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Gym",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Piscina",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Coworking",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+        imgUrl: salon,
       },
       {
         type: "Firepit",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/fuego_mekoo1.png",
+          fire,
       },
       {
         type: "Mirador",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/telescopio_pedgsr.png",
+          telescopio,
       },
     ],
     path: "lik-organic",
     location_descriprion:
       "Municipio de Tulum Aldea Zamá Premium, 77765 Tulum, Quintana Roo",
-      place_id: "1",
+    place_id: "1",
     location: {
       lat: "20.18760404842734",
       lng: "-87.46492157923684",
@@ -869,39 +817,33 @@ const propiedades = [
     amenidades: [
       {
         type: "Elevador",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+        imgUrl: ascensor,
       },
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Lobby",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Gym",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Piscina",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Camastro",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+        imgUrl: hamaca,
       },
     ],
     path: "lik-zama",
     location_descriprion:
       "Municipio de Tulum Aldea Zamá Premium, 77765 Tulum, Quintana Roo",
-      place_id: "1",
+    place_id: "1",
     location: {
       lat: "20.201103605114167",
       lng: "-87.46297259155084",
@@ -915,15 +857,14 @@ const propiedades = [
     date: "Enero 2023",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699988817/Zuch%20Properties/Propiedades/Lik%20Xelba/10-Sendero_hhjwfb.jpg",
-      photos: [
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699988811/Zuch%20Properties/Propiedades/Lik%20Xelba/01-Fachada_y3wepy.jpg",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699988808/Zuch%20Properties/Propiedades/Lik%20Xelba/06-lobby_vovxyc.jpg",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699988803/Zuch%20Properties/Propiedades/Lik%20Xelba/13-Transversal_vofduv.jpg",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699988803/Zuch%20Properties/Propiedades/Lik%20Xelba/11-Gym_egjmk6.jpg",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699988806/Zuch%20Properties/Propiedades/Lik%20Xelba/12-Comedor_ykcrlc.jpg",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699988801/Zuch%20Properties/Propiedades/Lik%20Xelba/07-alberca_rrhqfg.jpg",
-        
-      ],
+    photos: [
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699988811/Zuch%20Properties/Propiedades/Lik%20Xelba/01-Fachada_y3wepy.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699988808/Zuch%20Properties/Propiedades/Lik%20Xelba/06-lobby_vovxyc.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699988803/Zuch%20Properties/Propiedades/Lik%20Xelba/13-Transversal_vofduv.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699988803/Zuch%20Properties/Propiedades/Lik%20Xelba/11-Gym_egjmk6.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699988806/Zuch%20Properties/Propiedades/Lik%20Xelba/12-Comedor_ykcrlc.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699988801/Zuch%20Properties/Propiedades/Lik%20Xelba/07-alberca_rrhqfg.jpg",
+    ],
     full_description: [
       "Lik Xelba es un nuevo edificio de condominios con 63 estudios y penthouses. El edificio Lik Xelba constará de Planta Baja, Tres Niveles y un Rooftop con amenidades, tales como: Acceso a Beach Clubs, Rooftop pool, Solarium, Bar, Gym, Enorme jardín endémico central, Lobby, Estacionamiento y Seguridad 24/7.",
       "En Lik Xelba, sé parte de Tulum con un perfecto equilibrio con la naturaleza. Encuéntrate y crea conexión con la madre naturaleza en un ambiente de armonía. Después de nuestros exitosos desarrollos residenciales: Lik Tulum, Lik Organic, Lik Zamá 1 y 2… llega uno más de la familia Lik… Lik Xelba.",
@@ -933,39 +874,33 @@ const propiedades = [
     amenidades: [
       {
         type: "Elevador",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+        imgUrl: ascensor,
       },
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Lobby",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Gym",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Piscina",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Camastro",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+        imgUrl: hamaca,
       },
     ],
     path: "lik-xelba",
     location_descriprion:
       "Lik Xelba está ubicado en la Región 15, una de las zonas de mayor crecimiento de Tulum, lo que te permite disfrutar del entorno mientras haces un recorrido hacia las playas públicas, clubes de playa, cenotes, ruinas de tulum y el centro; haciendo de Tulum la experiencia más placentera.",
-      place_id: "1",
+    place_id: "1",
     location: {
       lat: "20.201103605114167",
       lng: "-87.46297259155084",
@@ -979,19 +914,19 @@ const propiedades = [
     date: "Diciembre 2025",
     photo:
       "https://maxproperties.com.mx/wp-content/uploads/2023/08/AnyConv.com__mar-01.webp",
-      photos: [
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986204/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-01_rzepu6.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986207/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-05_rav4co.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986205/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-03_i7wd6d.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986204/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-02_ypxjg5.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986207/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-04_q0iiet.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986208/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-06_cxshyk.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986210/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-07_tlsca1.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986210/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-08_ezxi0x.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986202/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-11_ev34b2.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986202/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-10_lyh7fy.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986212/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-09_n1zavw.webp",
-      ],
+    photos: [
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986204/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-01_rzepu6.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986207/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-05_rav4co.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986205/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-03_i7wd6d.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986204/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-02_ypxjg5.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986207/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-04_q0iiet.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986208/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-06_cxshyk.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986210/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-07_tlsca1.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986210/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-08_ezxi0x.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986202/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-11_ev34b2.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986202/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-10_lyh7fy.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986212/Zuch%20Properties/Propiedades/Mar%20a%20Bella/AnyConv.com__mar-09_n1zavw.webp",
+    ],
 
     full_description: [
       "Mar A’Bella Cancun es un complejo residencial con 2 majestuosas torres en Costa Mujeres, frente al Mar Caribe. Descubre sus exclusivos departamentos de 3 y 5 recámaras en venta con impresionantes vistas al mar y acceso directo a la playa. ",
@@ -1001,43 +936,36 @@ const propiedades = [
     amenidades: [
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Jacuzzi",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622949/amenidades/jacuzzi_ammwx7.png",
+          jacuzzi,
       },
       {
         type: "Elevador",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+        imgUrl: ascensor,
       },
       {
         type: "Recepcion",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Asadores",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/parrilla_gldpkq.png",
+        imgUrl: parrilla,
       },
       {
         type: "Jardin Zen",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+        imgUrl: garden,
       },
       {
         type: "Gym",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Alberca",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Area infantil",
@@ -1046,23 +974,19 @@ const propiedades = [
       },
       {
         type: "Terraza",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/terraza_pqwcym.png",
+        imgUrl: terraza,
       },
       {
         type: "Salon de Yoga",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/yoga_thiwct.png",
+        imgUrl: yoga,
       },
       {
         type: "Zona de meditacion",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622953/amenidades/spa_iqp31s.png",
+        imgUrl: spa,
       },
       {
         type: "Salas Lounge",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+        imgUrl: hamaca,
       },
       {
         type: "Hamacas",
@@ -1072,22 +996,21 @@ const propiedades = [
       {
         type: "Firepit",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/fuego_mekoo1.png",
+          fire,
       },
       {
         type: "Spa",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/meditacion_wjqbzp.png",
+         meditacion,
       },
       {
         type: "Bar",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+        imgUrl: bar,
       },
       {
         type: "Zona comercial",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/restaurante_glorg4.png",
+          restaurante,
       },
     ],
     path: "mar-abella",
@@ -1107,21 +1030,21 @@ const propiedades = [
     date: "Diciembre 2025",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701784313/Zuch%20Properties/Propiedades/Narai/1.-Narai-Fachada_mu8qbj.webp",
-      photos: [
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784313/Zuch%20Properties/Propiedades/Narai/1.-Narai-Fachada_mu8qbj.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784326/Zuch%20Properties/Propiedades/Narai/7.-Narai-Jardi%CC%81n-Central_gkc6hf.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784324/Zuch%20Properties/Propiedades/Narai/4.-Narai-Reca%CC%81maras_Lock-Off_zuejdv.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784317/Zuch%20Properties/Propiedades/Narai/8.-Narai-Jardi%CC%81n-Central_amfoot.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784318/Zuch%20Properties/Propiedades/Narai/12.-Narai-PH_Unidad-50_hqbmls.jpg",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784318/Zuch%20Properties/Propiedades/Narai/11.-Narai-Estudio-Plus_ito0io.jpg",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784317/Zuch%20Properties/Propiedades/Narai/13.-Narai-PH_Unidad-52_am3dol.jpg",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784317/Zuch%20Properties/Propiedades/Narai/10.-Narai-Roof-Top_stdcoz.jpg",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784316/Zuch%20Properties/Propiedades/Narai/9.-Narai-Roof-Top_vwtlq4.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784315/Zuch%20Properties/Propiedades/Narai/3.-Narai-Gym_omcbuq.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784314/Zuch%20Properties/Propiedades/Narai/5.-Narai-Estudio_ya5a59.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784319/Zuch%20Properties/Propiedades/Narai/6.-Narai-Cinema_ipvazx.jpg",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1701784319/Zuch%20Properties/Propiedades/Narai/2.-Narai-Lobby_reeahw.webp",
-      ],
+    photos: [
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701784313/Zuch%20Properties/Propiedades/Narai/1.-Narai-Fachada_mu8qbj.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701784326/Zuch%20Properties/Propiedades/Narai/7.-Narai-Jardi%CC%81n-Central_gkc6hf.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701784324/Zuch%20Properties/Propiedades/Narai/4.-Narai-Reca%CC%81maras_Lock-Off_zuejdv.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701784317/Zuch%20Properties/Propiedades/Narai/8.-Narai-Jardi%CC%81n-Central_amfoot.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701784318/Zuch%20Properties/Propiedades/Narai/12.-Narai-PH_Unidad-50_hqbmls.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701784318/Zuch%20Properties/Propiedades/Narai/11.-Narai-Estudio-Plus_ito0io.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701784317/Zuch%20Properties/Propiedades/Narai/13.-Narai-PH_Unidad-52_am3dol.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701784317/Zuch%20Properties/Propiedades/Narai/10.-Narai-Roof-Top_stdcoz.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701784316/Zuch%20Properties/Propiedades/Narai/9.-Narai-Roof-Top_vwtlq4.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701784315/Zuch%20Properties/Propiedades/Narai/3.-Narai-Gym_omcbuq.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701784314/Zuch%20Properties/Propiedades/Narai/5.-Narai-Estudio_ya5a59.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701784319/Zuch%20Properties/Propiedades/Narai/6.-Narai-Cinema_ipvazx.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701784319/Zuch%20Properties/Propiedades/Narai/2.-Narai-Lobby_reeahw.webp",
+    ],
 
     full_description: [
       "Narai Tulum nace de un concepto de trascendencia, que te permite respirar y disfrutar sabiendo que has llegado a TU lugar. Siempre estamos en la búsqueda constante de un sentido de pertenencia, en busca de un lugar al que podamos llamar hogar.",
@@ -1133,33 +1056,28 @@ const propiedades = [
     amenidades: [
       {
         type: "Recepcion",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Jacuzzi",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622949/amenidades/jacuzzi_ammwx7.png",
+          jacuzzi,
       },
       {
         type: "Gym 100 m2",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Elevador",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+        imgUrl: ascensor,
       },
       {
         type: "Alberca con carril de nado",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Alberca planta baja",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Solarium",
@@ -1168,13 +1086,12 @@ const propiedades = [
       },
       {
         type: "Cine",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/cine_davbil.png",
+        imgUrl: cine,
       },
       {
         type: "Premisas Comerciales",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/restaurante_glorg4.png",
+          restaurante,
       },
       {
         type: "Piscina en el techo",
@@ -1186,7 +1103,7 @@ const propiedades = [
     location_descriprion:
       "Narai Tulum se encuentra en Aldea Zamá, Tulum, Quintana Roo, México. Forma parte de la exclusiva comunidad de Narai Tulum, dentro de la prestigiosa zona de Aldea Zamá, con una ubicación premium dentro de la misma, además de fácil acceso a la nueva Avenida Kukulcán, que en tan solo un par de minutos de recorrido te permite disfrutar de la zona hotelera y las mejores playas de Tulum.",
     location: {
-      lat: "20.200126100324674", 
+      lat: "20.200126100324674",
       lng: "-87.4651210671535",
     },
     place_id: "1",
@@ -1199,16 +1116,16 @@ const propiedades = [
     date: "Septiembre 2023",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699986457/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_07-1200x700_xjjlk4.webp",
-      photos: [
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986367/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_01-1200x700_yewe9a.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986451/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_03-1200x700_spbiwt.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986456/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_06-1200x700_fcnhul.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986449/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_02-1200x700_l8j8em.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986453/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_05-1200x700_qrlnu6.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986452/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_04-1200x700_kpnv6t.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986457/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_07-1200x700_xjjlk4.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986458/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_08-1200x700_b8dkfe.webp",
-      ],
+    photos: [
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986367/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_01-1200x700_yewe9a.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986451/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_03-1200x700_spbiwt.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986456/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_06-1200x700_fcnhul.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986449/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_02-1200x700_l8j8em.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986453/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_05-1200x700_qrlnu6.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986452/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_04-1200x700_kpnv6t.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986457/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_07-1200x700_xjjlk4.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986458/Zuch%20Properties/Propiedades/Paam%20Cheel/paam_cheel_08-1200x700_b8dkfe.webp",
+    ],
     full_description: [
       "Eco Chic Apartments",
       "Paam Cheel es un desarrollo residencial integrado por 40 unidades, 20 estudios y 20 departamentos de 1 recámara con un estilo Eco Chic Chic, donde se combina lo estético, lo regional, la modernidad, los materiales de la región  y la naturaleza. Adentrado a su entorno tiene e invita a quedarte.",
@@ -1219,43 +1136,36 @@ const propiedades = [
     amenidades: [
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Beach club",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+        imgUrl: bar,
       },
       {
         type: "Lobby",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Camastro",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+        imgUrl: hamaca,
       },
       {
         type: "Gimnasio",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Alberca",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Seguridad 24/7",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699642475/amenidades/ejercito_pgsn7z.png",
+          policia
       },
       {
         type: "Área de bbq",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/parrilla_gldpkq.png",
+        imgUrl: parrilla,
       },
     ],
     path: "paam-cheel",
@@ -1275,16 +1185,15 @@ const propiedades = [
     date: "Agosto 2023",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699986852/Zuch%20Properties/Propiedades/Parques%20Zama/102-1667x903_bpracb.webp",
-      photos: [
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986850/Zuch%20Properties/Propiedades/Parques%20Zama/100-1667x903_jrbdvf.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986847/Zuch%20Properties/Propiedades/Parques%20Zama/106-1667x903_y0j0qc.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986849/Zuch%20Properties/Propiedades/Parques%20Zama/107-1667x903_d2hg3x.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986552/Zuch%20Properties/Propiedades/Parques%20Zama/105-1667x903_op7owa.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986566/Zuch%20Properties/Propiedades/Parques%20Zama/108-1667x903_tb3zlv.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986564/Zuch%20Properties/Propiedades/Parques%20Zama/109-1667x903_puebwn.webp",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986852/Zuch%20Properties/Propiedades/Parques%20Zama/102-1667x903_bpracb.webp",
-
-      ],
+    photos: [
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986850/Zuch%20Properties/Propiedades/Parques%20Zama/100-1667x903_jrbdvf.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986847/Zuch%20Properties/Propiedades/Parques%20Zama/106-1667x903_y0j0qc.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986849/Zuch%20Properties/Propiedades/Parques%20Zama/107-1667x903_d2hg3x.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986552/Zuch%20Properties/Propiedades/Parques%20Zama/105-1667x903_op7owa.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986566/Zuch%20Properties/Propiedades/Parques%20Zama/108-1667x903_tb3zlv.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986564/Zuch%20Properties/Propiedades/Parques%20Zama/109-1667x903_puebwn.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986852/Zuch%20Properties/Propiedades/Parques%20Zama/102-1667x903_bpracb.webp",
+    ],
     full_description: [
       "Un proyecto compuesto por 5 torres de departamentos de 1, 2 y 3 recámaras con sistema lock off, ubicado en la nueva zona comercial de Aldea Zama. ",
       "Parques Zama también contará con una extensa área comercial de más de 2,500 m! con estacionamiento propio.",
@@ -1296,33 +1205,27 @@ const propiedades = [
     amenidades: [
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Beach club",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+        imgUrl: bar,
       },
       {
         type: "Vestibulo",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Elevador",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+        imgUrl: ascensor,
       },
       {
         type: "Gimnasio",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Albercas",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Area infantil",
@@ -1331,28 +1234,24 @@ const propiedades = [
       },
       {
         type: "Cine",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/cine_davbil.png",
+        imgUrl: cine,
       },
       {
         type: "Bar",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+        imgUrl: bar,
       },
       {
         type: "Zona comercial",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/restaurante_glorg4.png",
+          restaurante,
       },
       {
         type: "Jardines",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+        imgUrl: garden,
       },
       {
         type: "Coworking",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+        imgUrl: salon,
       },
     ],
     path: "parques-zama",
@@ -1370,19 +1269,18 @@ const propiedades = [
     date: "Julio 2025",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699986888/Zuch%20Properties/Propiedades/Thalassa/thalassa-07_q8casu.png",
-      photos: [
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986883/Zuch%20Properties/Propiedades/Thalassa/thalassa-04_gj2s3e.png",
-        'https://res.cloudinary.com/doczyujqf/image/upload/v1699986888/Zuch%20Properties/Propiedades/Thalassa/thalassa-07_q8casu.png',
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986888/Zuch%20Properties/Propiedades/Thalassa/thalassa-08_gjunv6.png",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986899/Zuch%20Properties/Propiedades/Thalassa/thalassa-11_putzji.png",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986896/Zuch%20Properties/Propiedades/Thalassa/thalassa-02_vqzg9k.png",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986893/Zuch%20Properties/Propiedades/Thalassa/thalassa-10_u10dis.png",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986895/Zuch%20Properties/Propiedades/Thalassa/thalassa-01_xlqkda.png",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986887/Zuch%20Properties/Propiedades/Thalassa/thalassa-06_kazhg4.png",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986885/Zuch%20Properties/Propiedades/Thalassa/thalassa-05_bfj1ge.png",
-        "https://res.cloudinary.com/doczyujqf/image/upload/v1699986890/Zuch%20Properties/Propiedades/Thalassa/thalassa-03_payryl.png",
-
-      ],
+    photos: [
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986883/Zuch%20Properties/Propiedades/Thalassa/thalassa-04_gj2s3e.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986888/Zuch%20Properties/Propiedades/Thalassa/thalassa-07_q8casu.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986888/Zuch%20Properties/Propiedades/Thalassa/thalassa-08_gjunv6.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986899/Zuch%20Properties/Propiedades/Thalassa/thalassa-11_putzji.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986896/Zuch%20Properties/Propiedades/Thalassa/thalassa-02_vqzg9k.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986893/Zuch%20Properties/Propiedades/Thalassa/thalassa-10_u10dis.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986895/Zuch%20Properties/Propiedades/Thalassa/thalassa-01_xlqkda.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986887/Zuch%20Properties/Propiedades/Thalassa/thalassa-06_kazhg4.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986885/Zuch%20Properties/Propiedades/Thalassa/thalassa-05_bfj1ge.png",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986890/Zuch%20Properties/Propiedades/Thalassa/thalassa-03_payryl.png",
+    ],
     full_description: [
       "Bienvenido al proyecto de departamentos más exclusivo de Cancún, donde la modernidad y la elegancia se fusionan con la influencia clásica de la antigua Grecia. Aquí, la arquitectura moderna y el toque jónico se combinan para crear un estilo único.",
       "Situado en la segunda línea de mar de Cancún, este proyecto de departamentos ofrece un estilo de vida de lujo y comodidad incomparables.",
@@ -1393,33 +1291,27 @@ const propiedades = [
     amenidades: [
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Terraza",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/terraza_pqwcym.png",
+        imgUrl: terraza,
       },
       {
         type: "Recepción",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Elevador",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+        imgUrl: ascensor,
       },
       {
         type: "Gimnasio",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Albercas",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Area infantil",
@@ -1428,48 +1320,43 @@ const propiedades = [
       },
       {
         type: "Zona de Yoga",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/yoga_thiwct.png",
+        imgUrl: yoga,
       },
       {
         type: "Bar",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+        imgUrl: bar,
       },
       {
         type: "Zona comercial",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/restaurante_glorg4.png",
+          restaurante,
       },
       {
         type: "Jardin zen",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+        imgUrl: garden,
       },
       {
         type: "Salas Lounge",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+        imgUrl: hamaca,
       },
       {
         type: "Spa",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/meditacion_wjqbzp.png",
+         meditacion,
       },
       {
         type: "Zona de meditacion",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622953/amenidades/spa_iqp31s.png",
+        imgUrl: spa,
       },
       {
         type: "Jacuzzi",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622949/amenidades/jacuzzi_ammwx7.png",
+          jacuzzi,
       },
       {
         type: "Firepit",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/fuego_mekoo1.png",
+          fire,
       },
       {
         type: "Hamacas",
@@ -1478,8 +1365,7 @@ const propiedades = [
       },
       {
         type: "Asadores",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/parrilla_gldpkq.png",
+        imgUrl: parrilla,
       },
     ],
     location_descriprion:
@@ -1499,21 +1385,20 @@ const propiedades = [
     date: "Entrega Inmediata",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/Exterior_V3.RGB_color_fvpanj.webp",
-    photos:[
+    photos: [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/Exterior_V3.RGB_color_fvpanj.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701867159/Zuch%20Properties/Propiedades/The%20Boat/14_-_TheBoat_RoofTop_Mar_050417_yb0hfk.jpg",
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867176/Zuch%20Properties/Propiedades/The%20Boat/6_-_The_Boat_SALA_050917__nfmpz4.jpg",
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867175/Zuch%20Properties/Propiedades/The%20Boat/7_-_TheBoat_Cocina_050917__md1jvn.jpg",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867175/Zuch%20Properties/Propiedades/The%20Boat/8_-_The_Boat_Recamara_050917__k8thcv.jpg",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867175/Zuch%20Properties/Propiedades/The%20Boat/12_-_The_Boat_Rooftop_120817_OP1_smjxpu.jpg",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867175/Zuch%20Properties/Propiedades/The%20Boat/9_-_The_Boat_Lobby_120817_s4ekae.jpg",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867164/Zuch%20Properties/Propiedades/The%20Boat/13_-_TheBoat_050417_GYM__dbglwt.jpg",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/16_-_The_Boat_Chimenea__qn5cxd.jpg",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867159/Zuch%20Properties/Propiedades/The%20Boat/15_-_The_Boat_Rooftop_CINE_kmsj7m.jpg",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/Entrada_v2_tnwmre.webp",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/TheBoat_FachadaLateral__tyeovc.webp",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867177/Zuch%20Properties/Propiedades/The%20Boat/5_-_The_Boat_050417_CAM05__pnd9rt.jpg",  
-    
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867176/Zuch%20Properties/Propiedades/The%20Boat/6_-_The_Boat_SALA_050917__nfmpz4.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867175/Zuch%20Properties/Propiedades/The%20Boat/7_-_TheBoat_Cocina_050917__md1jvn.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867175/Zuch%20Properties/Propiedades/The%20Boat/8_-_The_Boat_Recamara_050917__k8thcv.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867175/Zuch%20Properties/Propiedades/The%20Boat/12_-_The_Boat_Rooftop_120817_OP1_smjxpu.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867175/Zuch%20Properties/Propiedades/The%20Boat/9_-_The_Boat_Lobby_120817_s4ekae.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867164/Zuch%20Properties/Propiedades/The%20Boat/13_-_TheBoat_050417_GYM__dbglwt.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/16_-_The_Boat_Chimenea__qn5cxd.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867159/Zuch%20Properties/Propiedades/The%20Boat/15_-_The_Boat_Rooftop_CINE_kmsj7m.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/Entrada_v2_tnwmre.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/TheBoat_FachadaLateral__tyeovc.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867177/Zuch%20Properties/Propiedades/The%20Boat/5_-_The_Boat_050417_CAM05__pnd9rt.jpg",
     ],
     full_description: [
       "The Boat Playa del Carmen cuenta con acabados de lujo como piso de mármol arabescato en el lobby, madera de encino americano natural con laca mate y cocina de prestigiosa marca italiana con acabado tipo madera. Navega por caminos desconocidos y encuentra tu verdadera esencia. Expande tu mente y fortalece tu alma, mientras creas y disfrutas de lo que siempre has soñado en la vida. Bienvenido a bordo.",
@@ -1524,57 +1409,49 @@ const propiedades = [
     amenidades: [
       {
         type: "Estacionamiento subterráneo",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Gimnasio",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Recepción",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Cine",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/cine_davbil.png",
+        imgUrl: cine,
       },
       {
         type: "Alberca en forma de barco",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Asoleadores",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+        imgUrl: hamaca,
       },
       {
         type: "Firepit",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/fuego_mekoo1.png",
+          fire,
       },
       {
         type: "Mirador",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/telescopio_pedgsr.png",
+          telescopio,
       },
       {
         type: "Restaurante en Terraza",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/restaurante_glorg4.png",
+          restaurante,
       },
       {
         type: "Sky lounge bar",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+        imgUrl: bar,
       },
     ],
-    location_descriprion:
-      "Zazil Ha, Playa del Carmen, Quintana Roo, México",
+    location_descriprion: "Zazil Ha, Playa del Carmen, Quintana Roo, México",
     path: "the-boat",
     location: {
       lat: "20.636782528643455",
@@ -1590,20 +1467,19 @@ const propiedades = [
     date: "Entrega Inmediata",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701966305/Zuch%20Properties/Propiedades/Urban%20Tower/urban11_hcfic5.jpg",
-    photos:[
+    photos: [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701964979/Zuch%20Properties/Propiedades/Urban%20Tower/7_xjqum7.jpg",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701964979/Zuch%20Properties/Propiedades/Urban%20Tower/11_j4ykjv.jpg",
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964979/Zuch%20Properties/Propiedades/Urban%20Tower/10_vqsqsy.jpg",
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/8_e66fi6.jpg",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964979/Zuch%20Properties/Propiedades/Urban%20Tower/urban_y0c7pz.jpg",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964980/Zuch%20Properties/Propiedades/Urban%20Tower/6_jnnusw.jpg",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/urban2_yfvu3t.jpg",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/5_laertx.jpg",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/9_zohwij.jpg",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/4_uim7oh.jpg",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/Entrada_v2_tnwmre.webp",  
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1701964980/Zuch%20Properties/Propiedades/Urban%20Tower/6_jnnusw.jpg",  
-    
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701964979/Zuch%20Properties/Propiedades/Urban%20Tower/10_vqsqsy.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/8_e66fi6.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701964979/Zuch%20Properties/Propiedades/Urban%20Tower/urban_y0c7pz.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701964980/Zuch%20Properties/Propiedades/Urban%20Tower/6_jnnusw.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/urban2_yfvu3t.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/5_laertx.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/9_zohwij.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701964978/Zuch%20Properties/Propiedades/Urban%20Tower/4_uim7oh.jpg",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701867160/Zuch%20Properties/Propiedades/The%20Boat/Entrada_v2_tnwmre.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1701964980/Zuch%20Properties/Propiedades/Urban%20Tower/6_jnnusw.jpg",
     ],
     full_description: [
       "Unidades disponibles: Una, dos y tres recamaras, con cocina, baños, comedor y balcón. Desde $170,000 usd, $250,000$ usd y $300,000mil usd",
@@ -1611,40 +1487,34 @@ const propiedades = [
       "Ventajas: Ubicada en una Zona tranquila a 10 minutos caminando de la fiesta de la 5ta av y 15 de la playa, Servicios esenciales cerca como: (OXO, gasolinerías, supermercados a una cuadra.",
       "Por más información mándanos un msj para asesorarte!!",
     ],
-    youtube_link:
-    "HqP8rzvxlBg",
+    youtube_link: "HqP8rzvxlBg",
     brochure_link:
       "https://drive.google.com/drive/folders/1D0apiA1r4Q9Z6KOh-fI0ZKbFSI9K6IuV?usp=drive_link",
     amenidades: [
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Gimnasio",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Cine",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/cine_davbil.png",
+        imgUrl: cine,
       },
       {
         type: "Alberca",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Restaurante en Terraza",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/restaurante_glorg4.png",
+          restaurante,
       },
       {
         type: "Bar grill",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+        imgUrl: bar,
       },
       {
         type: "Kids Club",
@@ -1653,18 +1523,15 @@ const propiedades = [
       },
       {
         type: "Jardin zen",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+        imgUrl: garden,
       },
       {
         type: "Roof Garden",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/terraza_pqwcym.png",
+        imgUrl: terraza,
       },
       {
         type: "Coworking",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+        imgUrl: salon,
       },
     ],
     location_descriprion:
@@ -1684,12 +1551,11 @@ const propiedades = [
     date: "Abril 2024",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699986988/Zuch%20Properties/Propiedades/Vidara/vidara_04-2083x1400_pjegjf.webp",
-    photos:[
+    photos: [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699986988/Zuch%20Properties/Propiedades/Vidara/vidara_04-2083x1400_pjegjf.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699986989/Zuch%20Properties/Propiedades/Vidara/vidara_03-2083x1400_ssjand.webp",
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1699986992/Zuch%20Properties/Propiedades/Vidara/vidara_01-2083x1400_ubq6va.webp",
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1699986990/Zuch%20Properties/Propiedades/Vidara/vidara_02-2083x1400_cgassd.webp",  
-    
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986992/Zuch%20Properties/Propiedades/Vidara/vidara_01-2083x1400_ubq6va.webp",
+      "https://res.cloudinary.com/doczyujqf/image/upload/v1699986990/Zuch%20Properties/Propiedades/Vidara/vidara_02-2083x1400_cgassd.webp",
     ],
     full_description: [
       "Es un desarrollo exclusivo de 12 niveles con tan sólo 36 departamentos, donde destaca el majestuoso paisaje de las playas color turquesa de la Riviera Maya. Idóneo para quien busca privacidad, confort y placidez.",
@@ -1701,29 +1567,24 @@ const propiedades = [
     amenidades: [
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Gimnasio",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Recepción",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Elevador",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/ascensor_urqurz.png",
+        imgUrl: ascensor,
       },
 
       {
         type: "Albercas",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Pileta infantil",
@@ -1732,18 +1593,15 @@ const propiedades = [
       },
       {
         type: "Jardin zen",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+        imgUrl: garden,
       },
       {
         type: "Camastro",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+        imgUrl: hamaca,
       },
       {
         type: "Asadores",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/parrilla_gldpkq.png",
+        imgUrl: parrilla,
       },
       {
         type: "Estacionamiento de motos",
@@ -1773,7 +1631,7 @@ const propiedades = [
     date: "Entrega inmediata",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699987231/Zuch%20Properties/Propiedades/Villas%20Toh/14_villas_toh-1667x903_qc22d6.webp",
-    photos:[
+    photos: [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699987231/Zuch%20Properties/Propiedades/Villas%20Toh/14_villas_toh-1667x903_qc22d6.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699987249/Zuch%20Properties/Propiedades/Villas%20Toh/07_villas_toh-1667x903_rfksoh.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699987244/Zuch%20Properties/Propiedades/Villas%20Toh/10_villas_toh-1667x903_at1t6y.webp",
@@ -1783,7 +1641,6 @@ const propiedades = [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699987257/Zuch%20Properties/Propiedades/Villas%20Toh/06_villas_toh-1667x903_fdzmk7.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699987259/Zuch%20Properties/Propiedades/Villas%20Toh/01_villas_toh-1667x903_p8oscn.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1699987266/Zuch%20Properties/Propiedades/Villas%20Toh/02_villas_toh-1667x903_czsdme.webp",
-
     ],
     full_description: [
       "Un proyecto que forma parte de su entorno, que fusiona la naturaleza y la arquitectura, que incluye materiales de la región, que genera comunidad y que crea una propuesta de valor única.",
@@ -1795,23 +1652,19 @@ const propiedades = [
     amenidades: [
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Piscina en Roofgarden",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Jardin",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garden_suav46.png",
+        imgUrl: garden,
       },
       {
         type: "Camastro",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+        imgUrl: hamaca,
       },
     ],
     location_descriprion:
@@ -1825,13 +1678,12 @@ const propiedades = [
   },
   {
     name: "Zama Towers",
-    description:
-      "Departamentos en zona premium de Aldea Zamá.",
+    description: "Departamentos en zona premium de Aldea Zamá.",
     price: "$ 4,105,500 MXN",
     date: "Entrega inmediata",
     photo:
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701786287/Zuch%20Properties/Propiedades/Zama%20Towers/03-Fachada_c7fkzv.webp",
-    photos:[
+    photos: [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701786287/Zuch%20Properties/Propiedades/Zama%20Towers/03-Fachada_c7fkzv.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701786274/Zuch%20Properties/Propiedades/Zama%20Towers/07-Lobby_1_owo5u5.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701786282/Zuch%20Properties/Propiedades/Zama%20Towers/08-Lobby_jcrufp.webp",
@@ -1846,7 +1698,6 @@ const propiedades = [
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701786275/Zuch%20Properties/Propiedades/Zama%20Towers/13-Gym_jqfsld.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701786275/Zuch%20Properties/Propiedades/Zama%20Towers/21-Sala_Tv_Roof_iyvemv.webp",
       "https://res.cloudinary.com/doczyujqf/image/upload/v1701786284/Zuch%20Properties/Propiedades/Zama%20Towers/01-Fachada_z6zto7.webp",
-
     ],
     full_description: [
       "Zamá towers premium es un desarrollo residencial con 24 departamentos de lujo en un entorno natural y exclusivo, con un estilo contemporáneo único e increíbles comodidades y su diseño combina elegancia y confort.",
@@ -1858,58 +1709,49 @@ const propiedades = [
     amenidades: [
       {
         type: "Recepción",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bell_d3f1d0.png",
+        imgUrl: bell,
       },
       {
         type: "Albercas",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622951/amenidades/pool_so7axz.png",
+        imgUrl: pool,
       },
       {
         type: "Bar",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622947/amenidades/bar_fgogsz.svg",
+        imgUrl: bar,
       },
       {
         type: "Gimnasio",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/gym_g5kdim.png",
+        imgUrl: gym,
       },
       {
         type: "Cinema",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/cine_davbil.png",
+        imgUrl: cine,
       },
       {
         type: "Roof Top",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622954/amenidades/terraza_pqwcym.png",
+        imgUrl: terraza,
       },
       {
         type: "Coworking",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622952/amenidades/salon_rp3nts.png",
+        imgUrl: salon,
       },
       {
         type: "Seguridad",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699642475/amenidades/ejercito_pgsn7z.png",
+          policia
       },
       {
         type: "Asoleadores",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699627439/amenidades/sombrilla-de-playa_muoss9.png",
+        imgUrl: hamaca,
       },
       {
         type: "Estacionamiento",
-        imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/garaje_nfdfcw.png",
+        imgUrl: garaje,
       },
       {
         type: "Firepit",
         imgUrl:
-          "https://res.cloudinary.com/doczyujqf/image/upload/v1699622948/amenidades/fuego_mekoo1.png",
+          fire,
       },
     ],
     location_descriprion:

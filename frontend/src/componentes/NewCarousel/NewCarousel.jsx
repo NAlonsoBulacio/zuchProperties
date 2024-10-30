@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./NewCarousel.css";
+import { banner1 } from "../../multimedia";
 const CarouselSlider = () => {
   const images = [
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1700068022/Zuch%20Properties/Slides/slide1_kwopte_pior4j_11zon_udzjq7.webp",
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1700068022/Zuch%20Properties/Slides/slide2_r91igj_zllutk_11zon_jwegbb.webp",
-    "https://res.cloudinary.com/doczyujqf/image/upload/v1700068022/Zuch%20Properties/Slides/slide3_bz7to1_xeg5wx_11zon_zwtfwt.webp",
+    banner1
   ];
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [selectedImage, setSelectedImage] = useState(images[0]);
